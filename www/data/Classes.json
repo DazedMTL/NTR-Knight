@@ -67,7 +67,7 @@
                 "skillId": 10
             }
         ],
-        "name": "勇者",
+        "name": "Hero",
         "note": "",
         "params": [
             [
@@ -954,7 +954,7 @@
             }
         ],
         "learnings": [],
-        "name": "戦士",
+        "name": "Warrior",
         "note": "",
         "params": [
             [
@@ -1832,7 +1832,7 @@
                 "skillId": 9
             }
         ],
-        "name": "魔術師",
+        "name": "Magician",
         "note": "",
         "params": [
             [
@@ -2710,7 +2710,7 @@
                 "skillId": 8
             }
         ],
-        "name": "僧侶",
+        "name": "Monk",
         "note": "",
         "params": [
             [
@@ -3577,7 +3577,7 @@
             }
         ],
         "learnings": [],
-        "name": "訓練生",
+        "name": "Trainee",
         "note": "",
         "params": [
             [

@@ -18,7 +18,7 @@
             }
         ],
         "iconIndex": 97,
-        "name": "剣",
+        "name": "sword",
         "note": "",
         "params": [
             0,
@@ -51,7 +51,7 @@
             }
         ],
         "iconIndex": 99,
-        "name": "斧",
+        "name": "axe",
         "note": "",
         "params": [
             0,
@@ -84,7 +84,7 @@
             }
         ],
         "iconIndex": 101,
-        "name": "杖",
+        "name": "cane",
         "note": "",
         "params": [
             0,
@@ -117,7 +117,7 @@
             }
         ],
         "iconIndex": 102,
-        "name": "弓",
+        "name": "bow",
         "note": "",
         "params": [
             0,
@@ -150,7 +150,7 @@
             }
         ],
         "iconIndex": 242,
-        "name": "ステータス",
+        "name": "Status",
         "note": "<Set Sts Data>\nスキル: 34,39,46,44,45\n</Set Sts Data>",
         "params": [
             0,
@@ -183,7 +183,7 @@
             }
         ],
         "iconIndex": 7,
-        "name": "エロステータス",
+        "name": "Erotic Status",
         "note": "<Set Sts Data>\nスキル: 16,19,22\n</Set Sts Data>",
         "params": [
             0,
@@ -216,7 +216,7 @@
             }
         ],
         "iconIndex": 84,
-        "name": "エロスキル",
+        "name": "Erotic Skills",
         "note": "<Set Sts Data>\nスキル: 27\n</Set Sts Data>",
         "params": [
             0,

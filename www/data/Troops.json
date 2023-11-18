@@ -16,7 +16,7 @@
                 "hidden": false
             }
         ],
-        "name": "こうもり*2",
+        "name": "Bat*2",
         "pages": [
             {
                 "conditions": {
@@ -60,7 +60,7 @@
                 "hidden": false
             }
         ],
-        "name": "スライム*2",
+        "name": "Slime*2",
         "pages": [
             {
                 "conditions": {
@@ -98,7 +98,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーク",
+        "name": "Orc",
         "pages": [
             {
                 "conditions": {
@@ -136,7 +136,7 @@
                 "hidden": false
             }
         ],
-        "name": "ミノタウロス",
+        "name": "Minotaur",
         "pages": [
             {
                 "conditions": {
