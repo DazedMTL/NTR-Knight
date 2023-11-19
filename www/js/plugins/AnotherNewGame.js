@@ -148,303 +148,322 @@
  */
 
 (function () {
-    var localExtraStageIndex = -1;
+  var localExtraStageIndex = -1;
 
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
-            if (value === 'null') {
-                return value;
-            }
-            if (value[0] === '"' && value[value.length - 1] === '"') {
-                return value;
-            }
-            try {
-                return JSON.parse(value);
-            } catch (e) {
-                return value;
-            }
-        };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
-        PluginManager.setParameters(pluginName, parameter);
-        return parameter;
+  var createPluginParameter = function (pluginName) {
+    var paramReplacer = function (key, value) {
+      if (value === "null") {
+        return value;
+      }
+      if (value[0] === '"' && value[value.length - 1] === '"') {
+        return value;
+      }
+      try {
+        return JSON.parse(value);
+      } catch (e) {
+        return value;
+      }
     };
-    var parameters = createPluginParameter('AnotherNewGame');
-    parameters.anotherDataList = parameters.anotherDataList || [];
+    var parameter = JSON.parse(
+      JSON.stringify(PluginManager.parameters(pluginName), paramReplacer)
+    );
+    PluginManager.setParameters(pluginName, parameter);
+    return parameter;
+  };
+  var parameters = createPluginParameter("AnotherNewGame");
+  parameters.anotherDataList = parameters.anotherDataList || [];
 
-    /**
-     * Convert escape characters.(require any window object)
-     * @param text Target text
-     * @returns {String} Converted text
-     */
-    var convertEscapeCharacters = function (text) {
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
-    };
+  /**
+   * Convert escape characters.(require any window object)
+   * @param text Target text
+   * @returns {String} Converted text
+   */
+  var convertEscapeCharacters = function (text) {
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text.toString())
+      : text;
+  };
 
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.call(this, command, args);
-        var index = args[0] ? parseInt(convertEscapeCharacters(args[0])) - 1 : 0;
-        switch (command.toUpperCase()) {
-            case 'ANG_VISIBLE':
-                ANGSettingManager.setVisible(index, true);
-                ANGSettingManager.save();
-                break;
-            case 'ANG_ENABLE':
-                ANGSettingManager.setEnable(index, true);
-                ANGSettingManager.save();
-                break;
-            case 'ANG_HIDDEN':
-                ANGSettingManager.setVisible(index, false);
-                ANGSettingManager.save();
-                break;
-            case 'ANG_DISABLE':
-                ANGSettingManager.setEnable(index, false);
-                ANGSettingManager.save();
-                break;
-            case 'ANG_NEWGAME_HIDDEN':
-                ANGSettingManager.newGameHidden = true;
-                ANGSettingManager.save();
-                break;
-            case 'ANG_NEWGAME_VISIBLE':
-                ANGSettingManager.newGameHidden = false;
-                ANGSettingManager.save();
-                break;
-        }
-    };
-
-    //=============================================================================
-    // Game_Map
-    //  アナザーニューゲームのロード時に実行していたイベントを中断します。
-    //=============================================================================
-    Game_Map.prototype.abortInterpreter = function () {
-        if (this.isEventRunning()) {
-            this._interpreter.command115();
-        }
-    };
-
-    //=============================================================================
-    // Scene_Title
-    //  アナザーニューゲームの選択時の処理を追加定義します。
-    //=============================================================================
-    var _Scene_Title_create = Scene_Title.prototype.create;
-    Scene_Title.prototype.create = function () {
-        ANGSettingManager.loadData();
-        _Scene_Title_create.call(this);
-    };
-
-    var _Scene_Title_commandContinue = Scene_Title.prototype.commandContinue;
-    Scene_Title.prototype.commandContinue = function () {
-        _Scene_Title_commandContinue.call(this);
-        localExtraStageIndex = -1;
-    };
-
-    var _Scene_Title_commandNewGameSecond = Scene_Title.prototype.commandNewGameSecond;
-    Scene_Title.prototype.commandNewGameSecond = function (index) {
-        if (_Scene_Title_commandNewGameSecond) {
-            _Scene_Title_commandNewGameSecond.apply(this, arguments);
-        }
-        var command = parameters.anotherDataList[index];
-        if (command.noFadeout) {
-            this._noFadeout = true;
-        }
-        if (!command.fileLoad) {
-            var preMapId = $dataSystem.startMapId;
-            var preStartX = $dataSystem.startX;
-            var preStartY = $dataSystem.startY;
-            var newMapId = command.mapId;
-            if (newMapId > 0) {
-                $dataSystem.startMapId = newMapId;
-                $dataSystem.startX = command.mapX || 1;
-                $dataSystem.startY = command.mapY || 1;
-            }
-            this.commandNewGame();
-            $dataSystem.startMapId = preMapId;
-            $dataSystem.startX = preStartX;
-            $dataSystem.startY = preStartY;
-            var switchId = command.switchId;
-            if (switchId > 0) {
-                $gameSwitches.setValue(switchId, true);
-            }
-        } else {
-            this.commandContinue();
-            localExtraStageIndex = index;
-        }
-    };
-
-    var _Scene_Title_createCommandWindow = Scene_Title.prototype.createCommandWindow;
-    Scene_Title.prototype.createCommandWindow = function () {
-        _Scene_Title_createCommandWindow.call(this);
-        parameters.anotherDataList.forEach(function (command, index) {
-            if (ANGSettingManager.isVisible(index)) {
-                this._commandWindow.setHandler('nameGame2_' + index, this.commandNewGameSecond.bind(this, index));
-            }
-        }, this);
-    };
-
-    Scene_Title.prototype.fadeOutAll = function () {
-        if (!this._noFadeout) {
-            Scene_Base.prototype.fadeOutAll.apply(this, arguments);
-        }
-    };
-
-    //=============================================================================
-    // Scene_Load
-    //  ロード成功時にアナザーポイントに移動します。
-    //=============================================================================
-    var _Scene_Load_onLoadSuccess = Scene_Load.prototype.onLoadSuccess;
-    Scene_Load.prototype.onLoadSuccess = function () {
-        _Scene_Load_onLoadSuccess.call(this);
-        if (localExtraStageIndex >= 0) {
-            var command = parameters.anotherDataList[localExtraStageIndex];
-            var mapId = command.mapId;
-            if (mapId > 0) {
-                var x = command.mapX || 1;
-                var y = command.mapY || 1;
-                $gamePlayer.reserveTransfer(mapId, x, y);
-            }
-            $gameMap.abortInterpreter();
-            DataManager.selectSavefileForNewGame();
-            var switchId = command.switchId;
-            if (switchId > 0) {
-                $gameSwitches.setValue(switchId, true);
-            }
-        }
-    };
-
-    //=============================================================================
-    // Window_TitleCommand
-    //  アナザーニューゲームの選択肢を追加定義します。
-    //=============================================================================
-    var _Window_TitleCommand_makeCommandList = Window_TitleCommand.prototype.makeCommandList;
-    Window_TitleCommand.prototype.makeCommandList = function () {
-        _Window_TitleCommand_makeCommandList.call(this);
-        parameters.anotherDataList.forEach(function (command, index) {
-            if (ANGSettingManager.isVisible(index)) {
-                this.makeAnotherNewGameCommand(command, index);
-            }
-        }, this);
-        if (ANGSettingManager.newGameHidden) {
-            this.eraseCommandNewGame();
-        }
-    };
-
-    Window_TitleCommand.prototype.makeAnotherNewGameCommand = function (command, index) {
-        this.addCommand(command.name, 'nameGame2_' + index, ANGSettingManager.isEnable(index));
-        var addPosition = command.addPosition;
-        if (addPosition > 0) {
-            var anotherCommand = this._list.pop();
-            this._list.splice(addPosition - 1, 0, anotherCommand);
-        }
-    };
-
-    Window_TitleCommand.prototype.eraseCommandNewGame = function () {
-        this._list = this._list.filter(function (command) {
-            return command.symbol !== 'newGame';
-        });
-    };
-
-    var _Window_TitleCommand_updatePlacement = Window_TitleCommand.prototype.updatePlacement;
-    Window_TitleCommand.prototype.updatePlacement = function () {
-        _Window_TitleCommand_updatePlacement.call(this);
-        var addSize = this._list.length - 3;
-        if (addSize > 0) {
-            this.y += addSize * this.itemHeight() / 2;
-        }
-    };
-
-    //=============================================================================
-    // ANGManager
-    //  アナザーニューゲームの設定ファイルのセーブとロードを定義します。
-    //=============================================================================
-    function ANGSettingManager() {
-        throw new Error('This is a static class');
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.call(this, command, args);
+    var index = args[0] ? parseInt(convertEscapeCharacters(args[0])) - 1 : 0;
+    switch (command.toUpperCase()) {
+      case "ANG_VISIBLE":
+        ANGSettingManager.setVisible(index, true);
+        ANGSettingManager.save();
+        break;
+      case "ANG_ENABLE":
+        ANGSettingManager.setEnable(index, true);
+        ANGSettingManager.save();
+        break;
+      case "ANG_HIDDEN":
+        ANGSettingManager.setVisible(index, false);
+        ANGSettingManager.save();
+        break;
+      case "ANG_DISABLE":
+        ANGSettingManager.setEnable(index, false);
+        ANGSettingManager.save();
+        break;
+      case "ANG_NEWGAME_HIDDEN":
+        ANGSettingManager.newGameHidden = true;
+        ANGSettingManager.save();
+        break;
+      case "ANG_NEWGAME_VISIBLE":
+        ANGSettingManager.newGameHidden = false;
+        ANGSettingManager.save();
+        break;
     }
+  };
 
-    ANGSettingManager._fileId = -1001;
+  //=============================================================================
+  // Game_Map
+  //  アナザーニューゲームのロード時に実行していたイベントを中断します。
+  //=============================================================================
+  Game_Map.prototype.abortInterpreter = function () {
+    if (this.isEventRunning()) {
+      this._interpreter.command115();
+    }
+  };
 
-    ANGSettingManager._visible = [];
-    ANGSettingManager._enable = [];
-    ANGSettingManager.newGameHidden = false;
+  //=============================================================================
+  // Scene_Title
+  //  アナザーニューゲームの選択時の処理を追加定義します。
+  //=============================================================================
+  var _Scene_Title_create = Scene_Title.prototype.create;
+  Scene_Title.prototype.create = function () {
+    ANGSettingManager.loadData();
+    _Scene_Title_create.call(this);
+  };
 
-    ANGSettingManager.make = function () {
-        var info = {};
-        info.visible = this._visible;
-        info.enable = this._enable;
-        info.newGameHidden = this.newGameHidden;
-        return info;
-    };
+  var _Scene_Title_commandContinue = Scene_Title.prototype.commandContinue;
+  Scene_Title.prototype.commandContinue = function () {
+    _Scene_Title_commandContinue.call(this);
+    localExtraStageIndex = -1;
+  };
 
-    ANGSettingManager.isVisible = function (index) {
-        if (this._visible[index] !== undefined) {
-            return this._visible[index];
-        } else {
-            return !parameters.anotherDataList[index].hidden;
-        }
-    };
+  var _Scene_Title_commandNewGameSecond =
+    Scene_Title.prototype.commandNewGameSecond;
+  Scene_Title.prototype.commandNewGameSecond = function (index) {
+    if (_Scene_Title_commandNewGameSecond) {
+      _Scene_Title_commandNewGameSecond.apply(this, arguments);
+    }
+    var command = parameters.anotherDataList[index];
+    if (command.noFadeout) {
+      this._noFadeout = true;
+    }
+    if (!command.fileLoad) {
+      var preMapId = $dataSystem.startMapId;
+      var preStartX = $dataSystem.startX;
+      var preStartY = $dataSystem.startY;
+      var newMapId = command.mapId;
+      if (newMapId > 0) {
+        $dataSystem.startMapId = newMapId;
+        $dataSystem.startX = command.mapX || 1;
+        $dataSystem.startY = command.mapY || 1;
+      }
+      this.commandNewGame();
+      $dataSystem.startMapId = preMapId;
+      $dataSystem.startX = preStartX;
+      $dataSystem.startY = preStartY;
+      var switchId = command.switchId;
+      if (switchId > 0) {
+        $gameSwitches.setValue(switchId, true);
+      }
+    } else {
+      this.commandContinue();
+      localExtraStageIndex = index;
+    }
+  };
 
-    ANGSettingManager.setVisible = function (index, value) {
-        this._visible[index] = value;
-    };
+  var _Scene_Title_createCommandWindow =
+    Scene_Title.prototype.createCommandWindow;
+  Scene_Title.prototype.createCommandWindow = function () {
+    _Scene_Title_createCommandWindow.call(this);
+    parameters.anotherDataList.forEach(function (command, index) {
+      if (ANGSettingManager.isVisible(index)) {
+        this._commandWindow.setHandler(
+          "nameGame2_" + index,
+          this.commandNewGameSecond.bind(this, index)
+        );
+      }
+    }, this);
+  };
 
-    ANGSettingManager.isEnable = function (index) {
-        if (this._enable[index] !== undefined) {
-            return this._enable[index];
-        } else {
-            return !parameters.anotherDataList[index].disable;
-        }
-    };
+  Scene_Title.prototype.fadeOutAll = function () {
+    if (!this._noFadeout) {
+      Scene_Base.prototype.fadeOutAll.apply(this, arguments);
+    }
+  };
 
-    ANGSettingManager.setEnable = function (index, value) {
-        this._enable[index] = value;
-    };
+  //=============================================================================
+  // Scene_Load
+  //  ロード成功時にアナザーポイントに移動します。
+  //=============================================================================
+  var _Scene_Load_onLoadSuccess = Scene_Load.prototype.onLoadSuccess;
+  Scene_Load.prototype.onLoadSuccess = function () {
+    _Scene_Load_onLoadSuccess.call(this);
+    if (localExtraStageIndex >= 0) {
+      var command = parameters.anotherDataList[localExtraStageIndex];
+      var mapId = command.mapId;
+      if (mapId > 0) {
+        var x = command.mapX || 1;
+        var y = command.mapY || 1;
+        $gamePlayer.reserveTransfer(mapId, x, y);
+      }
+      $gameMap.abortInterpreter();
+      DataManager.selectSavefileForNewGame();
+      var switchId = command.switchId;
+      if (switchId > 0) {
+        $gameSwitches.setValue(switchId, true);
+      }
+    }
+  };
 
-    ANGSettingManager.loadData = function () {
-        var info = this.load();
-        this._visible = info.visible || [];
-        this._enable = info.enable || [];
-        this.newGameHidden = !!info.newGameHidden;
-    };
+  //=============================================================================
+  // Window_TitleCommand
+  //  アナザーニューゲームの選択肢を追加定義します。
+  //=============================================================================
+  var _Window_TitleCommand_makeCommandList =
+    Window_TitleCommand.prototype.makeCommandList;
+  Window_TitleCommand.prototype.makeCommandList = function () {
+    _Window_TitleCommand_makeCommandList.call(this);
+    parameters.anotherDataList.forEach(function (command, index) {
+      if (ANGSettingManager.isVisible(index)) {
+        this.makeAnotherNewGameCommand(command, index);
+      }
+    }, this);
+    if (ANGSettingManager.newGameHidden) {
+      this.eraseCommandNewGame();
+    }
+  };
 
-    ANGSettingManager.load = function () {
-        var json;
-        try {
-            json = StorageManager.load(this._fileId);
-        } catch (e) {
-            console.error(e);
-            return [];
-        }
-        if (json) {
-            return JSON.parse(json);
-        } else {
-            return [];
-        }
-    };
+  Window_TitleCommand.prototype.makeAnotherNewGameCommand = function (
+    command,
+    index
+  ) {
+    this.addCommand(
+      command.name,
+      "nameGame2_" + index,
+      ANGSettingManager.isEnable(index)
+    );
+    var addPosition = command.addPosition;
+    if (addPosition > 0) {
+      var anotherCommand = this._list.pop();
+      this._list.splice(addPosition - 1, 0, anotherCommand);
+    }
+  };
 
-    ANGSettingManager.save = function () {
-        var info = ANGSettingManager.make();
-        StorageManager.save(this._fileId, JSON.stringify(info));
-    };
+  Window_TitleCommand.prototype.eraseCommandNewGame = function () {
+    this._list = this._list.filter(function (command) {
+      return command.symbol !== "newGame";
+    });
+  };
 
-    //=============================================================================
-    // StorageManager
-    //  アナザーニューゲームの設定ファイルのパス取得処理を追加定義します。
-    //=============================================================================
-    var _StorageManager_localFilePath = StorageManager.localFilePath;
-    StorageManager.localFilePath = function (savefileId) {
-        if (savefileId === ANGSettingManager._fileId) {
-            return this.localFileDirectoryPath() + 'AnotherNewGameMk2.rpgsave';
-        } else {
-            return _StorageManager_localFilePath.call(this, savefileId);
-        }
-    };
+  var _Window_TitleCommand_updatePlacement =
+    Window_TitleCommand.prototype.updatePlacement;
+  Window_TitleCommand.prototype.updatePlacement = function () {
+    _Window_TitleCommand_updatePlacement.call(this);
+    var addSize = this._list.length - 3;
+    if (addSize > 0) {
+      this.y += (addSize * this.itemHeight()) / 2;
+    }
+  };
 
-    var _StorageManager_webStorageKey = StorageManager.webStorageKey;
-    StorageManager.webStorageKey = function (savefileId) {
-        if (savefileId === ANGSettingManager._fileId) {
-            return 'RPG AnotherNewGame Mk2' + parameters.manageNumber;
-        } else {
-            return _StorageManager_webStorageKey.call(this, savefileId);
-        }
-    };
+  //=============================================================================
+  // ANGManager
+  //  アナザーニューゲームの設定ファイルのセーブとロードを定義します。
+  //=============================================================================
+  function ANGSettingManager() {
+    throw new Error("This is a static class");
+  }
+
+  ANGSettingManager._fileId = -1001;
+
+  ANGSettingManager._visible = [];
+  ANGSettingManager._enable = [];
+  ANGSettingManager.newGameHidden = false;
+
+  ANGSettingManager.make = function () {
+    var info = {};
+    info.visible = this._visible;
+    info.enable = this._enable;
+    info.newGameHidden = this.newGameHidden;
+    return info;
+  };
+
+  ANGSettingManager.isVisible = function (index) {
+    if (this._visible[index] !== undefined) {
+      return this._visible[index];
+    } else {
+      return !parameters.anotherDataList[index].hidden;
+    }
+  };
+
+  ANGSettingManager.setVisible = function (index, value) {
+    this._visible[index] = value;
+  };
+
+  ANGSettingManager.isEnable = function (index) {
+    if (this._enable[index] !== undefined) {
+      return this._enable[index];
+    } else {
+      return !parameters.anotherDataList[index].disable;
+    }
+  };
+
+  ANGSettingManager.setEnable = function (index, value) {
+    this._enable[index] = value;
+  };
+
+  ANGSettingManager.loadData = function () {
+    var info = this.load();
+    this._visible = info.visible || [];
+    this._enable = info.enable || [];
+    this.newGameHidden = !!info.newGameHidden;
+  };
+
+  ANGSettingManager.load = function () {
+    var json;
+    try {
+      json = StorageManager.load(this._fileId);
+    } catch (e) {
+      console.error(e);
+      return [];
+    }
+    if (json) {
+      return JSON.parse(json);
+    } else {
+      return [];
+    }
+  };
+
+  ANGSettingManager.save = function () {
+    var info = ANGSettingManager.make();
+    StorageManager.save(this._fileId, JSON.stringify(info));
+  };
+
+  //=============================================================================
+  // StorageManager
+  //  アナザーニューゲームの設定ファイルのパス取得処理を追加定義します。
+  //=============================================================================
+  var _StorageManager_localFilePath = StorageManager.localFilePath;
+  StorageManager.localFilePath = function (savefileId) {
+    if (savefileId === ANGSettingManager._fileId) {
+      return this.localFileDirectoryPath() + "AnotherNewGameMk2.rpgsave";
+    } else {
+      return _StorageManager_localFilePath.call(this, savefileId);
+    }
+  };
+
+  var _StorageManager_webStorageKey = StorageManager.webStorageKey;
+  StorageManager.webStorageKey = function (savefileId) {
+    if (savefileId === ANGSettingManager._fileId) {
+      return "RPG AnotherNewGame Mk2" + parameters.manageNumber;
+    } else {
+      return _StorageManager_webStorageKey.call(this, savefileId);
+    }
+  };
 })();

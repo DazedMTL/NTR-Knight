@@ -42,100 +42,107 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const _PNAME = 'CommonEventBeforeAfterMenu';
-    const _PARAMETERS = PluginManager.parameters(_PNAME);
+  const _PNAME = "CommonEventBeforeAfterMenu";
+  const _PARAMETERS = PluginManager.parameters(_PNAME);
 
-    const _COMMON_EVENT_ID_BM = +_PARAMETERS['Common Event ID (before Menu)'] || 0;
-    const _COMMON_EVENT_ID_AM = +_PARAMETERS['Common Event ID (after Menu)'] || 0;
+  const _COMMON_EVENT_ID_BM =
+    +_PARAMETERS["Common Event ID (before Menu)"] || 0;
+  const _COMMON_EVENT_ID_AM = +_PARAMETERS["Common Event ID (after Menu)"] || 0;
 
-    function _(f) { return f[_PNAME] = f[_PNAME] || {} }
+  function _(f) {
+    return (f[_PNAME] = f[_PNAME] || {});
+  }
 
-    //==============================================================================
-    // Scene_Map
-    //==============================================================================
+  //==============================================================================
+  // Scene_Map
+  //==============================================================================
 
-    var _Scene_Map_isMenuCalled = Scene_Map.prototype.isMenuCalled;
-    Scene_Map.prototype.isMenuCalled = function () {
-        return _Scene_Map_isMenuCalled.call(this) || _(this).reserveCallMenu;
+  var _Scene_Map_isMenuCalled = Scene_Map.prototype.isMenuCalled;
+  Scene_Map.prototype.isMenuCalled = function () {
+    return _Scene_Map_isMenuCalled.call(this) || _(this).reserveCallMenu;
+  };
+
+  var _Scene_Map_callMenu = Scene_Map.prototype.callMenu;
+  Scene_Map.prototype.callMenu = function () {
+    if (_COMMON_EVENT_ID_BM && !_(this).reserveCallMenu) {
+      _(this).reserveCallMenu = true;
+      $gameTemp.reserveCommonEvent(_COMMON_EVENT_ID_BM);
+    } else {
+      _(this).reserveCallMenu = false;
+      _Scene_Map_callMenu.call(this);
+    }
+  };
+
+  //==============================================================================
+  // Scene_Menu
+  //==============================================================================
+
+  var _Scene_Menu_terminate = Scene_Menu.prototype.terminate;
+  Scene_Menu.prototype.terminate = function () {
+    if (
+      _COMMON_EVENT_ID_AM &&
+      !$gameTemp.isCalledMenuFromEvent &&
+      SceneManager.isNextScene(Scene_Map)
+    ) {
+      $gameTemp.reserveCommonEvent(_COMMON_EVENT_ID_AM);
+    }
+    $gameTemp.isCalledMenuFromEvent = false;
+    _Scene_Menu_terminate.call(this);
+  };
+
+  //==============================================================================
+  // Game_Temp
+  //==============================================================================
+
+  ((__initialize) => {
+    Game_Temp.prototype.initialize = function () {
+      __initialize.apply(this, arguments);
+      this.isCalledMenuFromEvent = false;
     };
+  })(Game_Temp.prototype.initialize);
 
-    var _Scene_Map_callMenu = Scene_Map.prototype.callMenu;
-    Scene_Map.prototype.callMenu = function () {
-        if (_COMMON_EVENT_ID_BM && !_(this).reserveCallMenu) {
-            _(this).reserveCallMenu = true;
-            $gameTemp.reserveCommonEvent(_COMMON_EVENT_ID_BM);
-        } else {
-            _(this).reserveCallMenu = false;
-            _Scene_Map_callMenu.call(this);
-        }
-    };
+  //==============================================================================
+  // Game_Interpreter
+  //==============================================================================
 
-    //==============================================================================
-    // Scene_Menu
-    //==============================================================================
+  ((__setup) => {
+    let common1 = { code: 117, indent: 0, parameters: [_COMMON_EVENT_ID_BM] };
+    let common2 = { code: 117, indent: 0, parameters: [_COMMON_EVENT_ID_AM] };
 
-    var _Scene_Menu_terminate = Scene_Menu.prototype.terminate;
-    Scene_Menu.prototype.terminate = function () {
-        if (_COMMON_EVENT_ID_AM && !$gameTemp.isCalledMenuFromEvent && SceneManager.isNextScene(Scene_Map)) {
-            $gameTemp.reserveCommonEvent(_COMMON_EVENT_ID_AM);
-        }
-        $gameTemp.isCalledMenuFromEvent = false;
-        _Scene_Menu_terminate.call(this);
-    };
-
-    //==============================================================================
-    // Game_Temp
-    //==============================================================================
-
-    (__initialize => {
-        Game_Temp.prototype.initialize = function () {
-            __initialize.apply(this, arguments);
-            this.isCalledMenuFromEvent = false;
-        };
-    })(Game_Temp.prototype.initialize);
-
-    //==============================================================================
-    // Game_Interpreter
-    //==============================================================================
-
-    (__setup => {
-        let common1 = { code: 117, indent: 0, parameters: [_COMMON_EVENT_ID_BM] };
-        let common2 = { code: 117, indent: 0, parameters: [_COMMON_EVENT_ID_AM] };
-
-        Game_Interpreter.prototype.setup = function (list, eventId) {
-            let _list = list;
-            if (_COMMON_EVENT_ID_BM || _COMMON_EVENT_ID_AM) {
-                let hasCallMenu = list.some(event => event.code == 351);
-                if (hasCallMenu) {
-                    _list = [];
-                    for (let i = 0; i < list.length; i++) {
-                        if (list[i].code == 351) {
-                            let indent = list[i].indent;
-                            if (_COMMON_EVENT_ID_BM) {
-                                common1.indent = indent;
-                                _list.push({ ...common1 });
-                            }
-                            _list.push(list[i]);
-                            if (_COMMON_EVENT_ID_AM) {
-                                common2.indent = indent;
-                                _list.push({ ...common2 });
-                            }
-                        } else {
-                            _list.push(list[i]);
-                        }
-                    }
-                }
+    Game_Interpreter.prototype.setup = function (list, eventId) {
+      let _list = list;
+      if (_COMMON_EVENT_ID_BM || _COMMON_EVENT_ID_AM) {
+        let hasCallMenu = list.some((event) => event.code == 351);
+        if (hasCallMenu) {
+          _list = [];
+          for (let i = 0; i < list.length; i++) {
+            if (list[i].code == 351) {
+              let indent = list[i].indent;
+              if (_COMMON_EVENT_ID_BM) {
+                common1.indent = indent;
+                _list.push({ ...common1 });
+              }
+              _list.push(list[i]);
+              if (_COMMON_EVENT_ID_AM) {
+                common2.indent = indent;
+                _list.push({ ...common2 });
+              }
+            } else {
+              _list.push(list[i]);
             }
-            __setup.call(this, _list, eventId);
-        };
-    })(Game_Interpreter.prototype.setup);
+          }
+        }
+      }
+      __setup.call(this, _list, eventId);
+    };
+  })(Game_Interpreter.prototype.setup);
 
-    (__command351 => {
-        Game_Interpreter.prototype.command351 = function () {
-            $gameTemp.isCalledMenuFromEvent = true;
-            return __command351.apply(this, arguments);
-        };
-    })(Game_Interpreter.prototype.command351);
-}());
+  ((__command351) => {
+    Game_Interpreter.prototype.command351 = function () {
+      $gameTemp.isCalledMenuFromEvent = true;
+      return __command351.apply(this, arguments);
+    };
+  })(Game_Interpreter.prototype.command351);
+})();

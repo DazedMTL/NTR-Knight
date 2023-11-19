@@ -236,351 +236,403 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'DestinationWindow';
-    var metaTagPrefix = 'DW_';
+  "use strict";
+  var pluginName = "DestinationWindow";
+  var metaTagPrefix = "DW_";
 
-    //=============================================================================
-    // ローカル関数
-    //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
-    //=============================================================================
-    var getParamString = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
-        }
-        return '';
-    };
-
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamString(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value) || 0).clamp(min, max);
-    };
-
-    var getParamBoolean = function (paramNames) {
-        var value = getParamString(paramNames);
-        return value.toUpperCase() === 'ON' || value.toUpperCase() === 'TRUE';
-    };
-
-    var getParamNumberArray = function (paramNames) {
-        var value = PluginManager.parameters(pluginName)[paramNames];
-        return JSON.parse(value)
-            .map(function (e) { return Number(JSON.parse(e)); }, this);
-    };
-
-    var getArgNumber = function (arg, min, max) {
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(arg) || 0).clamp(min, max);
-    };
-
-    var concatAllArguments = function (args) {
-        return args.reduce(function (prevValue, arg) {
-            return prevValue + ' ' + arg;
-        }, '').replace(/^ /, '');
-    };
-
-    var setPluginCommand = function (commandName, methodName) {
-        pluginCommandMap.set(metaTagPrefix + commandName, methodName);
-    };
-
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var param = {};
-    param.showingSwitchId = getParamNumber(['ShowingSwitchId', '表示スイッチID'], 0);
-    param.windowX = getParamNumber(['WindowX', 'ウィンドウX座標']);
-    param.windowY = getParamNumber(['WindowY', 'ウィンドウY座標']);
-    param.windowWidth = getParamNumber(['WindowWidth', 'ウィンドウ横幅'], 1);
-    param.windowSkin = getParamString(['WindowSkin', 'ウィンドウスキン名']);
-    param.windowOpacity = getParamNumber(['WindowOpacity', 'ウィンドウ不透明度']);
-    param.fadeFrame = getParamNumber(['FadeFrame', 'フェード時間'], 1);
-    param.fontSize = getParamNumber(['FontSize', 'フォントサイズ'], 12);
-    param.closeEventRunning = getParamBoolean(['CloseEventRunning', 'イベント中は閉じる']);
-    param.showingInMenu = getParamBoolean(['ShowingInMenu', 'メニュー画面に表示']);
-    param.autoAdjust = getParamBoolean(['AutoAdjust', '自働調整']);
-    param.showingFrames = getParamNumber(['ShowingFrames', '表示フレーム数'], 0);
-    param.textAlign = getParamNumber(['TextAlign', '文字列揃え'], 0);
-    param.noDestinationWindowMapIds = getParamNumberArray(['NoDestinationWindowMapIds']);
-
-    var pluginCommandMap = new Map();
-    setPluginCommand('目標設定', 'execSetDestination');
-    setPluginCommand('SET_DESTINATION', 'execSetDestination');
-    setPluginCommand('アイコン付き目標設定', 'execSetDestinationWithIcon');
-    setPluginCommand('SET_DESTINATION_WITH_ICON', 'execSetDestinationWithIcon');
-
-    var _extractMetadata = DataManager.extractMetadata;
-    DataManager.extractMetadata = function (data) {
-        _extractMetadata.call(this, data);
-        if (data === $dataMap) {
-            if (data.meta.noDestinationWindow) {
-                data.noDestinationWindow = true;
-            } else {
-                data.noDestinationWindow = false;
-            }
-        }
-    };
-
-    //=============================================================================
-    // Game_Interpreter
-    //  プラグインコマンドを追加定義します。
-    //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.apply(this, arguments);
-        var pluginCommandMethod = pluginCommandMap.get(command.toUpperCase());
-        if (pluginCommandMethod) {
-            this[pluginCommandMethod](args);
-        }
-    };
-
-    Game_Interpreter.prototype.execSetDestination = function (args) {
-        $gameSystem.setDestinationIcon(null);
-        $gameSystem.setDestination(concatAllArguments(args));
-    };
-
-    Game_Interpreter.prototype.execSetDestinationWithIcon = function (args) {
-        var icon = args.shift();
-        $gameSystem.setDestinationIcon(icon);
-        $gameSystem.setDestination(concatAllArguments(args));
-    };
-
-    //=============================================================================
-    // Game_System
-    //  目標テキストを追加定義します。
-    //=============================================================================
-    Game_System.prototype.setDestination = function (value) {
-        this._destinationTextList = value.split('\\n');
-        this.resetDestinationFrame();
-    };
-
-    Game_System.prototype.getDestination = function () {
-        return this._destinationTextList || [];
-    };
-
-    Game_System.prototype.setDestinationIcon = function (value) {
-        this._destinationIconIndex = value;
-    };
-
-    Game_System.prototype.getDestinationIcon = function () {
-        return this._destinationIconIndex || '';
-    };
-
-    Game_System.prototype.resetDestinationFrame = function () {
-        this._destinationFrame = 0;
-    };
-
-    Game_System.prototype.isOverDestinationFrame = function () {
-        this._destinationFrame++;
-        return param.showingFrames > 0 ? param.showingFrames <= this._destinationFrame : false;
-    };
-
-    //=============================================================================
-    // Game_Map
-    //  行動目標ウィンドウ非表示マップであるかを判定します。
-    //=============================================================================
-    Game_Map.prototype.isNoDestinationWindowMap = function () {
-        return param.noDestinationWindowMapIds.some(function (mapId) {
-            return mapId === this.mapId();
-        }, this) || $dataMap.noDestinationWindow;
-    };
-
-    //=============================================================================
-    // Scene_Map
-    //  行動目標ウィンドウを生成します。
-    //=============================================================================
-    var _Scene_Map_createMapNameWindow = Scene_Map.prototype.createMapNameWindow;
-    Scene_Map.prototype.createMapNameWindow = function () {
-        this.createDestinationWindow();
-        _Scene_Map_createMapNameWindow.apply(this, arguments);
-    };
-
-    Scene_Map.prototype.createDestinationWindow = function () {
-        this._destinationWindow = new Window_Destination(param.windowX, param.windowY, param.windowWidth);
-        this.addChild(this._destinationWindow);
-    };
-
-    //=============================================================================
-    // Scene_Menu
-    //  メニュー画面にも表示できるようにします。
-    //=============================================================================
-    var _Scene_Menu_create = Scene_Menu.prototype.create;
-    Scene_Menu.prototype.create = function () {
-        _Scene_Menu_create.apply(this, arguments);
-        if (param.showingInMenu) {
-            this.createDestinationWindow();
-        }
-    };
-
-    Scene_Menu.prototype.createDestinationWindow = function () {
-        var y, width, height;
-        if (this._commandWindow.maxCols() === 1) {
-            y = this._commandWindow.y + this._commandWindow.height;
-            width = this._commandWindow.width;
-            height = null;
-        } else {
-            y = this._goldWindow.y;
-            width = param.windowWidth;
-            height = this._goldWindow.height;
-        }
-        this._destinationWindow = new Window_DestinationMenu(0, y, width, height);
-        this.addWindow(this._destinationWindow);
-    };
-
-    //=============================================================================
-    // Window_Destination
-    //  行動目標ウィンドウです。
-    //=============================================================================
-    function Window_Destination() {
-        this.initialize.apply(this, arguments);
+  //=============================================================================
+  // ローカル関数
+  //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
+  //=============================================================================
+  var getParamString = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
     }
+    return "";
+  };
 
-    Window_Destination.prototype = Object.create(Window_Base.prototype);
-    Window_Destination.prototype.constructor = Window_Destination;
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamString(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value) || 0).clamp(min, max);
+  };
 
-    Window_Destination.prototype.initialize = function (x, y, width, height) {
-        Window_Base.prototype.initialize.call(this, x, y, width, height || this.fittingHeight(1));
-        this._text = '';
-        this._textList = [];
-        this._iconIndex = 0;
-        this.update();
-        this.opacity = this.isVisible() ? 255 : 0;
-    };
+  var getParamBoolean = function (paramNames) {
+    var value = getParamString(paramNames);
+    return value.toUpperCase() === "ON" || value.toUpperCase() === "TRUE";
+  };
 
-    Window_Destination.prototype.loadWindowskin = function () {
-        if (param.windowSkin) {
-            this.windowskin = ImageManager.loadSystem(param.windowSkin);
-        } else {
-            Window_Base.prototype.loadWindowskin.call(this);
-        }
-    };
+  var getParamNumberArray = function (paramNames) {
+    var value = PluginManager.parameters(pluginName)[paramNames];
+    return JSON.parse(value).map(function (e) {
+      return Number(JSON.parse(e));
+    }, this);
+  };
 
-    Window_Destination.prototype.lineHeight = function () {
-        return Math.max(this.standardFontSize() + 8, Window_Base._iconHeight);
-    };
+  var getArgNumber = function (arg, min, max) {
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(arg) || 0).clamp(min, max);
+  };
 
-    Window_Destination.prototype.standardFontSize = function () {
-        return param.fontSize || Window_Base.prototype.standardFontSize.call(this);
-    };
+  var concatAllArguments = function (args) {
+    return args
+      .reduce(function (prevValue, arg) {
+        return prevValue + " " + arg;
+      }, "")
+      .replace(/^ /, "");
+  };
 
-    Window_Destination.prototype.standardBackOpacity = function () {
-        return param.windowOpacity || Window_Base.prototype.standardBackOpacity.call(this);
-    };
+  var setPluginCommand = function (commandName, methodName) {
+    pluginCommandMap.set(metaTagPrefix + commandName, methodName);
+  };
 
-    Window_Destination.prototype.standardPadding = function () {
-        return 12;
-    };
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var param = {};
+  param.showingSwitchId = getParamNumber(
+    ["ShowingSwitchId", "表示スイッチID"],
+    0
+  );
+  param.windowX = getParamNumber(["WindowX", "ウィンドウX座標"]);
+  param.windowY = getParamNumber(["WindowY", "ウィンドウY座標"]);
+  param.windowWidth = getParamNumber(["WindowWidth", "ウィンドウ横幅"], 1);
+  param.windowSkin = getParamString(["WindowSkin", "ウィンドウスキン名"]);
+  param.windowOpacity = getParamNumber(["WindowOpacity", "ウィンドウ不透明度"]);
+  param.fadeFrame = getParamNumber(["FadeFrame", "フェード時間"], 1);
+  param.fontSize = getParamNumber(["FontSize", "フォントサイズ"], 12);
+  param.closeEventRunning = getParamBoolean([
+    "CloseEventRunning",
+    "イベント中は閉じる",
+  ]);
+  param.showingInMenu = getParamBoolean([
+    "ShowingInMenu",
+    "メニュー画面に表示",
+  ]);
+  param.autoAdjust = getParamBoolean(["AutoAdjust", "自働調整"]);
+  param.showingFrames = getParamNumber(["ShowingFrames", "表示フレーム数"], 0);
+  param.textAlign = getParamNumber(["TextAlign", "文字列揃え"], 0);
+  param.noDestinationWindowMapIds = getParamNumberArray([
+    "NoDestinationWindowMapIds",
+  ]);
 
-    Window_Destination.prototype.update = function () {
-        Window_Base.prototype.update.call(this);
-        if (!this.windowskin.isReady()) return;
-        this.updateText();
-        this.updateOpacity();
-    };
+  var pluginCommandMap = new Map();
+  setPluginCommand("目標設定", "execSetDestination");
+  setPluginCommand("SET_DESTINATION", "execSetDestination");
+  setPluginCommand("アイコン付き目標設定", "execSetDestinationWithIcon");
+  setPluginCommand("SET_DESTINATION_WITH_ICON", "execSetDestinationWithIcon");
 
-    Window_Destination.prototype.updateOpacity = function () {
-        if (this.isVisible()) {
-            this.setOpacity(this.opacity + this.getFadeValue());
-        } else {
-            this.setOpacity(this.opacity - this.getFadeValue());
-        }
-        this.visible = (this.opacity > 0);
-    };
-
-    Window_Destination.prototype.updateText = function () {
-        var textList = $gameSystem.getDestination();
-        var iconIndex = getArgNumber(this.convertEscapeCharacters($gameSystem.getDestinationIcon()), 0);
-        if (textList.length !== this._textList.length) {
-            this.height = this.fittingHeight(textList.length);
-            this.createContents();
-            this._textList = [];
-        }
-        textList.forEach(function (text, index) {
-            text = this.convertEscapeCharacters(text);
-            if (this._textList[index] === text && this._iconIndex === iconIndex) {
-                return;
-            }
-            this._textList[index] = text;
-            this._text = text;
-            this._iconIndex = iconIndex;
-            this.drawDestination(index);
-        }, this);
-    };
-
-    Window_Destination.prototype.drawDestination = function (lineNumber) {
-        this.contents.clearRect(0, lineNumber * this.lineHeight(), this.contentsWidth(), this.lineHeight());
-        var x = this.getContentsX();
-        var y = lineNumber * this.lineHeight() + this.lineHeight() / 2 - this.contents.fontSize / 2 - 4;
-        if (this._iconIndex > 0 && lineNumber === 0) {
-            this.drawIcon(this._iconIndex, x, y);
-            x += Window_Base._iconWidth;
-        }
-        if (param.autoAdjust) {
-            this.resetTextColor();
-            this.drawText(this._text, x, y, this.contentsWidth() - x);
-        } else {
-            this.drawTextEx(this._text, x, y);
-        }
-    };
-
-    Window_Destination.prototype.getContentsX = function () {
-        if (param.textAlign === 0) {
-            return 0;
-        }
-        var width = param.autoAdjust ? this.textWidth(this._text) : this.drawTextEx(this._text, 0, -this.lineHeight());
-        if (this._iconIndex > 0) {
-            width += Window_Base._iconWidth;
-        }
-        var division = (param.textAlign === 1 ? 2 : 1);
-        return this.contentsWidth() / division - width / division;
-    };
-
-    Window_Destination.prototype.setOpacity = function (value) {
-        this.opacity = value;
-        this.contentsOpacity = value;
-    };
-
-    Window_Destination.prototype.getFadeValue = function () {
-        return 255 / param.fadeFrame;
-    };
-
-    Window_Destination.prototype.isVisible = function () {
-        return $gameSwitches.value(param.showingSwitchId) && !this.isEventRunning() &&
-            this.isExistText() && !this.isOverFrame() && !this.isNoDestinationWindowMap();
-    };
-
-    Window_Destination.prototype.isOverFrame = function () {
-        return $gameSystem.isOverDestinationFrame();
-    };
-
-    Window_Destination.prototype.isExistText = function () {
-        return this._textList.length > 0 || !!this._iconIndex;
-    };
-
-    Window_Destination.prototype.isEventRunning = function () {
-        return $gameMap.isEventRunning() && param.closeEventRunning;
-    };
-
-    Window_Destination.prototype.isNoDestinationWindowMap = function () {
-        return $gameMap.isNoDestinationWindowMap();
-    };
-
-    //=============================================================================
-    // Window_DestinationMenu
-    //  メニュー画面の行動目標ウィンドウです。
-    //=============================================================================
-    function Window_DestinationMenu() {
-        this.initialize.apply(this, arguments);
+  var _extractMetadata = DataManager.extractMetadata;
+  DataManager.extractMetadata = function (data) {
+    _extractMetadata.call(this, data);
+    if (data === $dataMap) {
+      if (data.meta.noDestinationWindow) {
+        data.noDestinationWindow = true;
+      } else {
+        data.noDestinationWindow = false;
+      }
     }
+  };
 
-    Window_DestinationMenu.prototype = Object.create(Window_Destination.prototype);
-    Window_DestinationMenu.prototype.constructor = Window_DestinationMenu;
+  //=============================================================================
+  // Game_Interpreter
+  //  プラグインコマンドを追加定義します。
+  //=============================================================================
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.apply(this, arguments);
+    var pluginCommandMethod = pluginCommandMap.get(command.toUpperCase());
+    if (pluginCommandMethod) {
+      this[pluginCommandMethod](args);
+    }
+  };
 
-    Window_DestinationMenu.prototype.isOverFrame = function () {
-        return false;
-    };
+  Game_Interpreter.prototype.execSetDestination = function (args) {
+    $gameSystem.setDestinationIcon(null);
+    $gameSystem.setDestination(concatAllArguments(args));
+  };
+
+  Game_Interpreter.prototype.execSetDestinationWithIcon = function (args) {
+    var icon = args.shift();
+    $gameSystem.setDestinationIcon(icon);
+    $gameSystem.setDestination(concatAllArguments(args));
+  };
+
+  //=============================================================================
+  // Game_System
+  //  目標テキストを追加定義します。
+  //=============================================================================
+  Game_System.prototype.setDestination = function (value) {
+    this._destinationTextList = value.split("\\n");
+    this.resetDestinationFrame();
+  };
+
+  Game_System.prototype.getDestination = function () {
+    return this._destinationTextList || [];
+  };
+
+  Game_System.prototype.setDestinationIcon = function (value) {
+    this._destinationIconIndex = value;
+  };
+
+  Game_System.prototype.getDestinationIcon = function () {
+    return this._destinationIconIndex || "";
+  };
+
+  Game_System.prototype.resetDestinationFrame = function () {
+    this._destinationFrame = 0;
+  };
+
+  Game_System.prototype.isOverDestinationFrame = function () {
+    this._destinationFrame++;
+    return param.showingFrames > 0
+      ? param.showingFrames <= this._destinationFrame
+      : false;
+  };
+
+  //=============================================================================
+  // Game_Map
+  //  行動目標ウィンドウ非表示マップであるかを判定します。
+  //=============================================================================
+  Game_Map.prototype.isNoDestinationWindowMap = function () {
+    return (
+      param.noDestinationWindowMapIds.some(function (mapId) {
+        return mapId === this.mapId();
+      }, this) || $dataMap.noDestinationWindow
+    );
+  };
+
+  //=============================================================================
+  // Scene_Map
+  //  行動目標ウィンドウを生成します。
+  //=============================================================================
+  var _Scene_Map_createMapNameWindow = Scene_Map.prototype.createMapNameWindow;
+  Scene_Map.prototype.createMapNameWindow = function () {
+    this.createDestinationWindow();
+    _Scene_Map_createMapNameWindow.apply(this, arguments);
+  };
+
+  Scene_Map.prototype.createDestinationWindow = function () {
+    this._destinationWindow = new Window_Destination(
+      param.windowX,
+      param.windowY,
+      param.windowWidth
+    );
+    this.addChild(this._destinationWindow);
+  };
+
+  //=============================================================================
+  // Scene_Menu
+  //  メニュー画面にも表示できるようにします。
+  //=============================================================================
+  var _Scene_Menu_create = Scene_Menu.prototype.create;
+  Scene_Menu.prototype.create = function () {
+    _Scene_Menu_create.apply(this, arguments);
+    if (param.showingInMenu) {
+      this.createDestinationWindow();
+    }
+  };
+
+  Scene_Menu.prototype.createDestinationWindow = function () {
+    var y, width, height;
+    if (this._commandWindow.maxCols() === 1) {
+      y = this._commandWindow.y + this._commandWindow.height;
+      width = this._commandWindow.width;
+      height = null;
+    } else {
+      y = this._goldWindow.y;
+      width = param.windowWidth;
+      height = this._goldWindow.height;
+    }
+    this._destinationWindow = new Window_DestinationMenu(0, y, width, height);
+    this.addWindow(this._destinationWindow);
+  };
+
+  //=============================================================================
+  // Window_Destination
+  //  行動目標ウィンドウです。
+  //=============================================================================
+  function Window_Destination() {
+    this.initialize.apply(this, arguments);
+  }
+
+  Window_Destination.prototype = Object.create(Window_Base.prototype);
+  Window_Destination.prototype.constructor = Window_Destination;
+
+  Window_Destination.prototype.initialize = function (x, y, width, height) {
+    Window_Base.prototype.initialize.call(
+      this,
+      x,
+      y,
+      width,
+      height || this.fittingHeight(1)
+    );
+    this._text = "";
+    this._textList = [];
+    this._iconIndex = 0;
+    this.update();
+    this.opacity = this.isVisible() ? 255 : 0;
+  };
+
+  Window_Destination.prototype.loadWindowskin = function () {
+    if (param.windowSkin) {
+      this.windowskin = ImageManager.loadSystem(param.windowSkin);
+    } else {
+      Window_Base.prototype.loadWindowskin.call(this);
+    }
+  };
+
+  Window_Destination.prototype.lineHeight = function () {
+    return Math.max(this.standardFontSize() + 8, Window_Base._iconHeight);
+  };
+
+  Window_Destination.prototype.standardFontSize = function () {
+    return param.fontSize || Window_Base.prototype.standardFontSize.call(this);
+  };
+
+  Window_Destination.prototype.standardBackOpacity = function () {
+    return (
+      param.windowOpacity ||
+      Window_Base.prototype.standardBackOpacity.call(this)
+    );
+  };
+
+  Window_Destination.prototype.standardPadding = function () {
+    return 12;
+  };
+
+  Window_Destination.prototype.update = function () {
+    Window_Base.prototype.update.call(this);
+    if (!this.windowskin.isReady()) return;
+    this.updateText();
+    this.updateOpacity();
+  };
+
+  Window_Destination.prototype.updateOpacity = function () {
+    if (this.isVisible()) {
+      this.setOpacity(this.opacity + this.getFadeValue());
+    } else {
+      this.setOpacity(this.opacity - this.getFadeValue());
+    }
+    this.visible = this.opacity > 0;
+  };
+
+  Window_Destination.prototype.updateText = function () {
+    var textList = $gameSystem.getDestination();
+    var iconIndex = getArgNumber(
+      this.convertEscapeCharacters($gameSystem.getDestinationIcon()),
+      0
+    );
+    if (textList.length !== this._textList.length) {
+      this.height = this.fittingHeight(textList.length);
+      this.createContents();
+      this._textList = [];
+    }
+    textList.forEach(function (text, index) {
+      text = this.convertEscapeCharacters(text);
+      if (this._textList[index] === text && this._iconIndex === iconIndex) {
+        return;
+      }
+      this._textList[index] = text;
+      this._text = text;
+      this._iconIndex = iconIndex;
+      this.drawDestination(index);
+    }, this);
+  };
+
+  Window_Destination.prototype.drawDestination = function (lineNumber) {
+    this.contents.clearRect(
+      0,
+      lineNumber * this.lineHeight(),
+      this.contentsWidth(),
+      this.lineHeight()
+    );
+    var x = this.getContentsX();
+    var y =
+      lineNumber * this.lineHeight() +
+      this.lineHeight() / 2 -
+      this.contents.fontSize / 2 -
+      4;
+    if (this._iconIndex > 0 && lineNumber === 0) {
+      this.drawIcon(this._iconIndex, x, y);
+      x += Window_Base._iconWidth;
+    }
+    if (param.autoAdjust) {
+      this.resetTextColor();
+      this.drawText(this._text, x, y, this.contentsWidth() - x);
+    } else {
+      this.drawTextEx(this._text, x, y);
+    }
+  };
+
+  Window_Destination.prototype.getContentsX = function () {
+    if (param.textAlign === 0) {
+      return 0;
+    }
+    var width = param.autoAdjust
+      ? this.textWidth(this._text)
+      : this.drawTextEx(this._text, 0, -this.lineHeight());
+    if (this._iconIndex > 0) {
+      width += Window_Base._iconWidth;
+    }
+    var division = param.textAlign === 1 ? 2 : 1;
+    return this.contentsWidth() / division - width / division;
+  };
+
+  Window_Destination.prototype.setOpacity = function (value) {
+    this.opacity = value;
+    this.contentsOpacity = value;
+  };
+
+  Window_Destination.prototype.getFadeValue = function () {
+    return 255 / param.fadeFrame;
+  };
+
+  Window_Destination.prototype.isVisible = function () {
+    return (
+      $gameSwitches.value(param.showingSwitchId) &&
+      !this.isEventRunning() &&
+      this.isExistText() &&
+      !this.isOverFrame() &&
+      !this.isNoDestinationWindowMap()
+    );
+  };
+
+  Window_Destination.prototype.isOverFrame = function () {
+    return $gameSystem.isOverDestinationFrame();
+  };
+
+  Window_Destination.prototype.isExistText = function () {
+    return this._textList.length > 0 || !!this._iconIndex;
+  };
+
+  Window_Destination.prototype.isEventRunning = function () {
+    return $gameMap.isEventRunning() && param.closeEventRunning;
+  };
+
+  Window_Destination.prototype.isNoDestinationWindowMap = function () {
+    return $gameMap.isNoDestinationWindowMap();
+  };
+
+  //=============================================================================
+  // Window_DestinationMenu
+  //  メニュー画面の行動目標ウィンドウです。
+  //=============================================================================
+  function Window_DestinationMenu() {
+    this.initialize.apply(this, arguments);
+  }
+
+  Window_DestinationMenu.prototype = Object.create(
+    Window_Destination.prototype
+  );
+  Window_DestinationMenu.prototype.constructor = Window_DestinationMenu;
+
+  Window_DestinationMenu.prototype.isOverFrame = function () {
+    return false;
+  };
 })();
-

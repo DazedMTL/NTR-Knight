@@ -133,193 +133,211 @@
  */
 
 (function () {
-    'use strict';
-    var pluginName = 'TitleImageChange';
+  "use strict";
+  var pluginName = "TitleImageChange";
 
-    var getParamString = function (paramNames) {
-        var value = getParamOther(paramNames);
-        return value == null ? '' : value;
-    };
+  var getParamString = function (paramNames) {
+    var value = getParamOther(paramNames);
+    return value == null ? "" : value;
+  };
 
-    var getParamNumber = function (paramNames, min, max) {
-        var value = getParamOther(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(value, 10) || 0).clamp(min, max);
-    };
+  var getParamNumber = function (paramNames, min, max) {
+    var value = getParamOther(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(value, 10) || 0).clamp(min, max);
+  };
 
-    var getParamOther = function (paramNames) {
-        if (!Array.isArray(paramNames)) paramNames = [paramNames];
-        for (var i = 0; i < paramNames.length; i++) {
-            var name = PluginManager.parameters(pluginName)[paramNames[i]];
-            if (name) return name;
+  var getParamOther = function (paramNames) {
+    if (!Array.isArray(paramNames)) paramNames = [paramNames];
+    for (var i = 0; i < paramNames.length; i++) {
+      var name = PluginManager.parameters(pluginName)[paramNames[i]];
+      if (name) return name;
+    }
+    return null;
+  };
+
+  var getParamArrayString = function (paramNames) {
+    var valuesText = getParamString(paramNames);
+    if (!valuesText) return [];
+    var values = valuesText.split(",");
+    for (var i = 0; i < values.length; i++) {
+      values[i] = values[i].trim();
+    }
+    return values;
+  };
+
+  var getParamArrayNumber = function (paramNames, min, max) {
+    var values = getParamArrayString(paramNames);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    for (var i = 0; i < values.length; i++) {
+      if (!isNaN(parseInt(values[i], 10))) {
+        values[i] = (parseInt(values[i], 10) || 0).clamp(min, max);
+      } else {
+        values.splice(i--, 1);
+      }
+    }
+    return values;
+  };
+
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  var paramGradeVariable = getParamNumber(
+    ["GradeVariable", "進行度変数"],
+    1,
+    5000
+  );
+  var paramPriorityVariable = getParamNumber(
+    ["PriorityVariable", "優先度変数"],
+    0,
+    5000
+  );
+  var paramTitleGrades = [];
+  paramTitleGrades.push(getParamNumber(["TitleGrade1", "タイトル1の進行度"]));
+  paramTitleGrades.push(getParamNumber(["TitleGrade2", "タイトル2の進行度"]));
+  paramTitleGrades.push(getParamNumber(["TitleGrade3", "タイトル3の進行度"]));
+  var paramTitleImages = [];
+  paramTitleImages.push(getParamString(["TitleImage1", "タイトル1の画像"]));
+  paramTitleImages.push(getParamString(["TitleImage2", "タイトル2の画像"]));
+  paramTitleImages.push(getParamString(["TitleImage3", "タイトル3の画像"]));
+  var paramTitleBgms = [];
+  paramTitleBgms.push(getParamString(["TitleBgm1", "タイトル1のBGM"]));
+  paramTitleBgms.push(getParamString(["TitleBgm2", "タイトル2のBGM"]));
+  paramTitleBgms.push(getParamString(["TitleBgm3", "タイトル3のBGM"]));
+  paramTitleGrades = paramTitleGrades
+    .concat(getParamArrayNumber(["TitleGradeAfter", "以降の進行度"]))
+    .reverse();
+  paramTitleImages = paramTitleImages
+    .concat(getParamArrayString(["TitleImageAfter", "以降の画像"]))
+    .reverse();
+  paramTitleBgms = paramTitleBgms
+    .concat(getParamArrayString(["TitleBgmAfter", "以降のBGM"]))
+    .reverse();
+
+  //=============================================================================
+  // DataManager
+  //  ゲーム進行状況を保存します。
+  //=============================================================================
+  var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
+  DataManager.makeSavefileInfo = function () {
+    var info = _DataManager_makeSavefileInfo.apply(this, arguments);
+    this.setGradeVariable(info);
+    return info;
+  };
+
+  DataManager.getFirstPriorityGradeVariable = function () {
+    this._loadGrade = true;
+    var globalInfo = this.loadGlobalInfo().filter(function (data, id) {
+      return this.isThisGameFile(id);
+    }, this);
+    this._loadGrade = false;
+    var gradeVariable = 0;
+    if (globalInfo && globalInfo.length > 0) {
+      var sortedGlobalInfo = globalInfo
+        .clone()
+        .sort(this._compareOrderForGradeVariable);
+      if (sortedGlobalInfo[0]) {
+        gradeVariable = sortedGlobalInfo[0].gradeVariable || 0;
+      }
+    }
+    return gradeVariable;
+  };
+
+  var _DataManager_loadGlobalInfo = DataManager.loadGlobalInfo;
+  DataManager.loadGlobalInfo = function () {
+    if (this._loadGrade) {
+      if (!this._globalInfo) {
+        try {
+          var json = StorageManager.load(0);
+          this._globalInfo = json ? JSON.parse(json) : [];
+        } catch (e) {
+          console.error(e);
+          this._globalInfo = [];
         }
-        return null;
-    };
+      }
+      return this._globalInfo;
+    } else {
+      return _DataManager_loadGlobalInfo.apply(this, arguments);
+    }
+  };
 
-    var getParamArrayString = function (paramNames) {
-        var valuesText = getParamString(paramNames);
-        if (!valuesText) return [];
-        var values = valuesText.split(',');
-        for (var i = 0; i < values.length; i++) {
-            values[i] = values[i].trim();
-        }
-        return values;
-    };
+  DataManager._compareOrderForGradeVariable = function (a, b) {
+    if (!a) {
+      return 1;
+    } else if (!b) {
+      return -1;
+    } else if (
+      a.priorityVariable !== b.priorityVariable &&
+      paramPriorityVariable > 0
+    ) {
+      return (b.priorityVariable || 0) - (a.priorityVariable || 0);
+    } else {
+      return (b.gradeVariable || 0) - (a.gradeVariable || 0);
+    }
+  };
 
-    var getParamArrayNumber = function (paramNames, min, max) {
-        var values = getParamArrayString(paramNames);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        for (var i = 0; i < values.length; i++) {
-            if (!isNaN(parseInt(values[i], 10))) {
-                values[i] = (parseInt(values[i], 10) || 0).clamp(min, max);
-            } else {
-                values.splice(i--, 1);
-            }
-        }
-        return values;
-    };
+  DataManager.saveOnlyGradeVariable = function () {
+    var saveFileId = this.lastAccessedSavefileId();
+    var globalInfo = this.loadGlobalInfo() || [];
+    if (globalInfo[saveFileId]) {
+      this.setGradeVariable(globalInfo[saveFileId]);
+    } else {
+      globalInfo[saveFileId] = this.makeSavefileInfo();
+    }
+    this.saveGlobalInfo(globalInfo);
+  };
 
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    var paramGradeVariable = getParamNumber(['GradeVariable', '進行度変数'], 1, 5000);
-    var paramPriorityVariable = getParamNumber(['PriorityVariable', '優先度変数'], 0, 5000);
-    var paramTitleGrades = [];
-    paramTitleGrades.push(getParamNumber(['TitleGrade1', 'タイトル1の進行度']));
-    paramTitleGrades.push(getParamNumber(['TitleGrade2', 'タイトル2の進行度']));
-    paramTitleGrades.push(getParamNumber(['TitleGrade3', 'タイトル3の進行度']));
-    var paramTitleImages = [];
-    paramTitleImages.push(getParamString(['TitleImage1', 'タイトル1の画像']));
-    paramTitleImages.push(getParamString(['TitleImage2', 'タイトル2の画像']));
-    paramTitleImages.push(getParamString(['TitleImage3', 'タイトル3の画像']));
-    var paramTitleBgms = [];
-    paramTitleBgms.push(getParamString(['TitleBgm1', 'タイトル1のBGM']));
-    paramTitleBgms.push(getParamString(['TitleBgm2', 'タイトル2のBGM']));
-    paramTitleBgms.push(getParamString(['TitleBgm3', 'タイトル3のBGM']));
-    paramTitleGrades = paramTitleGrades.concat(getParamArrayNumber(['TitleGradeAfter', '以降の進行度'])).reverse();
-    paramTitleImages = paramTitleImages.concat(getParamArrayString(['TitleImageAfter', '以降の画像'])).reverse();
-    paramTitleBgms = paramTitleBgms.concat(getParamArrayString(['TitleBgmAfter', '以降のBGM'])).reverse();
+  DataManager.setGradeVariable = function (info) {
+    info.gradeVariable = $gameVariables.value(paramGradeVariable);
+    if (paramPriorityVariable > 0) {
+      info.priorityVariable = $gameVariables.value(paramPriorityVariable);
+    }
+  };
 
-    //=============================================================================
-    // DataManager
-    //  ゲーム進行状況を保存します。
-    //=============================================================================
-    var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
-    DataManager.makeSavefileInfo = function () {
-        var info = _DataManager_makeSavefileInfo.apply(this, arguments);
-        this.setGradeVariable(info);
-        return info;
-    };
+  var _DataManager_saveGlobalInfo = DataManager.saveGlobalInfo;
+  DataManager.saveGlobalInfo = function (info) {
+    _DataManager_saveGlobalInfo.apply(this, arguments);
+    this._globalInfo = null;
+  };
 
-    DataManager.getFirstPriorityGradeVariable = function () {
-        this._loadGrade = true;
-        var globalInfo = this.loadGlobalInfo().filter(function (data, id) {
-            return this.isThisGameFile(id);
-        }, this);
-        this._loadGrade = false;
-        var gradeVariable = 0;
-        if (globalInfo && globalInfo.length > 0) {
-            var sortedGlobalInfo = globalInfo.clone().sort(this._compareOrderForGradeVariable);
-            if (sortedGlobalInfo[0]) {
-                gradeVariable = sortedGlobalInfo[0].gradeVariable || 0;
-            }
-        }
-        return gradeVariable;
-    };
+  //=============================================================================
+  // Scene_Title
+  //  進行状況が一定以上の場合、タイトル画像を差し替えます。
+  //=============================================================================
+  var _Scene_Title_initialize = Scene_Title.prototype.initialize;
+  Scene_Title.prototype.initialize = function () {
+    _Scene_Title_initialize.apply(this, arguments);
+    this.changeTitleImage();
+    this.changeTitleBgm();
+  };
 
-    var _DataManager_loadGlobalInfo = DataManager.loadGlobalInfo;
-    DataManager.loadGlobalInfo = function () {
-        if (this._loadGrade) {
-            if (!this._globalInfo) {
-                try {
-                    var json = StorageManager.load(0);
-                    this._globalInfo = json ? JSON.parse(json) : [];
-                } catch (e) {
-                    console.error(e);
-                    this._globalInfo = [];
-                }
-            }
-            return this._globalInfo;
-        } else {
-            return _DataManager_loadGlobalInfo.apply(this, arguments);
-        }
-    };
+  Scene_Title.prototype.changeTitleImage = function () {
+    var gradeVariable = DataManager.getFirstPriorityGradeVariable();
+    if ($dataSystem.originalTitle1Name !== undefined) {
+      $dataSystem.title1Name = $dataSystem.originalTitle1Name;
+    }
+    for (var i = 0, n = paramTitleGrades.length; i < n; i++) {
+      if (paramTitleImages[i] && gradeVariable >= paramTitleGrades[i]) {
+        $dataSystem.originalTitle1Name = $dataSystem.title1Name;
+        $dataSystem.title1Name = paramTitleImages[i];
+        break;
+      }
+    }
+  };
 
-    DataManager._compareOrderForGradeVariable = function (a, b) {
-        if (!a) {
-            return 1;
-        } else if (!b) {
-            return -1;
-        } else if (a.priorityVariable !== b.priorityVariable && paramPriorityVariable > 0) {
-            return (b.priorityVariable || 0) - (a.priorityVariable || 0);
-        } else {
-            return (b.gradeVariable || 0) - (a.gradeVariable || 0);
-        }
-    };
-
-    DataManager.saveOnlyGradeVariable = function () {
-        var saveFileId = this.lastAccessedSavefileId();
-        var globalInfo = this.loadGlobalInfo() || [];
-        if (globalInfo[saveFileId]) {
-            this.setGradeVariable(globalInfo[saveFileId]);
-        } else {
-            globalInfo[saveFileId] = this.makeSavefileInfo();
-        }
-        this.saveGlobalInfo(globalInfo);
-    };
-
-    DataManager.setGradeVariable = function (info) {
-        info.gradeVariable = $gameVariables.value(paramGradeVariable);
-        if (paramPriorityVariable > 0) {
-            info.priorityVariable = $gameVariables.value(paramPriorityVariable);
-        }
-    };
-
-    var _DataManager_saveGlobalInfo = DataManager.saveGlobalInfo;
-    DataManager.saveGlobalInfo = function (info) {
-        _DataManager_saveGlobalInfo.apply(this, arguments);
-        this._globalInfo = null;
-    };
-
-    //=============================================================================
-    // Scene_Title
-    //  進行状況が一定以上の場合、タイトル画像を差し替えます。
-    //=============================================================================
-    var _Scene_Title_initialize = Scene_Title.prototype.initialize;
-    Scene_Title.prototype.initialize = function () {
-        _Scene_Title_initialize.apply(this, arguments);
-        this.changeTitleImage();
-        this.changeTitleBgm();
-    };
-
-    Scene_Title.prototype.changeTitleImage = function () {
-        var gradeVariable = DataManager.getFirstPriorityGradeVariable();
-        if ($dataSystem.originalTitle1Name !== undefined) {
-            $dataSystem.title1Name = $dataSystem.originalTitle1Name;
-        }
-        for (var i = 0, n = paramTitleGrades.length; i < n; i++) {
-            if (paramTitleImages[i] && gradeVariable >= paramTitleGrades[i]) {
-                $dataSystem.originalTitle1Name = $dataSystem.title1Name;
-                $dataSystem.title1Name = paramTitleImages[i];
-                break;
-            }
-        }
-    };
-
-    Scene_Title.prototype.changeTitleBgm = function () {
-        var gradeVariable = DataManager.getFirstPriorityGradeVariable();
-        if ($dataSystem.titleBgm.originalName !== undefined) {
-            $dataSystem.titleBgm.name = $dataSystem.titleBgm.originalName;
-        }
-        for (var i = 0, n = paramTitleGrades.length; i < n; i++) {
-            if (paramTitleBgms[i] && gradeVariable >= paramTitleGrades[i]) {
-                $dataSystem.titleBgm.originalName = $dataSystem.titleBgm.name;
-                $dataSystem.titleBgm.name = paramTitleBgms[i];
-                break;
-            }
-        }
-    };
+  Scene_Title.prototype.changeTitleBgm = function () {
+    var gradeVariable = DataManager.getFirstPriorityGradeVariable();
+    if ($dataSystem.titleBgm.originalName !== undefined) {
+      $dataSystem.titleBgm.name = $dataSystem.titleBgm.originalName;
+    }
+    for (var i = 0, n = paramTitleGrades.length; i < n; i++) {
+      if (paramTitleBgms[i] && gradeVariable >= paramTitleGrades[i]) {
+        $dataSystem.titleBgm.originalName = $dataSystem.titleBgm.name;
+        $dataSystem.titleBgm.name = paramTitleBgms[i];
+        break;
+      }
+    }
+  };
 })();
-

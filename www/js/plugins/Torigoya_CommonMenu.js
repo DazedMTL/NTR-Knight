@@ -75,125 +75,155 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const Torigoya = (window.Torigoya = window.Torigoya || {});
+  const Torigoya = (window.Torigoya = window.Torigoya || {});
 
-    function getPluginName() {
-        const cs = document.currentScript;
-        return cs ? cs.src.split('/').pop().replace(/\.js$/, '') : 'Torigoya_CommonMenu';
-    }
+  function getPluginName() {
+    const cs = document.currentScript;
+    return cs
+      ? cs.src.split("/").pop().replace(/\.js$/, "")
+      : "Torigoya_CommonMenu";
+  }
 
-    function pickStringValueFromParameter(parameter, key, defaultValue = '') {
-        if (!parameter.hasOwnProperty(key)) return defaultValue;
-        return `${parameter[key] || ''}`;
-    }
+  function pickStringValueFromParameter(parameter, key, defaultValue = "") {
+    if (!parameter.hasOwnProperty(key)) return defaultValue;
+    return `${parameter[key] || ""}`;
+  }
 
-    function pickIntegerValueFromParameter(parameter, key, defaultValue = 0) {
-        if (!parameter.hasOwnProperty(key) || parameter[key] === '') return defaultValue;
-        return parseInt(parameter[key], 10);
-    }
+  function pickIntegerValueFromParameter(parameter, key, defaultValue = 0) {
+    if (!parameter.hasOwnProperty(key) || parameter[key] === "")
+      return defaultValue;
+    return parseInt(parameter[key], 10);
+  }
 
-    function pickBooleanValueFromParameter(parameter, key, defaultValue = 'false') {
-        return `${parameter[key] || defaultValue}` === 'true';
-    }
+  function pickBooleanValueFromParameter(
+    parameter,
+    key,
+    defaultValue = "false"
+  ) {
+    return `${parameter[key] || defaultValue}` === "true";
+  }
 
-    function pickNoteStringValueFromParameter(parameter, key, defaultValue = '') {
-        if (!parameter.hasOwnProperty(key)) return defaultValue;
-        return (parameter[key].startsWith('"') ? JSON.parse(parameter[key]) : parameter[key]) || '';
-    }
+  function pickNoteStringValueFromParameter(parameter, key, defaultValue = "") {
+    if (!parameter.hasOwnProperty(key)) return defaultValue;
+    return (
+      (parameter[key].startsWith('"')
+        ? JSON.parse(parameter[key])
+        : parameter[key]) || ""
+    );
+  }
 
-    function pickStructMenuItem(parameter) {
-        parameter = parameter || {};
-        if (typeof parameter === 'string') parameter = JSON.parse(parameter);
-        return {
-            name: pickStringValueFromParameter(parameter, 'name', ''),
-            commonEvent: pickIntegerValueFromParameter(parameter, 'commonEvent', 0),
-            switchId: pickIntegerValueFromParameter(parameter, 'switchId', 0),
-            visibility: pickBooleanValueFromParameter(parameter, 'visibility', 'true'),
-            note: pickNoteStringValueFromParameter(parameter, 'note', ''),
-        };
-    }
+  function pickStructMenuItem(parameter) {
+    parameter = parameter || {};
+    if (typeof parameter === "string") parameter = JSON.parse(parameter);
+    return {
+      name: pickStringValueFromParameter(parameter, "name", ""),
+      commonEvent: pickIntegerValueFromParameter(parameter, "commonEvent", 0),
+      switchId: pickIntegerValueFromParameter(parameter, "switchId", 0),
+      visibility: pickBooleanValueFromParameter(
+        parameter,
+        "visibility",
+        "true"
+      ),
+      note: pickNoteStringValueFromParameter(parameter, "note", ""),
+    };
+  }
 
-    function readParameter() {
-        const parameter = PluginManager.parameters(getPluginName());
-        return {
-            version: '1.2.0',
-            baseItems: ((parameters) => {
-                parameters = parameters || [];
-                if (typeof parameters === 'string') parameters = JSON.parse(parameters);
-                return parameters.map((parameter) => {
-                    return pickStructMenuItem(parameter);
-                });
-            })(parameter.baseItems),
-        };
-    }
+  function readParameter() {
+    const parameter = PluginManager.parameters(getPluginName());
+    return {
+      version: "1.2.0",
+      baseItems: ((parameters) => {
+        parameters = parameters || [];
+        if (typeof parameters === "string") parameters = JSON.parse(parameters);
+        return parameters.map((parameter) => {
+          return pickStructMenuItem(parameter);
+        });
+      })(parameter.baseItems),
+    };
+  }
 
-    Torigoya.CommonMenu = {
-        name: getPluginName(),
-        parameter: readParameter(),
+  Torigoya.CommonMenu = {
+    name: getPluginName(),
+    parameter: readParameter(),
+  };
+
+  (() => {
+    /**
+     * メニュー項目の追加
+     * @param item
+     * @param index
+     */
+    Window_MenuCommand.prototype.torigoyaCommonMenu_addCommand = function (
+      item,
+      index
+    ) {
+      const enabled = this.torigoyaCommonMenu_isEnable(item);
+      if (!enabled && !this.torigoyaCommonMenu_isVisibility(item)) return;
+
+      this.addCommand(
+        this.torigoyaCommonMenu_itemName(item),
+        `TorigoyaCommonMenu_${index}`,
+        enabled
+      );
     };
 
-    (() => {
-        /**
-         * メニュー項目の追加
-         * @param item
-         * @param index
-         */
-        Window_MenuCommand.prototype.torigoyaCommonMenu_addCommand = function (item, index) {
-            const enabled = this.torigoyaCommonMenu_isEnable(item);
-            if (!enabled && !this.torigoyaCommonMenu_isVisibility(item)) return;
+    /**
+     * メニュー項目が有効であるか？
+     * @param item
+     * @returns {boolean}
+     */
+    Window_MenuCommand.prototype.torigoyaCommonMenu_isEnable = function (item) {
+      return item.switchId
+        ? $gameSwitches.value(parseInt(item.switchId, 10))
+        : true;
+    };
 
-            this.addCommand(this.torigoyaCommonMenu_itemName(item), `TorigoyaCommonMenu_${index}`, enabled);
-        };
+    /**
+     * メニュー項目が可視状態であるか？
+     * @param item
+     * @returns {boolean}
+     */
+    Window_MenuCommand.prototype.torigoyaCommonMenu_isVisibility = function (
+      item
+    ) {
+      return item.visibility;
+    };
 
-        /**
-         * メニュー項目が有効であるか？
-         * @param item
-         * @returns {boolean}
-         */
-        Window_MenuCommand.prototype.torigoyaCommonMenu_isEnable = function (item) {
-            return item.switchId ? $gameSwitches.value(parseInt(item.switchId, 10)) : true;
-        };
+    /**
+     * メニュー項目の名前を取得
+     * @param item
+     * @returns {string}
+     */
+    Window_MenuCommand.prototype.torigoyaCommonMenu_itemName = function (item) {
+      return item ? item.name : "";
+    };
 
-        /**
-         * メニュー項目が可視状態であるか？
-         * @param item
-         * @returns {boolean}
-         */
-        Window_MenuCommand.prototype.torigoyaCommonMenu_isVisibility = function (item) {
-            return item.visibility;
-        };
+    const upstream_Window_MenuCommand_addOriginalCommands =
+      Window_MenuCommand.prototype.addOriginalCommands;
+    Window_MenuCommand.prototype.addOriginalCommands = function () {
+      upstream_Window_MenuCommand_addOriginalCommands.apply(this);
 
-        /**
-         * メニュー項目の名前を取得
-         * @param item
-         * @returns {string}
-         */
-        Window_MenuCommand.prototype.torigoyaCommonMenu_itemName = function (item) {
-            return item ? item.name : '';
-        };
+      Torigoya.CommonMenu.parameter.baseItems.forEach(
+        this.torigoyaCommonMenu_addCommand.bind(this)
+      );
+    };
 
-        const upstream_Window_MenuCommand_addOriginalCommands = Window_MenuCommand.prototype.addOriginalCommands;
-        Window_MenuCommand.prototype.addOriginalCommands = function () {
-            upstream_Window_MenuCommand_addOriginalCommands.apply(this);
+    const upstream_Scene_Menu_createCommandWindow =
+      Scene_Menu.prototype.createCommandWindow;
+    Scene_Menu.prototype.createCommandWindow = function () {
+      upstream_Scene_Menu_createCommandWindow.apply(this);
 
-            Torigoya.CommonMenu.parameter.baseItems.forEach(this.torigoyaCommonMenu_addCommand.bind(this));
-        };
+      Torigoya.CommonMenu.parameter.baseItems.forEach((item, i) => {
+        const id = parseInt(item.commonEvent, 10);
+        if (!id) return;
 
-        const upstream_Scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
-        Scene_Menu.prototype.createCommandWindow = function () {
-            upstream_Scene_Menu_createCommandWindow.apply(this);
-
-            Torigoya.CommonMenu.parameter.baseItems.forEach((item, i) => {
-                const id = parseInt(item.commonEvent, 10);
-                if (!id) return;
-
-                this._commandWindow.setHandler(`TorigoyaCommonMenu_${i}`, () => {
-                    $gameTemp.reserveCommonEvent(id);
-                    SceneManager.goto(Scene_Map);
-                });
-            });
-        };
-    })();
+        this._commandWindow.setHandler(`TorigoyaCommonMenu_${i}`, () => {
+          $gameTemp.reserveCommonEvent(id);
+          SceneManager.goto(Scene_Map);
+        });
+      });
+    };
+  })();
 })();

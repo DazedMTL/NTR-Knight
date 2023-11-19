@@ -65,100 +65,106 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    /**
-     * Get database meta information.
-     * @param object Database item
-     * @param name Meta name
-     * @returns {String} meta value
-     */
-    var getMetaValue = function (object, name) {
-        var tagName = param.commandPrefix + name;
-        return object.meta.hasOwnProperty(tagName) ? convertEscapeCharacters(object.meta[tagName]) : null;
-    };
+  /**
+   * Get database meta information.
+   * @param object Database item
+   * @param name Meta name
+   * @returns {String} meta value
+   */
+  var getMetaValue = function (object, name) {
+    var tagName = param.commandPrefix + name;
+    return object.meta.hasOwnProperty(tagName)
+      ? convertEscapeCharacters(object.meta[tagName])
+      : null;
+  };
 
-    /**
-     * Get database meta information.(for multi language)
-     * @param object Database item
-     * @param names Meta name array (for multi language)
-     * @returns {String} meta value
-     */
-    var getMetaValues = function (object, names) {
-        var metaValue;
-        names.some(function (name) {
-            metaValue = getMetaValue(object, name);
-            return metaValue !== null;
-        });
-        return metaValue;
-    };
+  /**
+   * Get database meta information.(for multi language)
+   * @param object Database item
+   * @param names Meta name array (for multi language)
+   * @returns {String} meta value
+   */
+  var getMetaValues = function (object, names) {
+    var metaValue;
+    names.some(function (name) {
+      metaValue = getMetaValue(object, name);
+      return metaValue !== null;
+    });
+    return metaValue;
+  };
 
-    /**
-     * Convert escape characters.(require any window object)
-     * @param text Target text
-     * @returns {String} Converted text
-     */
-    var convertEscapeCharacters = function (text) {
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
-    };
+  /**
+   * Convert escape characters.(require any window object)
+   * @param text Target text
+   * @returns {String} Converted text
+   */
+  var convertEscapeCharacters = function (text) {
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text.toString())
+      : text;
+  };
 
-    /**
-     * Create plugin parameter. param[paramName] ex. param.commandPrefix
-     * @param pluginName plugin name(EncounterSwitchConditions)
-     * @returns {Object} Created parameter
-     */
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
-            if (value === 'null') {
-                return value;
-            }
-            if (value[0] === '"' && value[value.length - 1] === '"') {
-                return value;
-            }
-            try {
-                return JSON.parse(value);
-            } catch (e) {
-                return value;
-            }
-        };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
-        PluginManager.setParameters(pluginName, parameter);
-        return parameter;
+  /**
+   * Create plugin parameter. param[paramName] ex. param.commandPrefix
+   * @param pluginName plugin name(EncounterSwitchConditions)
+   * @returns {Object} Created parameter
+   */
+  var createPluginParameter = function (pluginName) {
+    var paramReplacer = function (key, value) {
+      if (value === "null") {
+        return value;
+      }
+      if (value[0] === '"' && value[value.length - 1] === '"') {
+        return value;
+      }
+      try {
+        return JSON.parse(value);
+      } catch (e) {
+        return value;
+      }
     };
-    var param = createPluginParameter('EventMovableLimitation');
+    var parameter = JSON.parse(
+      JSON.stringify(PluginManager.parameters(pluginName), paramReplacer)
+    );
+    PluginManager.setParameters(pluginName, parameter);
+    return parameter;
+  };
+  var param = createPluginParameter("EventMovableLimitation");
 
-    var _Game_Event_initialize = Game_Event.prototype.initialize;
-    Game_Event.prototype.initialize = function (mapId, eventId) {
-        _Game_Event_initialize.apply(this, arguments);
-        var movables = getMetaValues(this.event(), ['移動制限', 'Movable']);
-        if (movables) {
-            this._movables = movables.split(',').map(function (value) {
-                return parseInt(value);
-            });
-            this._initX = this._x;
-            this._initY = this._y;
-        }
-    };
+  var _Game_Event_initialize = Game_Event.prototype.initialize;
+  Game_Event.prototype.initialize = function (mapId, eventId) {
+    _Game_Event_initialize.apply(this, arguments);
+    var movables = getMetaValues(this.event(), ["移動制限", "Movable"]);
+    if (movables) {
+      this._movables = movables.split(",").map(function (value) {
+        return parseInt(value);
+      });
+      this._initX = this._x;
+      this._initY = this._y;
+    }
+  };
 
-    var _Game_Event_canPass = Game_Event.prototype.canPass;
-    Game_Event.prototype.canPass = function (x, y, d) {
-        if (this._movables) {
-            var x2 = $gameMap.roundXWithDirection(x, d);
-            var y2 = $gameMap.roundYWithDirection(y, d);
-            if (this._movables[0] >= 0 && this._initY - y2 > this._movables[0]) {
-                return false;
-            }
-            if (this._movables[1] >= 0 && y2 - this._initY > this._movables[1]) {
-                return false;
-            }
-            if (this._movables[2] >= 0 && this._initX - x2 > this._movables[2]) {
-                return false;
-            }
-            if (this._movables[3] >= 0 && x2 - this._initX > this._movables[3]) {
-                return false;
-            }
-        }
-        return _Game_Event_canPass.apply(this, arguments);
-    };
+  var _Game_Event_canPass = Game_Event.prototype.canPass;
+  Game_Event.prototype.canPass = function (x, y, d) {
+    if (this._movables) {
+      var x2 = $gameMap.roundXWithDirection(x, d);
+      var y2 = $gameMap.roundYWithDirection(y, d);
+      if (this._movables[0] >= 0 && this._initY - y2 > this._movables[0]) {
+        return false;
+      }
+      if (this._movables[1] >= 0 && y2 - this._initY > this._movables[1]) {
+        return false;
+      }
+      if (this._movables[2] >= 0 && this._initX - x2 > this._movables[2]) {
+        return false;
+      }
+      if (this._movables[3] >= 0 && x2 - this._initX > this._movables[3]) {
+        return false;
+      }
+    }
+    return _Game_Event_canPass.apply(this, arguments);
+  };
 })();
