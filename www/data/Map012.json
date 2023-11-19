@@ -15810,7 +15810,7 @@
                             "code": 108,
                             "indent": 0,
                             "parameters": [
-                                "<ActiveMessage:用がないなら医務室に来るなよ>"
+                                "<ActiveMessage:If_you_don't_have_any_business,_don't_come_to_the_infirmary>"
                             ]
                         },
                         {
@@ -19050,7 +19050,7 @@
                             "code": 108,
                             "indent": 0,
                             "parameters": [
-                                "<ActiveMessage:ネモフィラ様にはお世話になっております>"
+                                "<ActiveMessage:I_am_indebted_to_Lord_Nemophila>"
                             ]
                         },
                         {

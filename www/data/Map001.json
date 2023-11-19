@@ -39444,7 +39444,7 @@
                             "code": 108,
                             "indent": 0,
                             "parameters": [
-                                "<ActiveMessage:ふぁぁ～>"
+                                "<ActiveMessage:*Yawn*>"
                             ]
                         },
                         {
@@ -42661,7 +42661,7 @@
                             "code": 108,
                             "indent": 0,
                             "parameters": [
-                                "<ActiveMessage:今日も残業か・・・>"
+                                "<ActiveMessage:Another_overtime_today>"
                             ]
                         },
                         {
@@ -42728,7 +42728,7 @@
                             "code": 108,
                             "indent": 0,
                             "parameters": [
-                                "<ActiveMessage:ここの生徒は手がかかるやつばかりだ>"
+                                "<ActiveMessage:The_students_here_are_all_so_high-maintenance>"
                             ]
                         },
                         {
