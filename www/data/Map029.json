@@ -3799,14 +3799,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[25]【武器屋】\\C[0]"
+                                "\\C[25]【Waffenladen】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「小さな店だが品質には自信があるぜ」"
+                                "It's a small shop, but I have confidence in the quality."
                             ]
                         },
                         {
@@ -3970,14 +3970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「この剣すごくいいわね・・・」"
+                                "This sword is really amazing..."
                             ]
                         },
                         {
@@ -3994,14 +3994,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「オリハルコン製・・・、タイラス産か・・・」"
+                                "Made of Orichalcum... is it from Tiras?"
                             ]
                         },
                         {
@@ -4034,14 +4034,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -4106,14 +4106,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あ、ごめんコリウス」"
+                                "Ah, sorry Coleus"
                             ]
                         },
                         {
@@ -4130,14 +4130,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ついつい夢中に・・・」"
+                                "I got carried away..."
                             ]
                         },
                         {
@@ -4145,8 +4145,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "好きなだけ見て",
-                                    "僕もこれいいと思う"
+                                    "Look as much as you like",
+                                    "I think this is good too"
                                 ],
                                 -1,
                                 0,
@@ -4247,14 +4247,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「本当に？」"
+                                "Really?"
                             ]
                         },
                         {
@@ -4271,14 +4271,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ありがとうコリウス」"
+                                "Thank you, Coleus"
                             ]
                         },
                         {
@@ -4379,14 +4379,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「やっぱりコリウスも分かる？」"
+                                "Coleus, do you understand after all?"
                             ]
                         },
                         {
@@ -4403,14 +4403,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「この剣のフォルムが・・・（専門用語）」"
+                                "The form of this sword... (specialized terminology)"
                             ]
                         },
                         {
@@ -4462,14 +4462,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そうだ、この後は久しぶりにいつも使ってた練習場所に行かない？」"
+                                "Yeah, after this, do you want to go to the practice place we always used to go\nto?"
                             ]
                         },
                         {
@@ -4484,7 +4484,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいね"
+                                    "Sounds good"
                                 ],
                                 -1,
                                 0,
@@ -4540,14 +4540,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「よし、決まりね」"
+                                "Alright, it's settled then"
                             ]
                         },
                         {

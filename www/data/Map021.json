@@ -1840,7 +1840,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "発生するイベントを変更しますか？"
+                                "Do you want to change the occurring event?"
                             ]
                         },
                         {
@@ -1848,8 +1848,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -1870,7 +1870,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ギアif(s[1981])"
+                                    "Gearif(s[1981])"
                                 ],
                                 -1,
                                 0,
@@ -1943,7 +1943,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ロックif(s[1982])"
+                                    "Rockif(s[1982])"
                                 ],
                                 -1,
                                 0,
@@ -2016,7 +2016,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ドンif(s[1983])"
+                                    "*Choose an option*if(s[1983])"
                                 ],
                                 -1,
                                 0,
@@ -2089,7 +2089,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "テアif(s[1984])"
+                                    "Theaif(s[1984])"
                                 ],
                                 -1,
                                 0,
@@ -2162,7 +2162,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ヘンジif(s[1985])"
+                                    "Hengeif(s[1985])"
                                 ],
                                 -1,
                                 0,
@@ -2235,7 +2235,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "止める"
+                                    "Stop it"
                                 ],
                                 -1,
                                 0,
@@ -2593,8 +2593,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "合宿を終える",
-                                    "いいえ"
+                                    "Finish the training camp",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -2674,7 +2674,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "合宿を終えた"
+                                "The training camp is over"
                             ]
                         },
                         {
@@ -2782,8 +2782,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想部屋に戻る",
-                                    "いいえ"
+                                    "Return to the flashback room",
+                                    "No"
                                 ],
                                 -1,
                                 0,

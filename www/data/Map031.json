@@ -1689,8 +1689,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "回想部屋に戻る",
-                                    "いいえ"
+                                    "Return to the flashback room",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -2385,14 +2385,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]ああっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]ah, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -2409,14 +2409,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ふっ・・ふっ・・」"
+                                "Huff... huff..."
                             ]
                         },
                         {
@@ -2551,14 +2551,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]ああっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]Ah, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -2575,14 +2575,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「イっちゃう・・\\C[18]♥\\C[0]」"
+                                "I'm gonna cum.. \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -2717,14 +2717,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]ああっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]ah, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -2741,14 +2741,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もっと・・\\C[18]♥\\C[0]」"
+                                "More.. \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -2864,14 +2864,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]」"
+                                "Haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3005,8 +3005,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "見る",
-                                    "いいえ"
+                                    "Look",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -3127,14 +3127,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]あっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]ah, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3151,14 +3151,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ダメよ、カンニングなんかしちゃ・・\\C[18]♥\\C[0]」"
+                                "No, you can't cheat...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3175,14 +3175,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「はい・・すみませんでした」"
+                                "Yes.. I'm sorry"
                             ]
                         },
                         {
@@ -3199,14 +3199,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「反省してます」"
+                                "I'm reflecting on it"
                             ]
                         },
                         {
@@ -3223,14 +3223,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「じゃあ・・\\C[18]♥\\C[0]」"
+                                "Well then.. \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3247,14 +3247,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いっぱい私のおマンコで気持ちよくなって・・\\C[18]♥\\C[0]」"
+                                "Please feel good with my pussy.. \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3271,14 +3271,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「はい！」"
+                                "Yes!"
                             ]
                         },
                         {
@@ -3386,14 +3386,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh, \\C[18]♥\\C[0]ah, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -3410,14 +3410,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「す・・すごい激しい\\C[18]♥♥♥\\C[0]」"
+                                "S...so intense \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3434,14 +3434,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「本当に反省してる？\\C[18]♥♥♥\\C[0]」"
+                                "Are you really reflecting on it? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3458,14 +3458,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「してます！」"
+                                "I'm doing it!"
                             ]
                         },
                         {
@@ -3482,14 +3482,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おちんちんは全然反省してないみたいだけど・・\\C[18]♥♥♥\\C[0]」"
+                                "It seems like your dick isn't reflecting at all.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3513,14 +3513,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁ\\C[18]♥♥♥\\C[0]イっちゃう・・\\C[18]♥♥♥\\C[0]」"
+                                "Ah, I'm cumming.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3651,14 +3651,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh, \\C[18]♥♥♥\\C[0]ah, \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3675,14 +3675,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「す・・すごい・・\\C[18]♥♥♥\\C[0]」"
+                                "A...amazing...\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3760,14 +3760,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いいよ・・\\C[18]♥♥♥\\C[0]」"
+                                "It's okay..\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3784,14 +3784,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もっとして・・\\C[18]♥♥♥\\C[0]」"
+                                "Do it more..\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3808,14 +3808,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁ・・そんな誘惑されたら・・」"
+                                "Ah.. if you tempt me like that.."
                             ]
                         },
                         {
@@ -3893,14 +3893,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ah \\C[18]♥♥♥\\C[0] ah \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -3917,14 +3917,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「それっ・・気持ちぃ\\C[18]♥♥♥\\C[0]」"
+                                "There... it feels so good \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4025,14 +4025,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4103,14 +4103,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もっと・・\\C[18]♥♥♥\\C[0]」"
+                                "More..\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4127,14 +4127,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「だ・・ダメですイっちゃいそうです」"
+                                "I... I can't help it, I'm about to cum"
                             ]
                         },
                         {
@@ -4272,14 +4272,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ah \\C[18]♥♥♥\\C[0] ah \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4296,14 +4296,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いいよいっぱい出して\\C[18]♥♥♥\\C[0]」"
+                                "It's okay, let it all out \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4320,14 +4320,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「邪気をしっかり体から出してっ\\C[18]♥♥♥\\C[0]」"
+                                "Make sure to release all the bad energy from your body \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4351,14 +4351,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁっ・・イク！」"
+                                "Ah.. I'm cumming!"
                             ]
                         },
                         {
@@ -4515,14 +4515,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4539,14 +4539,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あ・・あぁ」"
+                                "Ah...ah"
                             ]
                         },
                         {
@@ -4563,14 +4563,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「き・・気持ちよかった」"
+                                "It... it felt good"
                             ]
                         },
                         {
@@ -4587,14 +4587,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もう悪いことしちゃダメよ\\C[18]♥♥♥\\C[0]」"
+                                "You mustn't do bad things anymore, okay \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -4611,14 +4611,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「はい、先生・・」"
+                                "Yes, teacher.."
                             ]
                         },
                         {
@@ -4895,8 +4895,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "見る",
-                                    "いいえ"
+                                    "Look",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -5017,14 +5017,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5041,14 +5041,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁ・・気持ちいぃ」"
+                                "Ahh... feels good"
                             ]
                         },
                         {
@@ -5065,14 +5065,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「す・・すごい\\C[18]♥♥♥\\C[0]」"
+                                "A-Awesome \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5089,14 +5089,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「イ・・イっちゃう\\C[18]♥♥♥\\C[0]」"
+                                "I-I'm gonna \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5197,14 +5197,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5221,14 +5221,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁ、すごい締まる・・」"
+                                "Ah, it's tightening so much.."
                             ]
                         },
                         {
@@ -5359,14 +5359,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5383,14 +5383,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁ・・イキます先生っ」"
+                                "Ahh... I'm cumming, Sensei"
                             ]
                         },
                         {
@@ -5407,14 +5407,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いいよ\\C[18]♥♥♥\\C[0]」"
+                                "It's good \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5431,14 +5431,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「私の中にいっぱいビュッビュッしてっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Fill me up with your \\C[18]♥♥♥\\C[0] until I'm bursting.."
                             ]
                         },
                         {
@@ -5462,14 +5462,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁっ・・イク！」"
+                                "Ahh... I'm cumming!"
                             ]
                         },
                         {
@@ -5626,14 +5626,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5650,14 +5650,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あ・・あぁ」"
+                                "Ah... ahh"
                             ]
                         },
                         {
@@ -5674,14 +5674,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「気持ちよかった・・」"
+                                "It felt good.."
                             ]
                         },
                         {
@@ -5902,14 +5902,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ah \\C[18]♥♥♥\\C[0] Ah \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5926,14 +5926,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「君は何をしたの？\\C[18]♥♥♥\\C[0]」"
+                                "What did you do? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5950,14 +5950,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「僕は面倒くさいと思って訓練をサボってしまいました・・」"
+                                "I thought it was troublesome, so I ended up skipping the training.."
                             ]
                         },
                         {
@@ -5974,14 +5974,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「それはいけないわね・・\\C[18]♥♥♥\\C[0]」"
+                                "That's not good.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -5998,14 +5998,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ここで気持ちよくなって次からはちゃんと訓練に出ないとね\\C[18]♥♥♥\\C[0]」"
+                                "Feel good here, but make sure to attend the training properly next time, okay\n\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6022,14 +6022,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「は・・はい！」"
+                                "Y-Yes!"
                             ]
                         },
                         {
@@ -6100,14 +6100,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh, \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6124,14 +6124,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「うぅ・・気持ちよすぎる」"
+                                "Ugh... it feels too good"
                             ]
                         },
                         {
@@ -6155,14 +6155,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁっ・・イク！」"
+                                "Ah... I'm cumming!"
                             ]
                         },
                         {
@@ -6319,14 +6319,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6343,14 +6343,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もう出ちゃったの・・？\\C[18]♥♥♥\\C[0]」"
+                                "Already came..? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6367,14 +6367,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「次はちゃんと訓練で鍛えて私を気持ちよくしてね\\C[18]♥♥♥\\C[0]」"
+                                "Next time, make sure to train me properly and make me feel good \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6391,14 +6391,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「は・・はい！」"
+                                "Y-Yes!"
                             ]
                         },
                         {
@@ -6591,14 +6591,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あっ\\C[18]♥♥♥\\C[0]あっ\\C[18]♥♥♥\\C[0]」"
+                                "Ah \\C[18]♥♥♥\\C[0] Ah \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6699,14 +6699,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6723,14 +6723,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「君は何をしたのかな？\\C[18]♥♥♥\\C[0]」"
+                                "I wonder what you did? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6747,14 +6747,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「僕はネモフィラ先生のパンツを盗んでしまいました」"
+                                "I accidentally stole Nemophila-sensei's panties"
                             ]
                         },
                         {
@@ -6771,14 +6771,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「！\\C[18]♥♥♥\\C[0]」"
+                                "「!\\C[18]♥♥♥\\C[0]」"
                             ]
                         },
                         {
@@ -6795,14 +6795,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「それでどうしたのかな・・？\\C[18]♥♥♥\\C[0]」"
+                                "I wonder what you did after that..? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6819,14 +6819,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「自慰行為をしてしまいました・・」"
+                                "I ended up masturbating.."
                             ]
                         },
                         {
@@ -6843,14 +6843,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ダメよ人のパンツを盗んで自慰行為なんかしちゃ・・\\C[18]♥♥♥\\C[0]」"
+                                "It's no good to steal someone's panties and then masturbate.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6867,14 +6867,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「は・・はい」"
+                                "Y-Yes"
                             ]
                         },
                         {
@@ -6891,14 +6891,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いつでも言ってくれればおマンコ使わせてあげたのに・・\\C[18]♥♥♥\\C[0]」"
+                                "If you had just told me, I would have let you use my pussy anytime..\n\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6915,14 +6915,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「・・！！」"
+                                "「..!!」"
                             ]
                         },
                         {
@@ -6993,14 +6993,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7017,14 +7017,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「興奮したの？激しいよ\\C[18]♥♥♥\\C[0]」"
+                                "Are you excited? It's intense \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7041,14 +7041,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ね・・ネモフィラ先生のマンコ気持ちいい！」"
+                                "N-Nemophila-sensei's pussy feels good!"
                             ]
                         },
                         {
@@ -7065,14 +7065,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]イクっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] I'm cumming \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7227,14 +7227,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7251,14 +7251,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ちょっとダメっ\\C[18]♥♥♥\\C[0]」"
+                                "No, not there \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7275,14 +7275,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おマンコ敏感になってるのにそんな激しいのされたらっ\\C[18]♥♥♥\\C[0]」"
+                                "Even though my pussy is sensitive, if you do something so intense\n\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7299,14 +7299,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あああっ・・」"
+                                "A-Ahh.."
                             ]
                         },
                         {
@@ -7461,14 +7461,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7485,14 +7485,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おちんちん全然反省してないっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Your dick hasn't reflected at all.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7509,14 +7509,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「反省しないおちんちんにイかされるっ・・\\C[18]♥♥♥\\C[0]」"
+                                "I'm being made to cum by a dick that doesn't reflect on itself..\n\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7671,14 +7671,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7695,14 +7695,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あああっ・・出る！」"
+                                "A-Ahh.. I'm cumming!"
                             ]
                         },
                         {
@@ -7859,14 +7859,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Nemophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] I'm cumming \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7883,14 +7883,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「す・・すごい\\C[18]♥♥♥\\C[0]」"
+                                "A-Amazing \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -7907,14 +7907,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[1]【訓練生】\\C[0]"
+                                "\\C[1]【Trainee】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「はぁ・・はぁ・・、すみませんでした」"
+                                "Haa.. haa.., I'm sorry"
                             ]
                         },
                         {
@@ -7943,7 +7943,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "その後も列が絶えることはなく、ネモフィラ先生は男子生徒の欲望を受け止め続けた"
+                                "After that, the line of students never ceased, and Professor Nemophila\ncontinued to accept the desires of the male students."
                             ]
                         },
                         {
@@ -8235,8 +8235,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "見る",
-                                    "いいえ"
+                                    "Look",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8385,8 +8385,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "挿入する",
-                                    "いいえ"
+                                    "Insert",
+                                    "No"
                                 ],
                                 -1,
                                 0,

@@ -2576,7 +2576,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -2764,7 +2764,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -2961,7 +2961,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -3069,7 +3069,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -3346,7 +3346,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -3454,7 +3454,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -3642,7 +3642,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "外訓練場に行く"
+                                "Going to the outdoor training ground"
                             ]
                         },
                         {
@@ -7749,7 +7749,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "兵舎のベッドで就寝しましょう"
+                                "Let's sleep in the barracks' bed."
                             ]
                         },
                         {
@@ -7767,8 +7767,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "時間経過させる",
-                                    "いいえ"
+                                    "Pass the time",
+                                    "No"
                                 ],
                                 -1,
                                 0,

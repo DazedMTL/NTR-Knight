@@ -6728,7 +6728,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "空だった！"
+                                "It's empty!"
                             ]
                         },
                         {
@@ -7167,7 +7167,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "空だった！"
+                                "It's empty!"
                             ]
                         },
                         {
@@ -7334,14 +7334,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【リドミ】\\C[0]"
+                                "\\C[2]【Ridomi】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ロック先生とアーテル先生、小屋入ってたな・・・」"
+                                "Rock-sensei and Artel-sensei, were in the cabin..."
                             ]
                         },
                         {
@@ -7368,14 +7368,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【リドミ】\\C[0]"
+                                "\\C[2]【Ridomi】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「将来はこういう場所に住みたいな・・・」"
+                                "I want to live in a place like this in the future..."
                             ]
                         },
                         {
@@ -7955,14 +7955,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ・・んっ\\C[18]♥\\C[0]」"
+                                "Nn... Nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -7979,14 +7979,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こんないい女が手に入ったんだ」"
+                                "I've got such a good woman."
                             ]
                         },
                         {
@@ -8003,14 +8003,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ガキの子守りなんかしてられるか」"
+                                "I can't be bothered to babysit a brat."
                             ]
                         },
                         {
@@ -8027,14 +8027,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もっとしっかりしゃぶれ」"
+                                "Suck it more firmly"
                             ]
                         },
                         {
@@ -8123,14 +8123,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んんっ\\C[18]♥\\C[0]んんっ\\C[18]♥\\C[0]」"
+                                "Nn... Nn \\C[18]♥\\C[0] Nn... Nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8147,14 +8147,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ううっ・・」"
+                                "Ugh..."
                             ]
                         },
                         {
@@ -8250,14 +8250,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んんんんっ\\C[18]♥♥♥\\C[0]」"
+                                "Nnnn \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8274,14 +8274,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ・・・何て口してやがる」"
+                                "Ah... what a mouth you have"
                             ]
                         },
                         {
@@ -8298,14 +8298,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「全身名器だぜ」"
+                                "I'm a perfect specimen all over"
                             ]
                         },
                         {
@@ -8364,14 +8364,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んんんんっ\\C[18]♥♥♥\\C[0]」"
+                                "Nnnnn \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8395,14 +8395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ・・・、やべっ」"
+                                "Ahh... oh no"
                             ]
                         },
                         {
@@ -8456,14 +8456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ・・んっ\\C[18]♥\\C[0]」"
+                                "Nn... Nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8480,14 +8480,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もう少しで出るとこだったぜ」"
+                                "I was about to cum soon"
                             ]
                         },
                         {
@@ -8504,14 +8504,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「出すならたっぷりと中に出してやらないとな」"
+                                "If I'm going to cum, I'll make sure to release plenty inside."
                             ]
                         },
                         {
@@ -8670,14 +8670,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「！！\\C[18]♥♥♥\\C[0]」"
+                                "「!!\\C[18]♥♥♥\\C[0]」"
                             ]
                         },
                         {
@@ -8694,14 +8694,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「何してっ！？\\C[18]♥♥♥\\C[0]」"
+                                "What are you doing!? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8718,14 +8718,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「気づいたか？」"
+                                "Did you notice?"
                             ]
                         },
                         {
@@ -8742,14 +8742,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「さっきまで、美味しそうにチンコしゃぶってたぜ」"
+                                "Just now, you were sucking my cock so eagerly"
                             ]
                         },
                         {
@@ -8766,14 +8766,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（また、催眠をかけられて遊ばれていたの？\\C[18]♥♥♥\\C[0]）"
+                                "Were you being played with under hypnosis again? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8790,14 +8790,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こっ・・こんな事してる場合じゃっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Th...This isn't the time for doing this kind of thing... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8814,14 +8814,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「早く見回りに戻らないとっ・・\\C[18]♥♥♥\\C[0]」"
+                                "I need to return to patrolling quickly... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8922,14 +8922,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ohh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -8946,14 +8946,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「２人で抜け出したから噂になってるかもなぁ？」"
+                                "We might be the talk of the town for sneaking away together, huh?"
                             ]
                         },
                         {
@@ -8970,14 +8970,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（仕事ほったらかしてこんなとこでハメられてるってバレたらっ・・\\C[18]♥♥♥\\C[0]）"
+                                "(If they find out I'm neglecting my duties and getting fucked in a place like\nthis... \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -9108,14 +9108,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9132,14 +9132,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「も・・もう止めろっ\\C[18]♥♥♥\\C[0]」"
+                                "S...Stop it already \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9156,14 +9156,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「バレたら大変なことにっ・・\\C[18]♥♥♥\\C[0]」"
+                                "If they find out, it'll be a big problem... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9264,14 +9264,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9288,14 +9288,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっ・・おくっ\\C[18]♥♥♥\\C[0]」"
+                                "O-oh... okay \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9312,14 +9312,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おら」"
+                                "Hey"
                             ]
                         },
                         {
@@ -9336,14 +9336,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「早く中に出すためにピストン早めてやったぜ」"
+                                "I sped up my piston to cum quickly inside"
                             ]
                         },
                         {
@@ -9360,14 +9360,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「っ～～～～\\C[18]♥♥♥\\C[0]」"
+                                "Nnnn~ \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9384,14 +9384,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そういう意味じゃないっ\\C[18]♥♥♥\\C[0]」"
+                                "That's not what I meant \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9546,14 +9546,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9570,14 +9570,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「イったっ\\C[18]♥♥♥\\C[0]」"
+                                "I'm cumming \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9601,14 +9601,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「またっイクっ\\C[18]♥♥♥\\C[0]」"
+                                "I'm cumming again \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9823,14 +9823,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oh \\C[18]♥♥♥\\C[0] oh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9847,14 +9847,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いっ・・イったのに\\C[18]♥♥♥\\C[0]」"
+                                "I... I came \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9939,14 +9939,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oh \\C[18]♥♥♥\\C[0] oh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -9963,14 +9963,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ・・出すぞ」"
+                                "Ahh... I'm going to release"
                             ]
                         },
                         {
@@ -9987,14 +9987,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「仕事中に女騎士のマンコに・・」"
+                                "During work, I'm going to pussy of the female knight.."
                             ]
                         },
                         {
@@ -10011,14 +10011,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（私の中に射精するために大きくなってるのが分かるっ・・\\C[18]♥♥♥\\C[0]）"
+                                "(I can tell it's getting bigger to ejaculate inside me.. \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -10042,14 +10042,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「出るっ！」"
+                                "I'm coming!"
                             ]
                         },
                         {
@@ -10206,14 +10206,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]あああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -10230,14 +10230,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あぁっ・・」"
+                                "Ahh..."
                             ]
                         },
                         {
@@ -10254,14 +10254,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]中にっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] inside... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -10278,14 +10278,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「じゃあ先に俺が戻るからな」"
+                                "Well then, I'll go back first."
                             ]
                         },
                         {
@@ -10302,14 +10302,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「しっかり隠して戻って来いよ♪」"
+                                "Make sure to hide it well and come back♪"
                             ]
                         },
                         {
@@ -10326,14 +10326,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（そんなっ・・無責任な\\C[18]♥♥♥\\C[0]）"
+                                "(That's so... irresponsible \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -10350,14 +10350,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（学校に戻るまで隠さなきゃいけないのに・・\\C[18]♥♥♥\\C[0]）"
+                                "(I have to hide it until we return to school.. \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -10597,8 +10597,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "覗く",
-                                    "いいえ"
+                                    "Peeking",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10768,14 +10768,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「んっ・・んっ\\C[18]♥\\C[0]」"
+                                "Nn... nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10792,14 +10792,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「こんないい女が手に入ったんだ」"
+                                "I've got such a good woman."
                             ]
                         },
                         {
@@ -10816,14 +10816,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ガキの子守りなんかしてられるか」"
+                                "I can't be bothered to babysit a brat."
                             ]
                         },
                         {
@@ -10840,14 +10840,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もっとしっかりしゃぶれ」"
+                                "Suck it more firmly"
                             ]
                         },
                         {
@@ -10936,14 +10936,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「んんっ\\C[18]♥\\C[0]んんっ\\C[18]♥\\C[0]」"
+                                "Nn... nn \\C[18]♥\\C[0]nn... nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10960,14 +10960,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ううっ・・」"
+                                "Ugh..."
                             ]
                         },
                         {
@@ -11063,14 +11063,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「んんんんっ\\C[18]♥♥♥\\C[0]」"
+                                "Nnnn \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11087,14 +11087,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ・・・何て口してやがる」"
+                                "Ah... what a mouth you have"
                             ]
                         },
                         {
@@ -11111,14 +11111,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「全身名器だぜ」"
+                                "I'm a perfect specimen all over"
                             ]
                         },
                         {
@@ -11177,14 +11177,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「んんんんっ\\C[18]♥♥♥\\C[0]」"
+                                "Nnnn \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11208,14 +11208,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ・・・、やべっ」"
+                                "Ah... oh no"
                             ]
                         },
                         {
@@ -11269,14 +11269,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「んっ・・んっ\\C[18]♥\\C[0]」"
+                                "Nn... nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -11293,14 +11293,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もう少しで出るとこだったぜ」"
+                                "I was about to cum soon"
                             ]
                         },
                         {
@@ -11317,14 +11317,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「出すならたっぷりと中に出してやらないとな」"
+                                "If I'm going to cum, I'll make sure to release plenty inside"
                             ]
                         },
                         {
@@ -11483,14 +11483,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「！！\\C[18]♥♥♥\\C[0]」"
+                                "「!!\\C[18]♥♥♥\\C[0]」"
                             ]
                         },
                         {
@@ -11507,14 +11507,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「何してっ！？\\C[18]♥♥♥\\C[0]」"
+                                "What are you doing!? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11531,14 +11531,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「気づいたか？」"
+                                "Did you notice?"
                             ]
                         },
                         {
@@ -11555,14 +11555,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「さっきまで、美味しそうにチンコしゃぶってたぜ」"
+                                "Just now, you were sucking my cock so deliciously"
                             ]
                         },
                         {
@@ -11579,14 +11579,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（また、催眠をかけられて遊ばれていたの？\\C[18]♥♥♥\\C[0]）"
+                                "Were you being played with under hypnosis again? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11603,14 +11603,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「こっ・・こんな事してる場合じゃっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Th...This isn't the time for doing this kind of thing...\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11627,14 +11627,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「早く見回りに戻らないとっ・・\\C[18]♥♥♥\\C[0]」"
+                                "You need to return to your patrol quickly... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11735,14 +11735,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ohh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11759,14 +11759,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「２人で抜け出したから噂になってるかもなぁ？」"
+                                "I wonder if we're becoming the talk of the town for sneaking away together?"
                             ]
                         },
                         {
@@ -11783,14 +11783,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（仕事ほったらかしてこんなとこでハメられてるってバレたらっ・・\\C[18]♥♥♥\\C[0]）"
+                                "(If it's found out that we're neglecting our work and fooling around like\nthis... \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -11921,14 +11921,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11945,14 +11945,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「も・・もう止めろっ\\C[18]♥♥♥\\C[0]」"
+                                "S...Stop it already \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11969,14 +11969,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「バレたら大変なことにっ・・\\C[18]♥♥♥\\C[0]」"
+                                "If we're found out, it'll be a big problem... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12077,14 +12077,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12101,14 +12101,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おっ・・おくっ\\C[18]♥♥♥\\C[0]」"
+                                "O-oh... O-kku \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12125,14 +12125,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おら」"
+                                "Hey"
                             ]
                         },
                         {
@@ -12149,14 +12149,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「早く中に出すためにピストン早めてやったぜ」"
+                                "I sped up my piston to cum quickly inside"
                             ]
                         },
                         {
@@ -12173,14 +12173,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「っ～～～～\\C[18]♥♥♥\\C[0]」"
+                                "N-nooo~ \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12197,14 +12197,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「そういう意味じゃないっ\\C[18]♥♥♥\\C[0]」"
+                                "That's not what I meant \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12359,14 +12359,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おおおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12383,14 +12383,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「イったっ\\C[18]♥♥♥\\C[0]」"
+                                "I'm cumming \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12414,14 +12414,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「またっイクっ\\C[18]♥♥♥\\C[0]」"
+                                "I'm cumming again \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12636,14 +12636,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oh \\C[18]♥♥♥\\C[0] oh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12660,14 +12660,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いっ・・イったのに\\C[18]♥♥♥\\C[0]」"
+                                "I... I came \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12752,14 +12752,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「おっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Oh \\C[18]♥♥♥\\C[0] oh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -12776,14 +12776,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ・・出すぞ」"
+                                "Ahh... I'm going to release"
                             ]
                         },
                         {
@@ -12800,14 +12800,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「仕事中に女騎士のマンコに・・」"
+                                "During work, I'm going to cum inside the female knight's pussy.."
                             ]
                         },
                         {
@@ -12824,14 +12824,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（私の中に射精するために大きくなってるのが分かるっ・・\\C[18]♥♥♥\\C[0]）"
+                                "(I can tell it's getting bigger to ejaculate inside me.. \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -12855,14 +12855,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「出るっ！」"
+                                "I'm coming!"
                             ]
                         },
                         {
@@ -13019,14 +13019,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]あああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahhh \\C[18]♥♥♥\\C[0] ahhhh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -13043,14 +13043,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あぁっ・・」"
+                                "Ahh..."
                             ]
                         },
                         {
@@ -13067,14 +13067,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]中にっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] inside.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -13091,14 +13091,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「じゃあ先に俺が戻るからな」"
+                                "Well then, I'll head back first."
                             ]
                         },
                         {
@@ -13115,14 +13115,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「しっかり隠して戻って来いよ♪」"
+                                "Make sure to hide it well and come back♪"
                             ]
                         },
                         {
@@ -13139,14 +13139,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（そんなっ・・無責任な\\C[18]♥♥♥\\C[0]）"
+                                "(That's so irresponsible... \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -13163,14 +13163,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（学校に戻るまで隠さなきゃいけないのに・・\\C[18]♥♥♥\\C[0]）"
+                                "(I have to hide it until we get back to school.. \\C[18]♥♥♥\\C[0])"
                             ]
                         },
                         {
@@ -13722,14 +13722,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ\\C[18]♥\\C[0]んっ\\C[18]♥\\C[0]」"
+                                "Nn \\C[18]♥\\C[0] nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -13746,14 +13746,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「見回りしないといけないのにこんな事して・・\\C[18]♥\\C[0]」"
+                                "I have to do my rounds, but I'm doing this kind of thing... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -13770,14 +13770,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「は・・早く終わらせよ\\C[18]♥\\C[0]」"
+                                "Hurry and finish it \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -13873,14 +13873,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んんっ\\C[18]♥♥♥\\C[0]」"
+                                "Nnn \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -13897,14 +13897,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「気持ちいい？\\C[18]♥♥♥\\C[0]」"
+                                "Feels good? \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14000,14 +14000,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ\\C[18]♥\\C[0]んっ\\C[18]♥\\C[0]」"
+                                "Nn \\C[18]♥\\C[0] nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14073,14 +14073,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ\\C[18]♥\\C[0]んっ\\C[18]♥\\C[0]」"
+                                "Nn \\C[18]♥\\C[0] nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14097,14 +14097,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ\\C[18]♥\\C[0]んっ\\C[18]♥\\C[0]」"
+                                "Nn \\C[18]♥\\C[0] nn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14112,7 +14112,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "アーテル止まって・・"
+                                    "Artel, stop"
                                 ],
                                 -1,
                                 0,
@@ -14152,14 +14152,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「え・・どうしたの？\\C[18]♥\\C[0]」"
+                                "Eh... What's wrong? \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14167,7 +14167,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "中に出したい"
+                                    "I want to cum inside"
                                 ],
                                 -1,
                                 0,
@@ -14207,14 +14207,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・\\C[18]♥\\C[0]」"
+                                "「...\\C[18]♥\\C[0]」"
                             ]
                         },
                         {
@@ -14231,14 +14231,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「わ・・分かったわ\\C[18]♥\\C[0]」"
+                                "I... I understand \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14372,14 +14372,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]あっ\\C[18]♥\\C[0]」"
+                                "Ah \\C[18]♥\\C[0] Ah \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -14396,14 +14396,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス・・\\C[18]♥♥♥\\C[0]」"
+                                "Coleus... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14420,14 +14420,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「気持ちいい\\C[18]♥♥♥\\C[0]」"
+                                "It feels good \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14444,14 +14444,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「けど・・やっぱり長くいないと怪しまれるから・・\\C[18]♥♥♥\\C[0]」"
+                                "But... if I stay too long, I'll be suspected after all \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14468,14 +14468,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「その・・なんて言うのかな・・\\C[18]♥♥♥\\C[0]」"
+                                "Um... what should I say... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14483,7 +14483,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いっぱい突いてあげる"
+                                    "I'll thrust a lot"
                                 ],
                                 -1,
                                 0,
@@ -14607,14 +14607,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahhh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14631,14 +14631,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「き・・気持ちいぃ・・\\C[18]♥♥♥\\C[0]」"
+                                "I-It feels gooood... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14769,14 +14769,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14847,14 +14847,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ohhh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14871,14 +14871,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「待ってコリウス\\C[18]♥♥♥\\C[0]」"
+                                "Wait, Coleus \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -14895,14 +14895,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そんな意地悪しないでっ・・\\C[18]♥♥♥\\C[0]」"
+                                "Don't be so mean... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15003,14 +15003,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15027,14 +15027,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ダメっ・・\\C[18]♥♥♥\\C[0]」"
+                                "No... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15051,14 +15051,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そんな時間無いって・・\\C[18]♥♥♥\\C[0]」"
+                                "We don't have time for that... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15159,14 +15159,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahhhh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15244,14 +15244,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15268,14 +15268,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「待って\\C[18]♥♥♥\\C[0]」"
+                                "Wait, \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15292,14 +15292,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「早くって言ったけど・・\\C[18]♥♥♥\\C[0]」"
+                                "I said hurry up, but... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15316,272 +15316,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そんな激しくされたらっ・・\\C[18]♥♥♥\\C[0]」"
-                            ]
-                        },
-                        {
-                            "code": 230,
-                            "indent": 0,
-                            "parameters": [
-                                180
-                            ]
-                        },
-                        {
-                            "code": 246,
-                            "indent": 0,
-                            "parameters": [
-                                1
-                            ]
-                        },
-                        {
-                            "code": 241,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "吐息3",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_INIT 45 2 連番 0"
-                            ]
-                        },
-                        {
-                            "code": 231,
-                            "indent": 0,
-                            "parameters": [
-                                10,
-                                "主人公バック絶頂_000",
-                                0,
-                                0,
-                                0,
-                                0,
-                                100,
-                                100,
-                                255,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_START_LOOP 10 1"
-                            ]
-                        },
-                        {
-                            "code": 224,
-                            "indent": 0,
-                            "parameters": [
-                                [
-                                    255,
-                                    255,
-                                    255,
-                                    68
-                                ],
-                                60,
-                                true
-                            ]
-                        },
-                        {
-                            "code": 224,
-                            "indent": 0,
-                            "parameters": [
-                                [
-                                    255,
-                                    255,
-                                    255,
-                                    68
-                                ],
-                                60,
-                                true
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
-                            ]
-                        },
-                        {
-                            "code": 241,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "喘ぎ声(オホ声)2",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 245,
-                            "indent": 0,
-                            "parameters": [
-                                {
-                                    "name": "ハイピストン１",
-                                    "volume": 90,
-                                    "pitch": 100,
-                                    "pan": 0
-                                }
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_INIT 40 2 連番 0"
-                            ]
-                        },
-                        {
-                            "code": 231,
-                            "indent": 0,
-                            "parameters": [
-                                10,
-                                "主人公バック3_000",
-                                0,
-                                0,
-                                0,
-                                0,
-                                100,
-                                100,
-                                255,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_START_LOOP 10 1"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「ご・・ごんなさいコリウスっ\\C[18]♥♥♥\\C[0]」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「早くって言ったけどゆっくりでいいから\\C[18]♥♥♥\\C[0]」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「そんな激しくしないでっ・・\\C[18]♥♥♥\\C[0]」"
+                                "If you do it so intensely like that... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15669,6 +15411,30 @@
                             ]
                         },
                         {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\C[4]【Artel】\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
+                            ]
+                        },
+                        {
                             "code": 241,
                             "indent": 0,
                             "parameters": [
@@ -15723,63 +15489,27 @@
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 101,
                             "indent": 0,
                             "parameters": [
-                                "PA_INIT 46 2 連番 0"
+                                "",
+                                0,
+                                2,
+                                2
                             ]
                         },
                         {
-                            "code": 231,
+                            "code": 401,
                             "indent": 0,
                             "parameters": [
-                                11,
-                                "主人公バック射精_000",
-                                0,
-                                0,
-                                0,
-                                0,
-                                100,
-                                100,
-                                0,
-                                0
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
-                            "code": 356,
+                            "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "PA_START 11 1"
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_INIT 45 2 連番 0"
-                            ]
-                        },
-                        {
-                            "code": 231,
-                            "indent": 0,
-                            "parameters": [
-                                12,
-                                "主人公バック射精後_000",
-                                0,
-                                0,
-                                0,
-                                0,
-                                100,
-                                100,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 0,
-                            "parameters": [
-                                "PA_START 12 1"
+                                "Oooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15796,14 +15526,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "P-Please... stop it, Coleus \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -15820,14 +15550,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「イクっイクっ\\C[18]♥♥♥\\C[0]」"
+                                "I said hurry up, but it's okay to take it slow \\C[18]♥♥♥\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\C[4]【Artel】\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Don't do it so intensely... \\C[18]♥♥♥\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 230,
+                            "indent": 0,
+                            "parameters": [
+                                180
                             ]
                         },
                         {
@@ -16035,14 +15796,253 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\C[4]【Artel】\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "I'm cumming, I'm cumming \\C[18]♥♥♥\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 246,
+                            "indent": 0,
+                            "parameters": [
+                                1
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "吐息3",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_INIT 45 2 連番 0"
+                            ]
+                        },
+                        {
+                            "code": 231,
+                            "indent": 0,
+                            "parameters": [
+                                10,
+                                "主人公バック絶頂_000",
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                255,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_START_LOOP 10 1"
+                            ]
+                        },
+                        {
+                            "code": 224,
+                            "indent": 0,
+                            "parameters": [
+                                [
+                                    255,
+                                    255,
+                                    255,
+                                    68
+                                ],
+                                60,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 224,
+                            "indent": 0,
+                            "parameters": [
+                                [
+                                    255,
+                                    255,
+                                    255,
+                                    68
+                                ],
+                                60,
+                                true
+                            ]
+                        },
+                        {
+                            "code": 241,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "喘ぎ声(オホ声)2",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 245,
+                            "indent": 0,
+                            "parameters": [
+                                {
+                                    "name": "ハイピストン１",
+                                    "volume": 90,
+                                    "pitch": 100,
+                                    "pan": 0
+                                }
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_INIT 40 2 連番 0"
+                            ]
+                        },
+                        {
+                            "code": 231,
+                            "indent": 0,
+                            "parameters": [
+                                10,
+                                "主人公バック3_000",
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                255,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_START_LOOP 10 1"
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_INIT 46 2 連番 0"
+                            ]
+                        },
+                        {
+                            "code": 231,
+                            "indent": 0,
+                            "parameters": [
+                                11,
+                                "主人公バック射精_000",
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_START 11 1"
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_INIT 45 2 連番 0"
+                            ]
+                        },
+                        {
+                            "code": 231,
+                            "indent": 0,
+                            "parameters": [
+                                12,
+                                "主人公バック射精後_000",
+                                0,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 0,
+                            "parameters": [
+                                "PA_START 12 1"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\C[4]【Artel】\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Oooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -16057,7 +16057,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "射精する"
+                                    "Ejaculate"
                                 ],
                                 -1,
                                 0,
@@ -16237,14 +16237,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh \\C[18]♥♥♥\\C[0] Ahh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -16261,14 +16261,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こんなのされたらっ・・\\C[18]♥♥♥\\C[0]」"
+                                "If you do something like this... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -16285,14 +16285,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「この後まともに見回りできないっ・・\\C[18]♥♥♥\\C[0]」"
+                                "I won't be able to do a proper patrol after this... \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {

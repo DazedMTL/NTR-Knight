@@ -3001,7 +3001,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "コリウスは村を出て王都の宿屋で働いていた"
+                                "Coleus was working at an inn in the royal capital after leaving the village"
                             ]
                         },
                         {
@@ -3039,14 +3039,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【宿泊客】\\C[0]"
+                                "\\C[2]【Guest】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「すみません、一部屋お願いします」"
+                                "Excuse me, I'd like to request a room"
                             ]
                         },
                         {
@@ -3054,7 +3054,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい、どうぞ"
+                                    "Yes, go ahead"
                                 ],
                                 -1,
                                 0,
@@ -3106,14 +3106,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【宿泊客】\\C[0]"
+                                "\\C[2]【Guest】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ありがとうございます」"
+                                "Thank you very much"
                             ]
                         },
                         {
@@ -3198,14 +3198,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日はここにするべ」"
+                                "I'll stay here today"
                             ]
                         },
                         {
@@ -3286,14 +3286,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そうね」"
+                                "I see"
                             ]
                         },
                         {
@@ -3607,14 +3607,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【宿泊客】\\C[0]"
+                                "\\C[2]【Guest】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（なんであんな親父とあんないい女が一緒にいやがるんだ？）"
+                                "(Why is that old man with such a nice lady?)"
                             ]
                         },
                         {
@@ -3729,14 +3729,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「すみません、一泊お願いするべ」"
+                                "Excuse me, I'd like to request a room"
                             ]
                         },
                         {
@@ -3751,8 +3751,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "かしこまりました",
-                                    "アーテル？"
+                                    "Understood",
+                                    "Artel?"
                                 ],
                                 -1,
                                 0,
@@ -3910,14 +3910,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス！？」"
+                                "Coleus!?"
                             ]
                         },
                         {
@@ -3934,14 +3934,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「なんでこんなところに・・」"
+                                "Why is he here..?"
                             ]
                         },
                         {
@@ -3949,7 +3949,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "ここで働いてる"
+                                    "Working here"
                                 ],
                                 -1,
                                 0,
@@ -3989,14 +3989,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そ・・そうなのね」"
+                                "I-Is that so?"
                             ]
                         },
                         {
@@ -4004,7 +4004,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "アーテルは？"
+                                    "What about Artel?"
                                 ],
                                 -1,
                                 0,
@@ -4044,14 +4044,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「私は・・」"
+                                "I..."
                             ]
                         },
                         {
@@ -4084,14 +4084,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今、アーテルと一緒に旅しながらせっく・・」"
+                                "Right now, I'm traveling with Artel and having sex.."
                             ]
                         },
                         {
@@ -4156,14 +4156,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ドンと色んな所旅してるの」"
+                                "I'm traveling to various places with Don"
                             ]
                         },
                         {
@@ -4205,14 +4205,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日はもう疲れちゃった・・」"
+                                "I'm already tired for today.."
                             ]
                         },
                         {
@@ -4229,14 +4229,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「一部屋お願いできる？コリウス」"
+                                "Can we have a room? Coleus"
                             ]
                         },
                         {
@@ -4544,7 +4544,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "アーテルとドンの部屋に飲み物を持っていこう"
+                                "Let's take some drinks to Artel and Don's room"
                             ]
                         },
                         {
@@ -4742,8 +4742,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "寝る",
-                                    "いいえ"
+                                    "Sleep",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -5176,14 +5176,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いやー、昨日は熱くなちゃったべね」"
+                                "Wow, I got really fired up yesterday, didn't I?"
                             ]
                         },
                         {
@@ -5296,14 +5296,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「え・・えぇそうね\\C[18]♥\\C[0]」"
+                                "Uh.. y-yeah, that's right \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -5320,14 +5320,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「お世話になったべ幼馴染君」"
+                                "Thanks for everything, childhood friend."
                             ]
                         },
                         {
@@ -5353,14 +5353,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「部屋の掃除任したべ」"
+                                "I'll take care of cleaning the room."
                             ]
                         },
                         {
@@ -5377,14 +5377,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\}「ゴミを集めてくれなかったの忘れてないべ」"
+                                "I haven't forgotten that you didn't gather the trash, you know."
                             ]
                         },
                         {
@@ -5401,14 +5401,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\}「幼馴染君が片付ける番だべ♪」"
+                                "It's your turn to clean up, childhood friend ♪"
                             ]
                         },
                         {
@@ -5451,14 +5451,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ま・・またねコリウス\\C[18]♥\\C[0]」"
+                                "S-See you later, Coleus \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -5475,8 +5475,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "またね",
-                                    "何も言わない"
+                                    "See you later",
+                                    "Say nothing"
                                 ],
                                 -1,
                                 0,
@@ -5506,14 +5506,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「・・・\\C[18]♥\\C[0]」"
+                                "「...\\C[18]♥\\C[0]」"
                             ]
                         },
                         {
@@ -5590,14 +5590,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "幼馴染と汚い親父が宿を出ていくの見送りながら"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "コリウスは仕事へ戻った"
+                                "Coleus returned to work while seeing off the childhood friend and the dirty old\nman leaving the inn"
                             ]
                         },
                         {
@@ -5628,7 +5621,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "END\\|\\|\\|　「清掃員の女」"
+                                "END「Female Janitor」"
                             ]
                         },
                         {

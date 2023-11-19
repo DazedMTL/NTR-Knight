@@ -7073,14 +7073,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こういうのって昔を思い出してワクワクするわね」"
+                                "Thinking about the past like this really excites me."
                             ]
                         },
                         {
@@ -7097,14 +7097,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス頑張ってね」"
+                                "Do your best, Coleus"
                             ]
                         },
                         {
@@ -7352,7 +7352,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "発生するイベントを変更しますか？"
+                                "Do you want to change the occurring event?"
                             ]
                         },
                         {
@@ -7360,8 +7360,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -7382,7 +7382,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ギアif(s[1981])"
+                                    "Gearif(s[1981])"
                                 ],
                                 -1,
                                 0,
@@ -7469,7 +7469,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ロックif(s[1982])"
+                                    "Rockif(s[1982])"
                                 ],
                                 -1,
                                 0,
@@ -7556,7 +7556,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ドンif(s[1983])"
+                                    "*Choose an option*if(s[1983])"
                                 ],
                                 -1,
                                 0,
@@ -7643,7 +7643,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "テアif(s[1984])"
+                                    "Theaif(s[1984])"
                                 ],
                                 -1,
                                 0,
@@ -7730,7 +7730,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ヘンジif(s[1985])"
+                                    "Hengeif(s[1985])"
                                 ],
                                 -1,
                                 0,
@@ -7817,7 +7817,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "止める"
+                                    "Stop it"
                                 ],
                                 -1,
                                 0,
@@ -8171,7 +8171,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "発生するイベントを変更しますか？"
+                                "Do you want to change the occurring event?"
                             ]
                         },
                         {
@@ -8179,8 +8179,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -8201,7 +8201,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ギアif(s[1981])"
+                                    "Gearif(s[1981])"
                                 ],
                                 -1,
                                 0,
@@ -8288,7 +8288,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ロックif(s[1982])"
+                                    "Rockif(s[1982])"
                                 ],
                                 -1,
                                 0,
@@ -8375,7 +8375,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ドンif(s[1983])"
+                                    "*Choose an option*if(s[1983])"
                                 ],
                                 -1,
                                 0,
@@ -8462,7 +8462,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "テアif(s[1984])"
+                                    "Theaif(s[1984])"
                                 ],
                                 -1,
                                 0,
@@ -8549,7 +8549,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "ヘンジif(s[1985])"
+                                    "Hengeif(s[1985])"
                                 ],
                                 -1,
                                 0,
@@ -8636,7 +8636,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "止める"
+                                    "Stop it"
                                 ],
                                 -1,
                                 0,
@@ -9028,14 +9028,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日は毎年恒例の宝探しじゃ」"
+                                "Today is the annual treasure hunt."
                             ]
                         },
                         {
@@ -9052,14 +9052,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Rektor】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ルールを説明する」"
+                                "Let me explain the rules."
                             ]
                         },
                         {
@@ -9112,14 +9112,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「この森に宝箱がいくつか設置してある」"
+                                "There are several treasure chests set up in this forest."
                             ]
                         },
                         {
@@ -9136,14 +9136,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Rektor】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「その中にある\\C[2]宝を３つ\\C[0]持って帰ってきたらクリアじゃ」"
+                                "If you bring back three \\C[2]treasures from among them, you clear the game."
                             ]
                         },
                         {
@@ -9196,14 +9196,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もちろん早かったものには景品があるぞ」"
+                                "Of course, there are prizes for those who are quick."
                             ]
                         },
                         {
@@ -9220,14 +9220,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「それでは・・・」"
+                                "Well then..."
                             ]
                         },
                         {
@@ -9244,14 +9244,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「スタートじゃ」"
+                                "It's the start."
                             ]
                         },
                         {
@@ -9424,14 +9424,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Rektor】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ほほっ、去年は難しかったから今年は少し簡単にしたぞ」"
+                                "Hoho, last year was difficult, so I made it a little easier this year."
                             ]
                         },
                         {
@@ -9448,14 +9448,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もう集まったか？」"
+                                "Have they all gathered already?"
                             ]
                         },
                         {
@@ -9463,8 +9463,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -9518,14 +9518,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ほほっ、よく集めたのー」"
+                                "Hoho, you've gathered them well."
                             ]
                         },
                         {
@@ -9542,14 +9542,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「これは景品じゃ」"
+                                "This is not a prize."
                             ]
                         },
                         {
@@ -9585,14 +9585,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「よーし、後は他を待て」"
+                                "Alright, now just wait for the others."
                             ]
                         },
                         {
@@ -9626,14 +9626,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ありゃ、まだ足りんぞ」"
+                                "Oh, we're still not enough."
                             ]
                         },
                         {
@@ -9650,14 +9650,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Rektor】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「必要な数は３つじゃぞ」"
+                                "The required number is three."
                             ]
                         },
                         {
@@ -9674,14 +9674,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「それとも諦めるか？」"
+                                "Or are you going to give up?"
                             ]
                         },
                         {
@@ -9689,8 +9689,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -9720,14 +9720,14 @@
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Rektor】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 3,
                             "parameters": [
-                                "「それもまた運命よ」"
+                                "That's also fate."
                             ]
                         },
                         {
@@ -9915,14 +9915,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「皆の者、お疲れ様じゃ」"
+                                "Everyone, good work."
                             ]
                         },
                         {
@@ -9939,14 +9939,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「少し今年は簡単すぎたかのー」"
+                                "It seems like it was a little too easy this year, huh?"
                             ]
                         },
                         {
@@ -9963,14 +9963,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「それでは今日はゆっくり休むように」"
+                                "Well then, please take it easy today."
                             ]
                         },
                         {
@@ -9987,14 +9987,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【学長】\\C[0]"
+                                "\\C[2]【Schulleiter】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「解散じゃ」"
+                                "We're disbanding."
                             ]
                         },
                         {
@@ -11387,14 +11387,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ネモフィラ】\\C[0]"
+                                "\\C[2]【Némophila】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「熱くなるのはいいけど怪我しないようにね」"
+                                "It's good to get passionate, but be careful not to get hurt"
                             ]
                         },
                         {
@@ -11811,14 +11811,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ギアの仲間２】\\C[0]"
+                                "\\C[2]【Gears Kamerad 2】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ふぃー、だりーから終わるまで休んでよ」"
+                                "Phew, take a break until the end of the party"
                             ]
                         },
                         {
@@ -11960,14 +11960,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こういうのって昔を思い出してワクワクするわね」"
+                                "Thinking about the past like this really excites me."
                             ]
                         },
                         {
@@ -11984,14 +11984,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス頑張ってね」"
+                                "Do your best, Coleus"
                             ]
                         },
                         {
@@ -12008,8 +12008,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "Hしよ",
-                                    "いいえ"
+                                    "Do it",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -12135,14 +12135,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「！」"
+                                "「!」"
                             ]
                         },
                         {
@@ -12159,14 +12159,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「え・・、私見回りしないといけないんだけど・・」"
+                                "Eh... I have to go on patrol, but..."
                             ]
                         },
                         {
@@ -12174,7 +12174,7 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "お願いします"
+                                    "Please go ahead"
                                 ],
                                 -1,
                                 0,
@@ -12246,14 +12246,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -12286,14 +12286,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「コリウスがどうしてもって言うなら・・\\C[18]♥\\C[0]」"
+                                "If Coleus really insists on it.. \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -12668,14 +12668,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[25]【ヘンジ】\\C[0]"
+                                "\\C[25]【Henge】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「たまにはこういうのも悪くないな」"
+                                "Every now and then, this kind of thing isn't so bad."
                             ]
                         },
                         {
@@ -12877,14 +12877,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「このへんって森しかないな～」"
+                                "There's nothing around here but forest~"
                             ]
                         },
                         {
@@ -13026,14 +13026,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「宝探しとかテンション上がらなかったけど」"
+                                "I didn't get excited about treasure hunting or anything."
                             ]
                         },
                         {
@@ -13050,14 +13050,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「野外でHしてスッキリしたなぁ」"
+                                "I feel refreshed after having sex outdoors."
                             ]
                         },
                         {
@@ -13166,14 +13166,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「来て良かったべ・・」"
+                                "I'm glad you came."
                             ]
                         },
                         {
@@ -13190,14 +13190,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「パイズリで顔に出すの気持ちよかったべ♪」"
+                                "It felt good to come on your face with a paizuri, didn't it?"
                             ]
                         },
                         {
@@ -13214,14 +13214,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「アーテル先生、顔にかかった精子綺麗に落とせたかなぁ」"
+                                "I wonder if I was able to clean the semen that got on your face, Artel-sensei."
                             ]
                         },
                         {
@@ -13257,14 +13257,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「はぁ・・はぁ・・」"
+                                "Haa... haa..."
                             ]
                         },
                         {
@@ -13281,14 +13281,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ここに来るまで長かったからムラムラしてきたべ・・」"
+                                "It took so long to get here, I got all worked up.."
                             ]
                         },
                         {
@@ -13305,14 +13305,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「アーテル先生を呼び出すべ・・♪」"
+                                "I'm going to call for Artel-sensei..♪"
                             ]
                         },
                         {
@@ -13339,14 +13339,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[3]【ドン】\\C[0]"
+                                "\\C[3]【Don】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「僕が来る意味あるかなぁ・・・」"
+                                "I wonder if there's any meaning in me coming..."
                             ]
                         },
                         {
@@ -13517,14 +13517,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「うぃー、楽勝だったわ」"
+                                "Wee, that was easy peasy"
                             ]
                         },
                         {

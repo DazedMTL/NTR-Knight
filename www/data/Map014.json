@@ -1410,7 +1410,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "王都騎士団隊長の部屋"
+                                "Captain of the Royal Capital Knights' Room"
                             ]
                         },
                         {
@@ -1436,14 +1436,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス」"
+                                "Coleus"
                             ]
                         },
                         {
@@ -1460,14 +1460,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「予想より早く任務が終わったし」"
+                                "The mission ended earlier than expected."
                             ]
                         },
                         {
@@ -1484,14 +1484,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日はもう帰っていいぞ」"
+                                "You can go home for today."
                             ]
                         },
                         {
@@ -1499,8 +1499,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "まだ働けます",
-                                    "やったー！"
+                                    "I can still work",
+                                    "Hooray!"
                                 ],
                                 -1,
                                 0,
@@ -1530,14 +1530,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Captain】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「お前はいつもよくやってくれているよ」"
+                                "You always do a good job"
                             ]
                         },
                         {
@@ -1576,14 +1576,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Captain】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「そんな露骨に喜ばれるとな・・」"
+                                "To be so openly pleased like that..."
                             ]
                         },
                         {
@@ -1610,14 +1610,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日はゆっくり嫁さんと過ごしな」"
+                                "Today, spend some leisure time with your wife."
                             ]
                         },
                         {
@@ -1657,7 +1657,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "イベントの変更をしますか？"
+                                "Do you want to change the event?"
                             ]
                         },
                         {
@@ -1665,8 +1665,8 @@
                             "indent": 2,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -1687,7 +1687,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ギアif(s[1981])"
+                                    "Gearif(s[1981])"
                                 ],
                                 -1,
                                 0,
@@ -1727,7 +1727,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ロックif(s[1982])"
+                                    "Rockif(s[1982])"
                                 ],
                                 -1,
                                 0,
@@ -1767,7 +1767,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ドンif(s[1983])"
+                                    "*Sure*if(s[1983])"
                                 ],
                                 -1,
                                 0,
@@ -1807,7 +1807,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "テアif(s[1984])"
+                                    "Theaif(s[1984])"
                                 ],
                                 -1,
                                 0,
@@ -1847,7 +1847,7 @@
                             "indent": 3,
                             "parameters": [
                                 [
-                                    "ヘンジif(s[1985])"
+                                    "Hengeif(s[1985])"
                                 ],
                                 -1,
                                 0,
@@ -1954,7 +1954,7 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ギアif(s[1776])"
+                                    "Gearif(s[1776])"
                                 ],
                                 -1,
                                 0,
@@ -1994,7 +1994,7 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ロックif(s[1777])"
+                                    "Rockif(s[1777])"
                                 ],
                                 -1,
                                 0,
@@ -2034,7 +2034,7 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ドンif(s[1757])"
+                                    "Thudif(s[1757])"
                                 ],
                                 -1,
                                 0,
@@ -2074,7 +2074,7 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "テアif(s[1779])"
+                                    "Theaif(s[1779])"
                                 ],
                                 -1,
                                 0,
@@ -2114,7 +2114,7 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "ヘンジif(s[1778])"
+                                    "Hengeif(s[1778])"
                                 ],
                                 -1,
                                 0,
@@ -2445,7 +2445,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "王都騎士団隊長の部屋"
+                                "Captain of the Royal Capital Knights' Room"
                             ]
                         },
                         {
@@ -2471,14 +2471,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス」"
+                                "Coleus"
                             ]
                         },
                         {
@@ -2495,14 +2495,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「この度の任務は見事だった」"
+                                "This mission was a splendid success"
                             ]
                         },
                         {
@@ -2519,38 +2519,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【隊長】\\C[0]"
+                                "\\C[4]【Kapitän】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「貴様には期待しているぞ」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "コリウスは卒業後"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "念願だった騎士団に入隊した"
+                                "I'm expecting great things from you"
                             ]
                         },
                         {
@@ -2567,7 +2543,24 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そこでは毎日が忙しいが充実した日々を送れている"
+                                "Coleus: After graduating, Coleus finally achieved his long-cherished dream of\njoining the knights' order."
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "There, every day is busy but fulfilling."
                             ]
                         },
                         {

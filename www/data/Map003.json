@@ -6199,14 +6199,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ちょっと・・こんなところで・・\\C[18]♥♥♥\\C[0]」"
+                                "Wait.. in a place like this.. \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -6223,14 +6223,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いいでしょ、興奮するでしょ？」"
+                                "Isn't it nice? It's exciting, isn't it?"
                             ]
                         },
                         {
@@ -6255,7 +6255,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Do you open the lock?"
                             ]
                         },
                         {
@@ -6263,8 +6263,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6346,7 +6346,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -6870,14 +6870,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「なんだコリウス」"
+                                "What's up, Coleus"
                             ]
                         },
                         {
@@ -6894,14 +6894,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今、俺の部屋から出てきたのか？」"
+                                "Did you just come out of my room?"
                             ]
                         },
                         {
@@ -6909,8 +6909,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "違います"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -6940,14 +6940,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「素直だからって許すわけじゃないぞ」"
+                                "Just because you're honest doesn't mean I'll forgive you."
                             ]
                         },
                         {
@@ -6964,14 +6964,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「いいか、人の部屋に勝手に入るんじゃないぞ」"
+                                "Listen, you shouldn't just barge into someone's room"
                             ]
                         },
                         {
@@ -7001,14 +7001,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「なんだ、俺が酔ってるとでも？」"
+                                "What, do you think I'm drunk or something?"
                             ]
                         },
                         {
@@ -7025,14 +7025,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「用があるなら外で待ってろ」"
+                                "If you need something, wait outside"
                             ]
                         },
                         {
@@ -7317,14 +7317,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「はい？」"
+                                "Yes?"
                             ]
                         },
                         {
@@ -7446,14 +7446,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -7534,14 +7534,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「5年ぶりねコリウス」"
+                                "It's been 5 years, Coleus."
                             ]
                         },
                         {
@@ -7919,7 +7919,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "中を覗きますか？"
+                                "Do you want to peek inside?"
                             ]
                         },
                         {
@@ -7927,8 +7927,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 -1,
                                 0,
@@ -8043,7 +8043,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "中を覗きますか？"
+                                "Do you want to peek inside?"
                             ]
                         },
                         {
@@ -8051,8 +8051,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8101,14 +8101,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【コリウス】\\C[0]"
+                                "\\C[2]【Coleus】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -8125,7 +8125,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "アーテルの部屋から甘い声が聞こえる"
+                                "Sweet voices can be heard from Artel's room"
                             ]
                         },
                         {
@@ -8273,14 +8273,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【コリウス】\\C[0]"
+                                "\\C[2]【Coleus】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「・・・！」"
+                                "「...!」"
                             ]
                         },
                         {
@@ -8297,31 +8297,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "そこには普段の落ち着いた姿とは違うアーテルがいた"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 2,
-                            "parameters": [
-                                "",
-                                0,
-                                2,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "There was Artel, who looked different from her usual calm self."
                             ]
                         },
                         {
@@ -8338,14 +8314,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「王都からこっちに来て落ち着いていたのに・・・\\C[18]♥\\C[0]」"
+                                "H-Hey...♥"
                             ]
                         },
                         {
@@ -8362,14 +8338,38 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「時折またひどくなるっ・・・\\C[18]♥\\C[0]」"
+                                "I was feeling calm after coming from the capital, but... \\C[18]♥\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 2,
+                            "parameters": [
+                                "",
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "\\C[4]【Artel】\\C[0]"
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 2,
+                            "parameters": [
+                                "Sometimes it gets really bad again... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8458,14 +8458,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "T-...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8482,14 +8482,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「こ・・こんな事したくないのにっ・・・\\C[18]♥\\C[0]」"
+                                "I-I don't want to do this kind of thing... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8506,14 +8506,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「この淫紋のせいで体が勝手に・・・\\C[18]♥\\C[0]」"
+                                "Because of this lewd mark, my body acts on its own... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8590,14 +8590,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「コ・・コリウス・・・\\C[18]♥\\C[0]」"
+                                "C-Coleus... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8614,14 +8614,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「そこはダメっ・・・\\C[18]♥\\C[0]」"
+                                "That's no good... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8638,14 +8638,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【コリウス】\\C[0]"
+                                "\\C[2]【Coleus】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「・・・！」"
+                                "「...!」"
                             ]
                         },
                         {
@@ -8662,14 +8662,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「敏感だからダメっ・・・\\C[18]♥\\C[0]」"
+                                "It's sensitive, so that's not good... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8746,14 +8746,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "T-...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8770,14 +8770,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「イ・・イクっ\\C[18]♥\\C[0]」"
+                                "I-I'm... I'm cumming \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8794,14 +8794,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「コリウスっ・・・\\C[18]♥\\C[0]」"
+                                "Coleus... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8818,14 +8818,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「イっちゃう\\C[18]♥\\C[0]」"
+                                "I'm cumming \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8926,14 +8926,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ああああっ・・・\\C[18]♥\\C[0]」"
+                                "Ahhhh... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8950,7 +8950,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]"
+                                "Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -8967,14 +8967,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]」"
+                                "Haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9075,14 +9075,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "T-...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9099,14 +9099,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「まだ治まらないっ・・・\\C[18]♥\\C[0]」"
+                                "It still won't stop... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9123,14 +9123,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「明日も早いのに・・・\\C[18]♥\\C[0]」"
+                                "I have to wake up early tomorrow... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9147,14 +9147,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「は・・早く落ち着かせないとっ・・・\\C[18]♥\\C[0]」"
+                                "I... need to calm down quickly... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9231,14 +9231,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]ああっ\\C[18]♥\\C[0]」"
+                                "Ah \\C[18]♥\\C[0] Ahh \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9255,14 +9255,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「またイクっ\\C[18]♥\\C[0]」"
+                                "I'm cumming again \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9279,14 +9279,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「イクっ\\C[18]♥\\C[0]」"
+                                "I'm cumming \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9424,14 +9424,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ああああっ・・・\\C[18]♥\\C[0]」"
+                                "Ahhhh... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9448,7 +9448,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]"
+                                "Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9465,14 +9465,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]」"
+                                "Haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9543,14 +9543,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ああああっ・・・\\C[18]♥\\C[0]」"
+                                "Ahhhh... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9567,14 +9567,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ダメっ・・・手止まらないっ\\C[18]♥\\C[0]」"
+                                "No... my hand won't stop \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9591,14 +9591,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「イクっ\\C[18]♥\\C[0]イクっ\\C[18]♥\\C[0]イクっ\\C[18]♥\\C[0]」"
+                                "I'm cumming \\C[18]♥\\C[0] I'm cumming \\C[18]♥\\C[0] I'm cumming \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9736,14 +9736,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「ああああっ・・・\\C[18]♥\\C[0]」"
+                                "Ahhhh... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9760,7 +9760,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]ビクン\\C[18]♥\\C[0]"
+                                "Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0] Biku \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -9777,14 +9777,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]はぁ\\C[18]♥\\C[0]」"
+                                "Haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0] haa \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10066,7 +10066,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "中でアーテルと男の声が聞こえる"
+                                "I can hear Artel and a man's voice inside."
                             ]
                         },
                         {
@@ -10083,14 +10083,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「へっ・・・、まさか女騎士様がねぇ・・♪」"
+                                "Heh... I can't believe Lady Knight is here, huh..♪"
                             ]
                         },
                         {
@@ -10107,14 +10107,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "T... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10131,14 +10131,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっと、抵抗したらバラすぜ？」"
+                                "Oops, if you resist, I'll expose you, okay?"
                             ]
                         },
                         {
@@ -10155,14 +10155,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んっ・・・\\C[18]♥\\C[0]」"
+                                "Nn... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10187,7 +10187,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -10195,8 +10195,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10278,7 +10278,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -10427,14 +10427,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おら、股開け」"
+                                "Hey, spread your legs"
                             ]
                         },
                         {
@@ -10451,14 +10451,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おいっ・・、調子に乗るなっ\\C[18]♥\\C[0]」"
+                                "Hey, don't get carried away \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10475,14 +10475,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「まだ立場が分かってないみたいだな」"
+                                "It seems like you still don't understand your position"
                             ]
                         },
                         {
@@ -10499,14 +10499,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いいから開けよ」"
+                                "Come on, open up"
                             ]
                         },
                         {
@@ -10523,14 +10523,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "Tch...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10555,7 +10555,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Shall I open the lock?"
                             ]
                         },
                         {
@@ -10563,8 +10563,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10646,7 +10646,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -10795,14 +10795,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]あああああっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]ahhhhh\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -10819,14 +10819,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おほっ♪」"
+                                "Ohh♪"
                             ]
                         },
                         {
@@ -10843,14 +10843,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「これでもう２回目だぞ」"
+                                "This is already the second time, you know."
                             ]
                         },
                         {
@@ -10867,14 +10867,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「どんだけ吹くんだよ、床ビチャビチャじゃねぇか♪」"
+                                "How much are you going to blow? The floor is all wet, you know♪"
                             ]
                         },
                         {
@@ -10899,7 +10899,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -10907,8 +10907,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10990,7 +10990,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -11127,14 +11127,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥\\C[0]ああっ\\C[18]♥\\C[0]」"
+                                "Ah, \\C[18]♥\\C[0]ahh\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -11151,14 +11151,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「さーて、今日こそ挿れさせてもらおうか♪」"
+                                "Well, today I'll finally get to insert it, won't I?♪"
                             ]
                         },
                         {
@@ -11175,14 +11175,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「待てっ、それだけはっ・・・\\C[18]♥\\C[0]」"
+                                "Wait, not just that...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -11199,14 +11199,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・♪」"
+                                "「...♪」"
                             ]
                         },
                         {
@@ -11231,7 +11231,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -11239,8 +11239,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -11322,7 +11322,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -11483,7 +11483,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]"
+                                "Pan♥pan♥pan♥pan♥pan♥pan♥"
                             ]
                         },
                         {
@@ -11500,14 +11500,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あああああああっ\\C[18]♥♥♥♥\\C[0]」"
+                                "Ahhhhhhhh \\C[18]♥♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -11524,14 +11524,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「まだ分かってねぇようだな？」"
+                                "You still don't understand, huh?"
                             ]
                         },
                         {
@@ -11548,14 +11548,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今夜はたっぷり分からせてやるよ」"
+                                "I'll make sure you understand it thoroughly tonight"
                             ]
                         },
                         {
@@ -11580,7 +11580,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you unlock the door?"
                             ]
                         },
                         {
@@ -11588,8 +11588,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -11671,7 +11671,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The door is locked"
                             ]
                         },
                         {
@@ -11808,14 +11808,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日はこれを着ろ」"
+                                "Wear this today"
                             ]
                         },
                         {
@@ -11832,14 +11832,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「こっ・・こんなもの・・・\\C[18]♥\\C[0]」"
+                                "Th-this kind of thing... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -11864,7 +11864,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -11872,8 +11872,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -11955,7 +11955,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -12116,7 +12116,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]パン\\C[18]♥\\C[0]"
+                                "Bread\\C[18]♥\\C[0]Bread\\C[18]♥\\C[0]Bread\\C[18]♥\\C[0]Bread\\C[18]♥\\C[0]Bread\\C[18]♥\n\\C[0]Bread\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -12133,14 +12133,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっ\\C[18]♥\\C[0]おおっ・・\\C[18]♥\\C[0]」　"
+                                "Oh \\C[18]♥\\C[0] my, \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -12157,14 +12157,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ギアの仲間】\\C[0]"
+                                "\\C[2]【Gears Kameraden】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ギア、まじサンキュー！」"
+                                "Gear, thank you so much!"
                             ]
                         },
                         {
@@ -12181,14 +12181,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ギアの仲間】\\C[0]"
+                                "\\C[2]【Gears Kameraden】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「超気持ちいいわっ♪」"
+                                "It feels so good♪"
                             ]
                         },
                         {
@@ -12213,7 +12213,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -12221,8 +12221,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -12304,7 +12304,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -13744,14 +13744,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「コリウス」"
+                                "Coleus"
                             ]
                         },
                         {
@@ -13768,14 +13768,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「よくあの女騎士と話すのを見かけるけど知り合いか？」"
+                                "I often see you talking to that female knight. Are you acquainted?"
                             ]
                         },
                         {
@@ -13783,8 +13783,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "幼馴染",
-                                    "違うよ"
+                                    "Childhood friend",
+                                    "No, I'm not"
                                 ],
                                 1,
                                 0,
@@ -13823,14 +13823,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「まじかよ」"
+                                "No way"
                             ]
                         },
                         {
@@ -13847,14 +13847,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -13871,14 +13871,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「なんかあの女の弱点知らないか？」"
+                                "Do you happen to know that woman's weakness?"
                             ]
                         },
                         {
@@ -13895,14 +13895,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【コリウス】\\C[0]"
+                                "\\C[2]【Coleus】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -13919,14 +13919,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「そうか、まぁいいや」"
+                                "I see, well, never mind"
                             ]
                         },
                         {
@@ -13956,14 +13956,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「まぁ、お前があんな女の知合いなわけないか」"
+                                "Well, there's no way you'd be acquainted with a woman like that"
                             ]
                         },
                         {
@@ -15735,14 +15735,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いやー、前回はびっくりしたなー」"
+                                "Wow, I was really surprised last time."
                             ]
                         },
                         {
@@ -15759,14 +15759,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「俺の部屋におっぱい丸出しで入ってくるなんて・・・」"
+                                "Coming into my room with your boobs completely exposed like that..."
                             ]
                         },
                         {
@@ -15863,14 +15863,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっぱい見たぐらいであまり調子に乗らないでください」"
+                                "Please don't get too carried away just because you saw some boobs."
                             ]
                         },
                         {
@@ -15887,14 +15887,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっと、失礼」"
+                                "Oops, my apologies"
                             ]
                         },
                         {
@@ -15911,14 +15911,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -15935,14 +15935,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（私何で、あんなことを・・・）"
+                                "(Why did I do such a thing...)"
                             ]
                         },
                         {
@@ -15959,14 +15959,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「それより資料はどこです？」"
+                                "Where are the documents, though?"
                             ]
                         },
                         {
@@ -15983,14 +15983,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「資料なら俺の部屋の中だ」"
+                                "The documents are inside my room."
                             ]
                         },
                         {
@@ -16007,14 +16007,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「どうぞ入って・・・♪」"
+                                "Please come in...♪"
                             ]
                         },
                         {
@@ -16031,14 +16031,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -16251,14 +16251,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いやー、今日は助かったぞ」"
+                                "Phew, thank goodness for today."
                             ]
                         },
                         {
@@ -16371,14 +16371,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「え・・えぇ」"
+                                "Eh... um"
                             ]
                         },
                         {
@@ -16395,14 +16395,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（今日はこれで終わりなの・・？）"
+                                "Is it over for today..?"
                             ]
                         },
                         {
@@ -16419,14 +16419,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -16443,14 +16443,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「どうだ、部屋でいっぱい飲むか？」"
+                                "How about we drink a lot in the room?"
                             ]
                         },
                         {
@@ -16467,14 +16467,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・！」"
+                                "「...!」"
                             ]
                         },
                         {
@@ -16507,14 +16507,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「えっ・・そうね・・」"
+                                "Eh... I see..."
                             ]
                         },
                         {
@@ -16531,14 +16531,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（こ・・断るべきよ）"
+                                "(I... should refuse)"
                             ]
                         },
                         {
@@ -16555,14 +16555,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「じゃあ、ちょっとだけ・・」"
+                                "Well, just a little then.."
                             ]
                         },
                         {
@@ -16579,14 +16579,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（わ・・私何言って・・\\C[18]♥\\C[0]）"
+                                "(Wha... What am I saying.. \\C[18]♥\\C[0])"
                             ]
                         },
                         {
@@ -17472,14 +17472,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（やっぱり、急に発動しちゃうわね・・）"
+                                "As I thought, it activated suddenly.."
                             ]
                         },
                         {
@@ -17496,14 +17496,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（それともコリウスのことを考えたせい・・？）"
+                                "(Or is it because I was thinking about Coleus..?)"
                             ]
                         },
                         {
@@ -17520,14 +17520,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（・・・）"
+                                "(...)"
                             ]
                         },
                         {
@@ -17544,14 +17544,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（いずれにせよ、ばれないようにしなきゃ・・）"
+                                "(Either way, I have to make sure it doesn't get found out..)"
                             ]
                         },
                         {
@@ -17872,9 +17872,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "見る",
-                                    "邪魔する",
-                                    "戻る"
+                                    "Look",
+                                    "Interfering",
+                                    "Go back"
                                 ],
                                 -1,
                                 0,
@@ -17963,14 +17963,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -17987,14 +17987,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「まじかよ・・・\\C[18]♥\\C[0]」"
+                                "No way... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -18011,14 +18011,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "（これはいいこと知ったぜ\\C[18]♥\\C[0]）"
+                                "I've got some good news \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -18089,14 +18089,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あ？コリウスか」"
+                                "Huh? Is that Coleus?"
                             ]
                         },
                         {
@@ -18113,14 +18113,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【コリウス】\\C[0]"
+                                "\\C[2]【Coleus】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -18137,14 +18137,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「別に何もしてねーよ」"
+                                "I'm not really doing anything."
                             ]
                         },
                         {
@@ -18161,14 +18161,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「もう俺は行くぜ」"
+                                "I'm heading out now."
                             ]
                         },
                         {
@@ -18300,14 +18300,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「あ？コリウスか・・・」"
+                                "Huh? Is that Coleus...?"
                             ]
                         },
                         {
@@ -18324,14 +18324,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「なんでもねーよ、俺はもう行くぜ」"
+                                "I'm not doing anything, I'm heading out now."
                             ]
                         },
                         {
@@ -18533,14 +18533,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いやー、前回はびっくりしたなー」"
+                                "Wow, I was really surprised last time."
                             ]
                         },
                         {
@@ -18557,14 +18557,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「俺の部屋におっぱい丸出しで入ってくるなんて・・・」"
+                                "Coming into my room with your boobs completely exposed like that..."
                             ]
                         },
                         {
@@ -18661,14 +18661,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっぱい見たぐらいであまり調子に乗らないでください」"
+                                "Please don't get too carried away just because you saw some boobs."
                             ]
                         },
                         {
@@ -18685,14 +18685,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっと、失礼」"
+                                "Oops, my apologies"
                             ]
                         },
                         {
@@ -18709,14 +18709,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -18733,14 +18733,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（私何で、あんなことを・・・）"
+                                "(Why did I...?)"
                             ]
                         },
                         {
@@ -18757,14 +18757,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「それより資料はどこです？」"
+                                "More importantly, where is the document?"
                             ]
                         },
                         {
@@ -18781,14 +18781,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「資料なら俺の部屋の中だ」"
+                                "If you're looking for the document, it's inside my room."
                             ]
                         },
                         {
@@ -18805,14 +18805,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「どうぞ入って・・・♪」"
+                                "Please come in...♪"
                             ]
                         },
                         {
@@ -18829,14 +18829,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -18983,14 +18983,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いやー、今日は助かったぞ」"
+                                "Phew, thank goodness for today."
                             ]
                         },
                         {
@@ -19103,14 +19103,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「え・・えぇ」"
+                                "Eh... umm"
                             ]
                         },
                         {
@@ -19127,14 +19127,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（今日はこれで終わりなの・・？）"
+                                "Is today over already..?"
                             ]
                         },
                         {
@@ -19151,14 +19151,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -19175,14 +19175,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「どうだ、部屋でいっぱい飲むか？」"
+                                "How about we drink a lot in the room?"
                             ]
                         },
                         {
@@ -19199,14 +19199,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・！」"
+                                "「...!」"
                             ]
                         },
                         {
@@ -19239,14 +19239,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「えっ・・そうね・・」"
+                                "Eh... I see..."
                             ]
                         },
                         {
@@ -19263,14 +19263,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（こ・・断るべきよ）"
+                                "(I... should refuse)"
                             ]
                         },
                         {
@@ -19287,14 +19287,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「じゃあ、ちょっとだけ・・」"
+                                "Well, just a little then.."
                             ]
                         },
                         {
@@ -19311,14 +19311,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "（わ・・私何言って・・\\C[18]♥\\C[0]）"
+                                "(W-What am I saying.. \\C[18]♥\\C[0])"
                             ]
                         },
                         {
@@ -19456,14 +19456,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[5]【ギア】\\C[0]"
+                                "\\C[5]【Gear】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「よーし、新入生ども集まれ」"
+                                "Alright, all you new students gather around"
                             ]
                         },
                         {
@@ -19480,14 +19480,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【新入生】\\C[0]"
+                                "\\C[2]【Neuling】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おいおい・・まじかよ」"
+                                "Oh man, seriously?"
                             ]
                         },
                         {
@@ -19504,14 +19504,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【新入生】\\C[0]"
+                                "\\C[2]【Neuling】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「すげー・・」"
+                                "Wow.."
                             ]
                         },
                         {
@@ -20084,14 +20084,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【モヒカン】\\C[0]"
+                                "\\C[2]【Mohikan】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「先生に呼び出されると緊張するよな・・」"
+                                "It's nerve-wracking to be called by the teacher.."
                             ]
                         },
                         {
@@ -20574,14 +20574,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「わーい、おっぱいでかぁ\\C[18]♥\\C[0]」"
+                                "Yay, big boobs \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -20598,14 +20598,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "Huh... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -20622,14 +20622,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「卑怯よ・・・\\C[18]♥\\C[0]」"
+                                "Cowardly... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -20646,14 +20646,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「成績が悪い幼馴染が悪いでしょ\\C[18]♥\\C[0]」"
+                                "It's because of my childhood friend with poor grades, isn't it \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -20678,7 +20678,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -20686,8 +20686,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -20769,7 +20769,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -20918,14 +20918,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日も乳首で遊ぼっか」"
+                                "Shall we play with nipples again today?"
                             ]
                         },
                         {
@@ -20942,14 +20942,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「っ・・・\\C[18]♥\\C[0]」"
+                                "T-...\\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -20974,7 +20974,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you unlock the door?"
                             ]
                         },
                         {
@@ -20982,8 +20982,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -21065,7 +21065,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The door is locked"
                             ]
                         },
                         {
@@ -21214,14 +21214,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「へへっ、こうやってと・・」"
+                                "Hehe, like this..."
                             ]
                         },
                         {
@@ -21238,14 +21238,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「え、ちょっと何して・・\\C[18]♥\\C[0]」"
+                                "Huh, wait, what are you doing... \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -21270,7 +21270,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Do you open the lock?"
                             ]
                         },
                         {
@@ -21278,8 +21278,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -21361,7 +21361,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -21522,14 +21522,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahh, \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -21546,14 +21546,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日もいっぱい舐めちゃうよぉ」"
+                                "I'm going to lick a lot today too"
                             ]
                         },
                         {
@@ -21578,7 +21578,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -21586,8 +21586,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -21669,7 +21669,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -21818,14 +21818,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ちょっと・・離れてっ\\C[18]♥♥♥\\C[0]」"
+                                "Hey.. back off a little \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -21842,14 +21842,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【テア】\\C[0]"
+                                "\\C[2]【Thea】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「へへっ・・もう挿入っちゃいそうだよ」"
+                                "Hehe.. I feel like I'm about to be inserted"
                             ]
                         },
                         {
@@ -21874,7 +21874,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -21882,8 +21882,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -21965,7 +21965,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -22621,14 +22621,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「んんっ\\C[18]♥\\C[0]」"
+                                "Nnn \\C[18]♥\\C[0]"
                             ]
                         },
                         {
@@ -22645,14 +22645,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今日も好きなだけ吸いまくってやるからな」"
+                                "I'm going to smoke as much as I want today."
                             ]
                         },
                         {
@@ -22669,14 +22669,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あー、乳でけーな」"
+                                "Ah, big tits."
                             ]
                         },
                         {
@@ -22701,7 +22701,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Shall I open the lock?"
                             ]
                         },
                         {
@@ -22709,8 +22709,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -22792,7 +22792,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -22953,14 +22953,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「資料どこかなぁ～♪」"
+                                "I wonder where the documents are~♪"
                             ]
                         },
                         {
@@ -22977,14 +22977,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あああああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ahhhhhh\\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -23001,14 +23001,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ここかなぁ～♪」"
+                                "I wonder if it's here~♪"
                             ]
                         },
                         {
@@ -23033,7 +23033,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -23041,8 +23041,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -23124,7 +23124,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -23285,14 +23285,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっ\\C[18]♥♥♥\\C[0]おっ\\C[18]♥♥♥\\C[0]」"
+                                "Oh \\C[18]♥♥♥\\C[0] oh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -23309,14 +23309,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おいおい、我慢しろ」"
+                                "Hey, hey, have some patience"
                             ]
                         },
                         {
@@ -23333,14 +23333,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「イってばかりじゃねーか」"
+                                "You're just going to cum, aren't you?"
                             ]
                         },
                         {
@@ -23365,7 +23365,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Shall I open the lock?"
                             ]
                         },
                         {
@@ -23373,8 +23373,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -23456,7 +23456,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -23593,14 +23593,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「がはははっ」"
+                                "Gahaha"
                             ]
                         },
                         {
@@ -23617,14 +23617,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「さーて、今日はお前のマンコにぶち込んでやるからな」"
+                                "Well, today I'm going to thrust into your pussy"
                             ]
                         },
                         {
@@ -23649,7 +23649,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you unlock the door?"
                             ]
                         },
                         {
@@ -23657,8 +23657,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -23740,7 +23740,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The door is locked"
                             ]
                         },
                         {
@@ -23901,14 +23901,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
+                                "Ah, \\C[18]♥♥♥\\C[0]ah, \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -23925,14 +23925,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あぁ、気持ちいい」"
+                                "Ah, it feels good"
                             ]
                         },
                         {
@@ -23949,14 +23949,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「そろそろ催眠解くか」"
+                                "It's about time to release the hypnosis"
                             ]
                         },
                         {
@@ -23981,7 +23981,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Do you open the lock?"
                             ]
                         },
                         {
@@ -23989,8 +23989,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -24072,7 +24072,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {
@@ -24233,14 +24233,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おおおっ\\C[18]♥♥♥\\C[0]」"
+                                "Ooooh \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -24257,14 +24257,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「イっ・・イクっ\\C[18]♥♥♥\\C[0]」"
+                                "I-I'm cumming \\C[18]♥♥♥\\C[0]"
                             ]
                         },
                         {
@@ -24289,7 +24289,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵を開けますか？"
+                                "Will you open the lock?"
                             ]
                         },
                         {
@@ -24297,8 +24297,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -24380,7 +24380,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "鍵がかかっている"
+                                "The lock is locked"
                             ]
                         },
                         {

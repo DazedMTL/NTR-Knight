@@ -7413,14 +7413,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【村人A】\\C[0]"
+                                "\\C[2]【Dorfbewohner A】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「聞いた？アーテルちゃんの事・・」"
+                                "Did you hear? It's about Artel-chan.."
                             ]
                         },
                         {
@@ -7437,14 +7437,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【村人B】\\C[0]"
+                                "\\C[3]【Dorfbewohner B】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「聞いたわ、練習相手に怪我を負わせたとか・・」"
+                                "I heard she injured her practice partner.."
                             ]
                         },
                         {
@@ -7461,14 +7461,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【村人B】\\C[0]"
+                                "\\C[3]【Dorfbewohner B】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「しかも相手は大人の騎士によ・・」"
+                                "And the person she injured was an adult knight.."
                             ]
                         },
                         {
@@ -7485,14 +7485,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【村人A】\\C[0]"
+                                "\\C[2]【Dorfbewohner A】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「前々から思っていたけどあの子の力は異常だわ・・」"
+                                "I've been thinking for a while, but that girl's strength is abnormal.."
                             ]
                         },
                         {
@@ -7509,14 +7509,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[3]【村人B】\\C[0]"
+                                "\\C[3]【Dorfbewohner B】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「怖いわね・・、うちの子がいつ怪我させられるか」"
+                                "It's scary... I wonder when my child will get injured."
                             ]
                         },
                         {
@@ -7549,14 +7549,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「・・・」"
+                                "「...」"
                             ]
                         },
                         {
@@ -7885,14 +7885,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「全然変わってないわね」"
+                                "You haven't changed at all, have you?"
                             ]
                         },
                         {
@@ -7909,14 +7909,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「もちろんいい意味でね」"
+                                "Of course, in a good way"
                             ]
                         },
                         {
@@ -8159,14 +8159,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「武器屋入ってもいい？」"
+                                "May I enter the weapon shop?"
                             ]
                         },
                         {
@@ -8174,8 +8174,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "断っても入るでしょ？"
+                                    "Sure",
+                                    "Refusing won't stop me, right?"
                                 ],
                                 1,
                                 0,
@@ -8221,14 +8221,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「ありがとう、コリウス」"
+                                "Thank you, Coleus"
                             ]
                         },
                         {
@@ -8306,14 +8306,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[4]【アーテル】\\C[0]"
+                                "\\C[4]【Artel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「そ・・そんなことないわよ」"
+                                "Th-That's not true"
                             ]
                         },
                         {
@@ -8698,14 +8698,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おぉ、コリウスか」"
+                                "Oh, it's Coleus."
                             ]
                         },
                         {
@@ -8722,14 +8722,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「久しぶりだな、今何してるんだ？」"
+                                "Long time no see, what are you up to now?"
                             ]
                         },
                         {
@@ -8737,8 +8737,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "休暇中です",
-                                    "暇だったのでぶらついてます"
+                                    "I'm on vacation",
+                                    "I was free so I'm just wandering around"
                                 ],
                                 1,
                                 0,
@@ -8791,14 +8791,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ふーん、そうか」"
+                                "Hmm, I see"
                             ]
                         },
                         {
@@ -8846,14 +8846,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【？？？】\\C[0]"
+                                "\\C[2]【???】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ねぇ、パパこの人誰？」"
+                                "Hey, Dad, who is this person?"
                             ]
                         },
                         {
@@ -8870,14 +8870,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あぁ、こいつはうちの学校の卒業生だ\\C[2]ローテル\\C[0]」"
+                                "Ah, this person is a graduate from our school, Coleus."
                             ]
                         },
                         {
@@ -8894,14 +8894,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ローテル】\\C[0]"
+                                "\\C[2]【Rotel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「へぇー」"
+                                "Wow"
                             ]
                         },
                         {
@@ -8918,14 +8918,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「少し話があるから、先行っててくれ」"
+                                "I have something to discuss, so please go on ahead."
                             ]
                         },
                         {
@@ -8942,14 +8942,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【ローテル】\\C[0]"
+                                "\\C[2]【Rotel】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「はーい」"
+                                "Okay"
                             ]
                         },
                         {
@@ -9262,14 +9262,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「誰かに似てると思ったか？」"
+                                "Do you think I look like someone?"
                             ]
                         },
                         {
@@ -9380,14 +9380,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「今夜、うちの家の窓を覗いてみろ」"
+                                "Tonight, try peeking into the window of my house."
                             ]
                         },
                         {
@@ -9404,14 +9404,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[6]【ロック】\\C[0]"
+                                "\\C[6]【Rock】\\C[0]"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いいものが見れるぞ」"
+                                "You'll see something good."
                             ]
                         },
                         {
