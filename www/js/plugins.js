@@ -1889,17 +1889,17 @@ var $plugins = [
       "Menu Info Log Name": "",
       "Battle Show List": "item,gold,exp,skill,params,level,abp,classLevel",
       "Get Gold Text":
-        "_SE[Coin]「\\I[_icon]_num\\C[14]\\G\\C[0]」 を\\C[24]手に入れた！",
+        "_SE[Coin]「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[24] Obtained!",
       "Lost Gold Text":
-        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 を\\C[2]失った・・・",
+        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[2] Lost...",
       "Get Item Text":
-        "_SE[Item1]「\\I[_icon]_name」 を\\C[24]手に入れた！\\n\\C[6]_desc1",
+        "_SE[Item1]「\\I[_icon]_name」 \\C[24] Obtained!\\n\\C[6]_desc1",
       "Lost Item Text":
-        "「\\I[_icon]_name」 を\\C[2]失った・・・\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 \\C[2] Lost...\\n\\C[6]_desc1",
       "Get Item Text Num":
-        "「\\I[_icon]_name」 を\\C[14]_num個\\C[24]手に入れた！\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 \\C[14]_numx\\C[24] Obtained!\\n\\C[6]_desc1",
       "Lost Item Text Num":
-        "「\\I[_icon]_name」を\\C[14]_num個\\C[2]失った・・・\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」\\C[14]_numx\\C[2] Lost...\\n\\C[6]_desc1",
       "Get Skill Text":
         "_actorは「\\I[_icon]_name」 を\\C[24]覚えた！\\n\\C[6]_desc1",
       "Lost Skill Text":
@@ -1907,7 +1907,7 @@ var $plugins = [
       "Exp Up Text":
         "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[24]得た！",
       "Exp Down Text":
-        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[2]失った・・・",
+        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]\\C[2] Lost...",
       "Lv Up Text":
         "_actorは\\C[4]_name\\C[0]が\\C[14]_numポイント\\C[24]上がった！",
       "Lv Down Text":
@@ -1919,7 +1919,7 @@ var $plugins = [
       "Abp Up Text":
         "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[24]得た！",
       "Abp Down Text":
-        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[2]失った・・・",
+        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]\\C[2] Lost...",
       "Class Lv Up Text":
         "_actorは\\C[4]_classの_name\\C[0]が\\C[14]_numポイント\\C[24]上がった！",
       "Class Lv Down Text":
