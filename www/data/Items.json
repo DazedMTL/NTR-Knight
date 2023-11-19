@@ -706,7 +706,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Rub Artel's breasts (Lewd Crest level 50 or higher).\nCan be used after taking off her clothes.",
+        "description": "Rub Artel's breasts (Lewd Crest level 50 or higher). Can be used after taking\noff her clothes.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -732,7 +732,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "You can take off Artel's clothes.\n(Lewd Crest level 50 or higher).",
+        "description": "You can take off Artel's clothes. (Lewd Crest level 50 or higher).",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -758,7 +758,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Touch Artel's nipples (Lewd Crest level 50 or higher).\nCan be used after massaging her breasts.",
+        "description": "Touch Artel's nipples (Lewd Crest level 50 or higher). Can be used after\nmassaging her breasts.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -966,7 +966,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "You can finger Artel's pussy.\n",
+        "description": "You can finger Artel's pussy.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -1044,7 +1044,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Ask Artel to give me a blowjob.\n",
+        "description": "Ask Artel to give me a blowjob.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -1148,7 +1148,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "I want Artel to give me a titjob.\n",
+        "description": "I want Artel to give me a titjob.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 87,
@@ -1408,7 +1408,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Select gear events in treasure hunts, training camps, \nand ENDs regardless of your progress level.",
+        "description": "Select gear events in treasure hunts, training camps,  and ENDs regardless of\nyour progress level.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 7,
@@ -1434,7 +1434,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Select Don's events in the treasure hunt, training camp, \nand END regardless of your progress level.",
+        "description": "Select Don's events in the treasure hunt, training camp,  and END regardless of\nyour progress level.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 7,
@@ -1460,7 +1460,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Select Rock's events in the treasure hunt, training camp, \nand END regardless of your progress level.",
+        "description": "Select Rock's events in the treasure hunt, training camp,  and END regardless of\nyour progress level.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 7,
@@ -1486,7 +1486,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Select Henge's events in the treasure hunt, training camp, \nand END regardless of your progress level.",
+        "description": "Select Henge's events in the treasure hunt, training camp,  and END regardless\nof your progress level.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 7,
@@ -1512,7 +1512,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Select Thea's events in the treasure hunt, training camp, \nand END regardless of your progress level.",
+        "description": "Select Thea's events in the treasure hunt, training camp,  and END regardless of\nyour progress level.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 7,

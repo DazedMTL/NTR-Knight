@@ -7171,7 +7171,7 @@
         {
             "id": 4,
             "name": "EV004",
-            "note": "<namePop:アーテルの部屋 0>",
+            "note": "<namePop:Artel's_room 0>",
             "pages": [
                 {
                     "conditions": {
@@ -14377,7 +14377,7 @@
         {
             "id": 14,
             "name": "EV014",
-            "note": "<namePop:ロックの部屋 0>",
+            "note": "<namePop:Rock's_room 0>",
             "pages": [
                 {
                     "conditions": {
@@ -14437,7 +14437,7 @@
         {
             "id": 15,
             "name": "EV015",
-            "note": "<namePop:テアの部屋 0>",
+            "note": "<namePop:Thea's_room 0>",
             "pages": [
                 {
                     "conditions": {

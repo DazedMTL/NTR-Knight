@@ -9954,7 +9954,7 @@
         {
             "id": 16,
             "name": "EV016",
-            "note": "<namePop:売店 0>",
+            "note": "<namePop:Shop 0>",
             "pages": [
                 {
                     "conditions": {
@@ -15204,7 +15204,7 @@
         {
             "id": 34,
             "name": "EV034",
-            "note": "<namePop:風呂 0>",
+            "note": "<namePop:bath 0>",
             "pages": [
                 {
                     "conditions": {

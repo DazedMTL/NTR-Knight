@@ -15594,7 +15594,7 @@
         {
             "id": 14,
             "name": "EV014",
-            "note": "<namePop:試験内容 0>",
+            "note": "<namePop:Test_Content 0>",
             "pages": [
                 {
                     "conditions": {
@@ -20099,7 +20099,7 @@
         {
             "id": 30,
             "name": "EV030",
-            "note": "<namePop:武器庫 0>",
+            "note": "<namePop:Armory 0>",
             "pages": [
                 {
                     "conditions": {
@@ -21824,7 +21824,7 @@
         {
             "id": 37,
             "name": "EV037",
-            "note": "<namePop:訓練 0>",
+            "note": "<namePop:Training 0>",
             "pages": [
                 {
                     "conditions": {
@@ -39285,7 +39285,7 @@
         {
             "id": 92,
             "name": "EV092",
-            "note": "<namePop:教室 0>",
+            "note": "<namePop:Classroom 0>",
             "pages": [
                 {
                     "conditions": {
@@ -39353,7 +39353,7 @@
         {
             "id": 101,
             "name": "EV101",
-            "note": "<namePop:図書館・医務室 0>",
+            "note": "<namePop:Library_Infirmary 0>",
             "pages": [
                 {
                     "conditions": {
@@ -39531,7 +39531,7 @@
         {
             "id": 103,
             "name": "EV103",
-            "note": "<namePop:屋内訓練場 0>",
+            "note": "<namePop:Indoor_Training_Ground 0>",
             "pages": [
                 {
                     "conditions": {
@@ -40058,7 +40058,7 @@
         {
             "id": 110,
             "name": "EV110",
-            "note": "<namePop:任務 0>",
+            "note": "<namePop:Mission 0>",
             "pages": [
                 {
                     "conditions": {
@@ -43281,7 +43281,7 @@
         {
             "id": 125,
             "name": "EV125",
-            "note": "<namePop:資料室 0>",
+            "note": "<namePop:Document_Room 0>",
             "pages": [
                 {
                     "conditions": {

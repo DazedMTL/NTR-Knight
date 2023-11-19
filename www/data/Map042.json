@@ -6878,7 +6878,7 @@
         {
             "id": 12,
             "name": "EV012",
-            "note": "<namePop:教員部屋 0>",
+            "note": "<namePop:Teachers'_Room 0>",
             "pages": [
                 {
                     "conditions": {
@@ -6938,7 +6938,7 @@
         {
             "id": 13,
             "name": "EV013",
-            "note": "<namePop:屋内訓練場 0>",
+            "note": "<namePop:Indoor_Training_Ground 0>",
             "pages": [
                 {
                     "conditions": {
@@ -6998,7 +6998,7 @@
         {
             "id": 14,
             "name": "EV014",
-            "note": "<namePop:食堂・売店・風呂 0>",
+            "note": "<namePop:Dining_Hall,_Shop,_Bathhouse 0>",
             "pages": [
                 {
                     "conditions": {
@@ -7058,7 +7058,7 @@
         {
             "id": 15,
             "name": "EV015",
-            "note": "<namePop:兵舎 0>",
+            "note": "<namePop:Barracks 0>",
             "pages": [
                 {
                     "conditions": {
@@ -7118,7 +7118,7 @@
         {
             "id": 16,
             "name": "EV016",
-            "note": "<namePop:外訓練場 0>",
+            "note": "<namePop:Outdoor_Training_Ground 0>",
             "pages": [
                 {
                     "conditions": {
@@ -7699,7 +7699,7 @@
         {
             "id": 20,
             "name": "EV020",
-            "note": "<namePop:時間経過 0>",
+            "note": "<namePop:Time_passage 0>",
             "pages": [
                 {
                     "conditions": {

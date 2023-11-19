@@ -247,7 +247,7 @@ if (!TMPlugin.InterpreterBase) {
       var namePop = this.loadTagParam('namePop');
       if (namePop) {
         var arr = namePop.split(' ');
-        this.setNamePop(arr[0], arr[1]);
+        this.setNamePop(arr[0].replace(/_/g, ' '), arr[1]);
         this.setNamePopOutlineColor(arr[2]);
       }
     } else {

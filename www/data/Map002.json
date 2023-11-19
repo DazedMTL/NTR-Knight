@@ -12111,7 +12111,7 @@
         {
             "id": 16,
             "name": "EV016",
-            "note": "<namePop:上級生の部屋 0>",
+            "note": "<namePop:Senior's_Room 0>",
             "pages": [
                 {
                     "conditions": {
@@ -12495,7 +12495,7 @@
         {
             "id": 19,
             "name": "EV019",
-            "note": "<namePop:鍛冶部屋 0>",
+            "note": "<namePop:Blacksmith's_Workshop 0>",
             "pages": [
                 {
                     "conditions": {
@@ -28612,7 +28612,7 @@
         {
             "id": 57,
             "name": "EV057",
-            "note": "<namePop:ベッド 0>",
+            "note": "<namePop:Bed 0>",
             "pages": [
                 {
                     "conditions": {

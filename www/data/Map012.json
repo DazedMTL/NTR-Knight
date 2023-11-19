@@ -18800,7 +18800,7 @@
         {
             "id": 48,
             "name": "EV048",
-            "note": "<namePop:懺悔室 0>",
+            "note": "<namePop:Confessional 0>",
             "pages": [
                 {
                     "conditions": {
@@ -21434,7 +21434,7 @@
         {
             "id": 54,
             "name": "EV054",
-            "note": "<namePop:多目的室 0>",
+            "note": "<namePop:Multipurpose_Room 0>",
             "pages": [
                 {
                     "conditions": {
