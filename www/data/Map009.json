@@ -6613,7 +6613,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]知識\\C[0]＋5"
+                                "ShowInfo _SE[Item1]\\C[27]Knowledge\\C[0]_+5"
                             ]
                         },
                         {

@@ -8707,7 +8707,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 制作：戦争屋さん 30"
+                                "D_TEXT Production:_Mr_Sensoya 30"
                             ]
                         },
                         {
@@ -8850,7 +8850,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 制作：戦争屋さん 30"
+                                "D_TEXT Production:_War_Master 30"
                             ]
                         },
                         {
@@ -8993,7 +8993,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 制作：戦争屋さん 30"
+                                "D_TEXT Production:_Mr_Sensoya 30"
                             ]
                         },
                         {
@@ -9136,7 +9136,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 制作：戦争屋さん 30"
+                                "D_TEXT Production:_Mr_Sensoya 30"
                             ]
                         },
                         {
@@ -11602,7 +11602,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]思い出に「アーテルと勝負」が追加された"
+                                "ShowInfo _SE[Item1]\\C[27]_Artel's_Match_has_been_added_to_the_memories"
                             ]
                         },
                         {
@@ -12297,7 +12297,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]思い出に「アーテルとの別れ」が追加された"
+                                "ShowInfo _SE[Item1]\\C[27]The_memory_of_parting_with_Artel_has_been_added"
                             ]
                         },
                         {
@@ -16314,7 +16314,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]思い出に「出会い」が追加された"
+                                "ShowInfo _SE[Item1]A_meeting_has_been_added_to_\\C[27]_memories"
                             ]
                         },
                         {

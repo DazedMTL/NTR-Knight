@@ -9555,7 +9555,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -29629,7 +29629,7 @@
                             "code": 356,
                             "indent": 4,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]思い出に「出会い」が追加された"
+                                "ShowInfo _SE[Item1]A_meeting_has_been_added_to_my_memories"
                             ]
                         },
                         {

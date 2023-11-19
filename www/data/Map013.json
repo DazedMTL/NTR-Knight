@@ -18179,7 +18179,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -18222,7 +18222,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -18256,7 +18256,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -22282,7 +22282,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "I can't accept this! There's no way I can teach swordsmanship to such a young\ngirl..."
+                                "I can't accept this! There's no way swordsmanship can be taught by such a young\ngirl..."
                             ]
                         },
                         {
@@ -24082,7 +24082,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "(It's too fast, I can't even think about my panties...)"
+                                "(It's too fast, I can't even think about her panties...)"
                             ]
                         },
                         {
@@ -24722,7 +24722,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "She's childhood friends with such a cute woman!?"
+                                "You're childhood friends with such a cute woman!?"
                             ]
                         },
                         {
@@ -24846,7 +24846,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Please introduce me to him later, okay?"
+                                "Please introduce me to her later, okay?"
                             ]
                         },
                         {
@@ -28417,7 +28417,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]剣術\\C[0]＋5"
+                                "ShowInfo _SE[Item1]\\C[27]Swordsmanship\\C[0]_+5"
                             ]
                         },
                         {
@@ -29079,7 +29079,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -30020,7 +30020,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -38956,7 +38956,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -38989,7 +38989,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -39037,7 +39037,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【Gears Kameraden】\\C[0]"
+                                "\\C[2]【Gears Comrade】\\C[0]"
                             ]
                         },
                         {
@@ -47133,7 +47133,7 @@
                             "code": 356,
                             "indent": 2,
                             "parameters": [
-                                "ShowInfo _SE[Item1]\\C[27]思い出に「アーテルと勝負」が追加された"
+                                "ShowInfo _SE[Item1]\\C[27]_Artel's_Match_has_been_added_to_the_memories"
                             ]
                         },
                         {
