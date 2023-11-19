@@ -373,10 +373,7 @@ var utakata = utakata || (utakata = {});
       var switchesJson = this._getTargetSwitchJson();
       var variablesJson = this._getTargetVariableJson();
 
-      var json = {
-        gameSwitches: switchesJson,
-        gameVariables: variablesJson,
-      };
+      var json = { gameSwitches: switchesJson, gameVariables: variablesJson };
 
       DataManager.saveCommonSave(json);
     };
