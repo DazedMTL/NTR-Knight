@@ -30,11 +30,10 @@
  */
 
 (function () {
-
-  var parameters = PluginManager.parameters('MenuCallCommon');
-  var Noncha_ComEvent = Number(parameters['ComEvent'] || 1);
-  var Noncha_ComCloseEvent = Number(parameters['ComCloseEvent'] || 1);
-  var Noncha_ComSwitch = Number(parameters['ComSwitch'] || 1);
+  var parameters = PluginManager.parameters("MenuCallCommon");
+  var Noncha_ComEvent = Number(parameters["ComEvent"] || 1);
+  var Noncha_ComCloseEvent = Number(parameters["ComCloseEvent"] || 1);
+  var Noncha_ComSwitch = Number(parameters["ComSwitch"] || 1);
 
   Scene_Map.prototype.updateCallMenu = function () {
     if (this.isMenuEnabled()) {
@@ -54,5 +53,4 @@
       this.menuCalling = false;
     }
   };
-
 })();

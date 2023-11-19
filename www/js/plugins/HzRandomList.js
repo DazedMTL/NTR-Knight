@@ -40,143 +40,147 @@
  */
 
 (function () {
-    function convertEscape(txt) { return Window_Base.prototype.convertEscapeCharacters(txt) };
+  function convertEscape(txt) {
+    return Window_Base.prototype.convertEscapeCharacters(txt);
+  }
 
-    var _Game_Interpreter_pluginCommand =
-        Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.call(this, command, args);
-        // スクリプトコマンド「HZRANDOM」
-        if (command.toUpperCase() === 'HZRANDOM') {
-            var type = String(args[0]);
-            if (type.toUpperCase() === 'CREATE') {
-                // 「HZRANDOM CREATE」：ランダムリストの作成
-                var id = Number(convertEscape(args[1]));
-                var min = Number(convertEscape(args[2]));
-                var max = Number(convertEscape(args[3]));
-                var loop = args[4] != null ? Number(convertEscape(args[4])) == 1 : false;
-                $gameSystem.putHzRandomList(id, new HzRandomList(min, max, loop));
-            } else if (type.toUpperCase() === 'NEXT') {
-                // 「HZRANDOM NEXT」：ランダムリストの次の要素を取得
-                var id = Number(convertEscape(args[1]));
-                var varNo = Number(convertEscape(args[2]));
-                var nextValue = $gameSystem.getNextHzRandomList(id);
-                if (nextValue != null) {
-                    $gameVariables.setValue(varNo, nextValue);
-                }
-            } else if (type.toUpperCase() === 'SHUFFLE') {
-                // 「HZRANDOM NEXT」：ランダムリストの再シャッフル
-                var id = Number(convertEscape(args[1]));
-                $gameSystem.shuffleHzRandomList(id);
-            }
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
+  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    _Game_Interpreter_pluginCommand.call(this, command, args);
+    // スクリプトコマンド「HZRANDOM」
+    if (command.toUpperCase() === "HZRANDOM") {
+      var type = String(args[0]);
+      if (type.toUpperCase() === "CREATE") {
+        // 「HZRANDOM CREATE」：ランダムリストの作成
+        var id = Number(convertEscape(args[1]));
+        var min = Number(convertEscape(args[2]));
+        var max = Number(convertEscape(args[3]));
+        var loop =
+          args[4] != null ? Number(convertEscape(args[4])) == 1 : false;
+        $gameSystem.putHzRandomList(id, new HzRandomList(min, max, loop));
+      } else if (type.toUpperCase() === "NEXT") {
+        // 「HZRANDOM NEXT」：ランダムリストの次の要素を取得
+        var id = Number(convertEscape(args[1]));
+        var varNo = Number(convertEscape(args[2]));
+        var nextValue = $gameSystem.getNextHzRandomList(id);
+        if (nextValue != null) {
+          $gameVariables.setValue(varNo, nextValue);
         }
-    };
-
-    //
-    // ランダムリストはGame_Systemに保管。（セーブファイルに保存するため）
-    //
-    Game_System.prototype.putHzRandomList = function (id, list) {
-        if (!this._hzrandomList) {
-            this._hzrandomList = [];
-        }
-        this._hzrandomList[id] = list;
-    };
-
-    Game_System.prototype.getNextHzRandomList = function (id) {
-        if (!this._hzrandomList) {
-            this._hzrandomList = [];
-        }
-        if (!this._hzrandomList[id]) {
-            return null;
-        }
-        return HzRandomList.next(this._hzrandomList[id]);
-    };
-
-    Game_System.prototype.shuffleHzRandomList = function (id) {
-        if (!this._hzrandomList) {
-            this._hzrandomList = [];
-        }
-        if (!this._hzrandomList[id]) {
-            return;
-        }
-        HzRandomList.shuffle(this._hzrandomList[id]);
-    };
-
-    function HzRandomList() {
-        this.initialize.apply(this, arguments);
+      } else if (type.toUpperCase() === "SHUFFLE") {
+        // 「HZRANDOM NEXT」：ランダムリストの再シャッフル
+        var id = Number(convertEscape(args[1]));
+        $gameSystem.shuffleHzRandomList(id);
+      }
     }
+  };
 
-    /**
-     * 初期化処理
-     * @returns {Array|HzRandomList_L1.HzRandomList._list}
-     */
-    HzRandomList.prototype.initialize = function (min, max, loop) {
-        this._min = min;
-        this._max = max;
-        this._loop = loop;
-        if (this._min > this._max) {
-            var tmp = this._min;
-            this._min = this._max;
-            this._max = tmp;
-        }
-        // min~max（max含む）の配列を作成
-        this._list = new Array(this._max - this._min + 1);
-        for (var i = 0; i < this._max - this._min + 1; i++) {
-            this._list[i] = this._min + i;
-        }
-        // 配列のシャッフル
-        shuffle(this._list);
-        // 次回取得時の配列のINDEX設定
-        this._index = 0;
-    };
+  //
+  // ランダムリストはGame_Systemに保管。（セーブファイルに保存するため）
+  //
+  Game_System.prototype.putHzRandomList = function (id, list) {
+    if (!this._hzrandomList) {
+      this._hzrandomList = [];
+    }
+    this._hzrandomList[id] = list;
+  };
 
-    /**
-     * ランダムリストの次の要素を返す
-     * @returns {Array}
-     */
-    HzRandomList.next = function (list) {
-        if (list._index >= list._list.length) {
-            if (!list._loop) {
-                // ループ設定OFFの場合、配列を再シャッフル
-                shuffle(list._list);
-            }
-            // INDEXを0に戻す
-            list._index = 0;
-        }
-        // ランダムリストの要素を取得
-        var value = list._list[list._index];
-        // インデックスをカウントアップ
-        list._index++;
-        return value;
-    };
+  Game_System.prototype.getNextHzRandomList = function (id) {
+    if (!this._hzrandomList) {
+      this._hzrandomList = [];
+    }
+    if (!this._hzrandomList[id]) {
+      return null;
+    }
+    return HzRandomList.next(this._hzrandomList[id]);
+  };
 
-    /**
-     * 配列を再度シャッフルする
-     * @returns {undefined}
-     */
-    HzRandomList.shuffle = function (list) {
-        // 配列を再シャッフル
+  Game_System.prototype.shuffleHzRandomList = function (id) {
+    if (!this._hzrandomList) {
+      this._hzrandomList = [];
+    }
+    if (!this._hzrandomList[id]) {
+      return;
+    }
+    HzRandomList.shuffle(this._hzrandomList[id]);
+  };
+
+  function HzRandomList() {
+    this.initialize.apply(this, arguments);
+  }
+
+  /**
+   * 初期化処理
+   * @returns {Array|HzRandomList_L1.HzRandomList._list}
+   */
+  HzRandomList.prototype.initialize = function (min, max, loop) {
+    this._min = min;
+    this._max = max;
+    this._loop = loop;
+    if (this._min > this._max) {
+      var tmp = this._min;
+      this._min = this._max;
+      this._max = tmp;
+    }
+    // min~max（max含む）の配列を作成
+    this._list = new Array(this._max - this._min + 1);
+    for (var i = 0; i < this._max - this._min + 1; i++) {
+      this._list[i] = this._min + i;
+    }
+    // 配列のシャッフル
+    shuffle(this._list);
+    // 次回取得時の配列のINDEX設定
+    this._index = 0;
+  };
+
+  /**
+   * ランダムリストの次の要素を返す
+   * @returns {Array}
+   */
+  HzRandomList.next = function (list) {
+    if (list._index >= list._list.length) {
+      if (!list._loop) {
+        // ループ設定OFFの場合、配列を再シャッフル
         shuffle(list._list);
-        // INDEXを0に戻す
-        list._index = 0;
-    };
+      }
+      // INDEXを0に戻す
+      list._index = 0;
+    }
+    // ランダムリストの要素を取得
+    var value = list._list[list._index];
+    // インデックスをカウントアップ
+    list._index++;
+    return value;
+  };
 
-    /**
-     * 配列のシャッフル用関数
-     * @param {type} array
-     * @returns {unresolved}
-     */
-    function shuffle(array) {
-        var n = array.length, t, i;
+  /**
+   * 配列を再度シャッフルする
+   * @returns {undefined}
+   */
+  HzRandomList.shuffle = function (list) {
+    // 配列を再シャッフル
+    shuffle(list._list);
+    // INDEXを0に戻す
+    list._index = 0;
+  };
 
-        while (n) {
-            i = Math.floor(Math.random() * n--);
-            t = array[n];
-            array[n] = array[i];
-            array[i] = t;
-        }
+  /**
+   * 配列のシャッフル用関数
+   * @param {type} array
+   * @returns {unresolved}
+   */
+  function shuffle(array) {
+    var n = array.length,
+      t,
+      i;
 
-        return array;
+    while (n) {
+      i = Math.floor(Math.random() * n--);
+      t = array[n];
+      array[n] = array[i];
+      array[i] = t;
     }
 
+    return array;
+  }
 })();

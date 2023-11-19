@@ -19,12 +19,12 @@
  * アイテム等のメモ欄に
  * <MNKR_SwitchSell>
  * と入れてください。
- * 
+ *
  * プラグインパラメーターで指定したスイッチがONの時に、
  * ショップで売却できなくなります。
- * 
+ *
  * 購入可能で、売却不可のアイテムが作れます。
- * 
+ *
  *
  * 利用規約:
  *   MITライセンスです。
@@ -44,9 +44,12 @@
 (() => {
   "use strict";
 
-  const pluginName = document.currentScript.src.split("/").pop().replace(/\.js$/, "");
+  const pluginName = document.currentScript.src
+    .split("/")
+    .pop()
+    .replace(/\.js$/, "");
   const parameters = PluginManager.parameters(pluginName);
-  const switchId = Number(parameters['switchId'] || 0);
+  const switchId = Number(parameters["switchId"] || 0);
 
   const _Window_ShopSell_isEnabled = Window_ShopSell.prototype.isEnabled;
   Window_ShopSell.prototype.isEnabled = function (item) {
@@ -55,7 +58,8 @@
     if (item && item.meta) {
       isTag = item.meta.MNKR_SwitchSell;
     }
-    return (switchSell && isTag) ? false : _Window_ShopSell_isEnabled.call(this, item);
+    return switchSell && isTag
+      ? false
+      : _Window_ShopSell_isEnabled.call(this, item);
   };
-
 })();

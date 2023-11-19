@@ -204,44 +204,59 @@ Imported.TMMenuLabel = true;
 
 var TMPlugin = TMPlugin || {};
 TMPlugin.MenuLabel = {};
-TMPlugin.MenuLabel.Parameters = PluginManager.parameters('TMMenuLabel');
+TMPlugin.MenuLabel.Parameters = PluginManager.parameters("TMMenuLabel");
 TMPlugin.MenuLabel.Labels = [];
 TMPlugin.MenuLabel.Labels[0] = {
-  name: TMPlugin.MenuLabel.Parameters['labelAName'],
-  id: +(TMPlugin.MenuLabel.Parameters['labelAId'] || 10),
-  max: +(TMPlugin.MenuLabel.Parameters['labelAMax'] || 9999),
-  footer: TMPlugin.MenuLabel.Parameters['labelAFooter']
+  name: TMPlugin.MenuLabel.Parameters["labelAName"],
+  id: +(TMPlugin.MenuLabel.Parameters["labelAId"] || 10),
+  max: +(TMPlugin.MenuLabel.Parameters["labelAMax"] || 9999),
+  footer: TMPlugin.MenuLabel.Parameters["labelAFooter"],
 };
 TMPlugin.MenuLabel.Labels[1] = {
-  name: TMPlugin.MenuLabel.Parameters['labelBName'],
-  id: +(TMPlugin.MenuLabel.Parameters['labelBId'] || 10),
-  max: +(TMPlugin.MenuLabel.Parameters['labelBMax'] || 9999),
-  footer: TMPlugin.MenuLabel.Parameters['labelBFooter']
+  name: TMPlugin.MenuLabel.Parameters["labelBName"],
+  id: +(TMPlugin.MenuLabel.Parameters["labelBId"] || 10),
+  max: +(TMPlugin.MenuLabel.Parameters["labelBMax"] || 9999),
+  footer: TMPlugin.MenuLabel.Parameters["labelBFooter"],
 };
 TMPlugin.MenuLabel.Labels[2] = {
-  name: TMPlugin.MenuLabel.Parameters['labelCName'],
-  id: +(TMPlugin.MenuLabel.Parameters['labelCId'] || 10),
-  max: +(TMPlugin.MenuLabel.Parameters['labelCMax'] || 9999),
-  footer: TMPlugin.MenuLabel.Parameters['labelCFooter']
+  name: TMPlugin.MenuLabel.Parameters["labelCName"],
+  id: +(TMPlugin.MenuLabel.Parameters["labelCId"] || 10),
+  max: +(TMPlugin.MenuLabel.Parameters["labelCMax"] || 9999),
+  footer: TMPlugin.MenuLabel.Parameters["labelCFooter"],
 };
 TMPlugin.MenuLabel.Labels[3] = {
-  name: TMPlugin.MenuLabel.Parameters['labelDName'],
-  id: +(TMPlugin.MenuLabel.Parameters['labelDId'] || 10),
-  max: +(TMPlugin.MenuLabel.Parameters['labelDMax'] || 9999),
-  footer: TMPlugin.MenuLabel.Parameters['labelDFooter']
+  name: TMPlugin.MenuLabel.Parameters["labelDName"],
+  id: +(TMPlugin.MenuLabel.Parameters["labelDId"] || 10),
+  max: +(TMPlugin.MenuLabel.Parameters["labelDMax"] || 9999),
+  footer: TMPlugin.MenuLabel.Parameters["labelDFooter"],
 };
-TMPlugin.MenuLabel.NameWidth = +(TMPlugin.MenuLabel.Parameters['labelNameWidth'] || 160);
-TMPlugin.MenuLabel.ValueWidth = +(TMPlugin.MenuLabel.Parameters['labelValueWidth'] || 96);
-TMPlugin.MenuLabel.NameColorId = +(TMPlugin.MenuLabel.Parameters['labelNameColorId'] || 16);
-TMPlugin.MenuLabel.ValueColorId = +(TMPlugin.MenuLabel.Parameters['labelValueColorId'] || 0);
-TMPlugin.MenuLabel.MaxColorId = +(TMPlugin.MenuLabel.Parameters['labelMaxColorId'] || 2);
-TMPlugin.MenuLabel.FooterColorId = +(TMPlugin.MenuLabel.Parameters['labelFooterColorId'] || 0);
-TMPlugin.MenuLabel.FooterSpace = +(TMPlugin.MenuLabel.Parameters['footerSpace'] || 0);
-TMPlugin.MenuLabel.ReverseMenuWindow = TMPlugin.MenuLabel.Parameters['reverseMenuWindow'] === '1';
-TMPlugin.MenuLabel.MenuTextAlign = TMPlugin.MenuLabel.Parameters['menuTextAlign'] || 'left';
+TMPlugin.MenuLabel.NameWidth = +(
+  TMPlugin.MenuLabel.Parameters["labelNameWidth"] || 160
+);
+TMPlugin.MenuLabel.ValueWidth = +(
+  TMPlugin.MenuLabel.Parameters["labelValueWidth"] || 96
+);
+TMPlugin.MenuLabel.NameColorId = +(
+  TMPlugin.MenuLabel.Parameters["labelNameColorId"] || 16
+);
+TMPlugin.MenuLabel.ValueColorId = +(
+  TMPlugin.MenuLabel.Parameters["labelValueColorId"] || 0
+);
+TMPlugin.MenuLabel.MaxColorId = +(
+  TMPlugin.MenuLabel.Parameters["labelMaxColorId"] || 2
+);
+TMPlugin.MenuLabel.FooterColorId = +(
+  TMPlugin.MenuLabel.Parameters["labelFooterColorId"] || 0
+);
+TMPlugin.MenuLabel.FooterSpace = +(
+  TMPlugin.MenuLabel.Parameters["footerSpace"] || 0
+);
+TMPlugin.MenuLabel.ReverseMenuWindow =
+  TMPlugin.MenuLabel.Parameters["reverseMenuWindow"] === "1";
+TMPlugin.MenuLabel.MenuTextAlign =
+  TMPlugin.MenuLabel.Parameters["menuTextAlign"] || "left";
 
 (function () {
-
   //-----------------------------------------------------------------------------
   // Game_System
   //
@@ -259,12 +274,13 @@ TMPlugin.MenuLabel.MenuTextAlign = TMPlugin.MenuLabel.Parameters['menuTextAlign'
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'startMenuLabel') {
+    if (command === "startMenuLabel") {
       $gameSystem.setMenuLabel(true);
-    } else if (command === 'stopMenuLabel') {
+    } else if (command === "stopMenuLabel") {
       $gameSystem.setMenuLabel(false);
     }
   };
@@ -359,10 +375,15 @@ TMPlugin.MenuLabel.MenuTextAlign = TMPlugin.MenuLabel.Parameters['menuTextAlign'
       value = label.max;
       this.changeTextColor(this.textColor(TMPlugin.MenuLabel.MaxColorId));
     }
-    this.drawText(value, x, y, TMPlugin.MenuLabel.ValueWidth, 'right');
+    this.drawText(value, x, y, TMPlugin.MenuLabel.ValueWidth, "right");
     if (label.name) {
       this.changeTextColor(this.textColor(TMPlugin.MenuLabel.NameColorId));
-      this.drawText(label.name, this.textPadding(), y, TMPlugin.MenuLabel.NameWidth);
+      this.drawText(
+        label.name,
+        this.textPadding(),
+        y,
+        TMPlugin.MenuLabel.NameWidth
+      );
     }
   };
 
@@ -377,8 +398,9 @@ TMPlugin.MenuLabel.MenuTextAlign = TMPlugin.MenuLabel.Parameters['menuTextAlign'
     if (TMPlugin.MenuLabel.ReverseMenuWindow) {
       this._statusWindow.x = 0;
       this._commandWindow.x = this._statusWindow.width;
-      this._goldWindow.x = this._commandWindow.x
-      if (this._menuLabelWindow) this._menuLabelWindow.x = this._commandWindow.x
+      this._goldWindow.x = this._commandWindow.x;
+      if (this._menuLabelWindow)
+        this._menuLabelWindow.x = this._commandWindow.x;
     }
   };
 
@@ -387,5 +409,4 @@ TMPlugin.MenuLabel.MenuTextAlign = TMPlugin.MenuLabel.Parameters['menuTextAlign'
     this._menuLabelWindow.y = this._goldWindow.y - this._menuLabelWindow.height;
     this.addWindow(this._menuLabelWindow);
   };
-
 })();

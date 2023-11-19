@@ -102,15 +102,16 @@ Imported.TMAnimeLight = true;
 
 var TMPlugin = TMPlugin || {};
 TMPlugin.AnimeLight = {};
-TMPlugin.AnimeLight.Parameters = PluginManager.parameters('TMAnimeLight');
-TMPlugin.AnimeLight.Range = +(TMPlugin.AnimeLight.Parameters['range'] || 0.1);
-TMPlugin.AnimeLight.DefaultZ = +(TMPlugin.AnimeLight.Parameters['defaultZ'] || 4);
-TMPlugin.AnimeLight.Frames = +(TMPlugin.AnimeLight.Parameters['frames'] || 30);
+TMPlugin.AnimeLight.Parameters = PluginManager.parameters("TMAnimeLight");
+TMPlugin.AnimeLight.Range = +(TMPlugin.AnimeLight.Parameters["range"] || 0.1);
+TMPlugin.AnimeLight.DefaultZ = +(
+  TMPlugin.AnimeLight.Parameters["defaultZ"] || 4
+);
+TMPlugin.AnimeLight.Frames = +(TMPlugin.AnimeLight.Parameters["frames"] || 30);
 
 if (!TMPlugin.EventBase) {
   TMPlugin.EventBase = true;
   (function () {
-
     var _Game_Event_setupPage = Game_Event.prototype.setupPage;
     Game_Event.prototype.setupPage = function () {
       _Game_Event_setupPage.call(this);
@@ -123,11 +124,12 @@ if (!TMPlugin.EventBase) {
       var list = this.list();
       for (var i = 0; i < list.length; i++) {
         var command = list[i];
-        if (command && command.code == 108 || command.code == 408) {
-          for (; ;) {
+        if ((command && command.code == 108) || command.code == 408) {
+          for (;;) {
             var match = re.exec(command.parameters[0]);
             if (match) {
-              this._commentParams[match[1]] = match[2] === ':' ? match[3] : true;
+              this._commentParams[match[1]] =
+                match[2] === ":" ? match[3] : true;
             } else {
               break;
             }
@@ -141,48 +143,56 @@ if (!TMPlugin.EventBase) {
     Game_Event.prototype.loadTagParam = function (paramName) {
       return this._commentParams[paramName] || this.event().meta[paramName];
     };
-
   })();
 } // TMPlugin.EventBase
 
 if (!TMPlugin.InterpreterBase) {
   TMPlugin.InterpreterBase = true;
   (function () {
-
     Game_Interpreter.prototype.convertEscapeCharactersTM = function (text) {
-      text = text.replace(/\\/g, '\x1b');
-      text = text.replace(/\x1b\x1b/g, '\\');
-      text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-        return $gameVariables.value(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-        return $gameVariables.value(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
-        return this.actorNameTM(parseInt(arguments[1]));
-      }.bind(this));
-      text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
-        return this.partyMemberNameTM(parseInt(arguments[1]));
-      }.bind(this));
+      text = text.replace(/\\/g, "\x1b");
+      text = text.replace(/\x1b\x1b/g, "\\");
+      text = text.replace(
+        /\x1bV\[(\d+)\]/gi,
+        function () {
+          return $gameVariables.value(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bV\[(\d+)\]/gi,
+        function () {
+          return $gameVariables.value(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bN\[(\d+)\]/gi,
+        function () {
+          return this.actorNameTM(parseInt(arguments[1]));
+        }.bind(this)
+      );
+      text = text.replace(
+        /\x1bP\[(\d+)\]/gi,
+        function () {
+          return this.partyMemberNameTM(parseInt(arguments[1]));
+        }.bind(this)
+      );
       text = text.replace(/\x1bG/gi, TextManager.currencyUnit);
       return text;
     };
 
     Game_Interpreter.prototype.actorNameTM = function (n) {
       var actor = n >= 1 ? $gameActors.actor(n) : null;
-      return actor ? actor.name() : '';
+      return actor ? actor.name() : "";
     };
 
     Game_Interpreter.prototype.partyMemberNameTM = function (n) {
       var actor = n >= 1 ? $gameParty.members()[n - 1] : null;
-      return actor ? actor.name() : '';
+      return actor ? actor.name() : "";
     };
-
   })();
 } // TMPlugin.InterpreterBase
 
 (function () {
-
   //-----------------------------------------------------------------------------
   // Game_Temp
   //
@@ -196,8 +206,10 @@ if (!TMPlugin.InterpreterBase) {
   Game_Temp.prototype.createAnimeLightSinTable = function () {
     this._animeLightSinTable = [];
     for (var i = 0; i < TMPlugin.AnimeLight.Frames; i++) {
-      this._animeLightSinTable[i] = Math.sin(Math.PI * i / (TMPlugin.AnimeLight.Frames / 2)) *
-        TMPlugin.AnimeLight.Range + 1;
+      this._animeLightSinTable[i] =
+        Math.sin((Math.PI * i) / (TMPlugin.AnimeLight.Frames / 2)) *
+          TMPlugin.AnimeLight.Range +
+        1;
     }
   };
 
@@ -229,18 +241,18 @@ if (!TMPlugin.InterpreterBase) {
   Game_Event.prototype.setupPage = function () {
     _Game_Event_setupPage.call(this);
     if (this._pageIndex >= 0) {
-      var animeLight = this.loadTagParam('animeLight');
+      var animeLight = this.loadTagParam("animeLight");
       if (animeLight) {
-        var arr = animeLight.split(' ');
+        var arr = animeLight.split(" ");
         this._animeLight = arr[0];
         this._animeLightOpacity = arr[1] || 255;
         this._animeLightShiftX = arr[2] || 0;
         this._animeLightShiftY = arr[3] || 0;
         this._animeLightZ = arr[4] || TMPlugin.AnimeLight.DefaultZ;
-        this._animeLightNone = arr[5] === '1';
+        this._animeLightNone = arr[5] === "1";
       }
     } else {
-      this._animeLight = '';
+      this._animeLight = "";
       this._animeLightOpacity = 255;
       this._animeLightShiftX = 0;
       this._animeLightShiftY = 0;
@@ -254,10 +266,11 @@ if (!TMPlugin.InterpreterBase) {
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'animeLight') {
+    if (command === "animeLight") {
       var arr = args.map(this.convertEscapeCharactersTM, this);
       var character = this.character(+arr[0]);
       if (character) {
@@ -266,7 +279,7 @@ if (!TMPlugin.InterpreterBase) {
         character._animeLightShiftX = arr[3] || 0;
         character._animeLightShiftY = arr[4] || 0;
         character._animeLightZ = arr[5] || TMPlugin.AnimeLight.DefaultZ;
-        character._animeLightNone = arr[6] === '1';
+        character._animeLightNone = arr[6] === "1";
         character.requestAnimeLight();
       }
     }
@@ -283,8 +296,10 @@ if (!TMPlugin.InterpreterBase) {
   };
 
   Sprite_Character.prototype.updateAnimeLight = function () {
-    if (this._character.isAnimeLightRequested() ||
-      this._animeLight !== this._character._animeLight) {
+    if (
+      this._character.isAnimeLightRequested() ||
+      this._animeLight !== this._character._animeLight
+    ) {
       this._character.onChangeAnimeLight();
       this._animeLight = this._character._animeLight;
       if (this._animeLight) {
@@ -341,5 +356,4 @@ if (!TMPlugin.InterpreterBase) {
     this.y = this._characterSprite.y + this._shiftY;
     this.z = +this._characterSprite._character._animeLightZ;
   };
-
 })();

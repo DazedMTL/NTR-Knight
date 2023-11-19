@@ -31,8 +31,8 @@
  *
  * @param labelAFooter
  * @desc ラベルＡのフッターテキスト
- * 初期値: 
- * @default 
+ * 初期値:
+ * @default
  *
  * @param labelBName
  * @desc ラベルＢの名前
@@ -51,8 +51,8 @@
  *
  * @param labelBFooter
  * @desc ラベルＢのフッターテキスト
- * 初期値: 
- * @default 
+ * 初期値:
+ * @default
  *
  * @param labelNameWidth
  * @desc ラベル名の表示幅
@@ -125,24 +125,47 @@ Imported.TMSaveDataLabel = true;
 
 var TMPlugin = TMPlugin || {};
 TMPlugin.SaveDataLabel = {};
-TMPlugin.SaveDataLabel.Parameters = PluginManager.parameters('TMSaveDataLabel');
-TMPlugin.SaveDataLabel.LabelAName = TMPlugin.SaveDataLabel.Parameters['labelAName'];
-TMPlugin.SaveDataLabel.LabelAId = +(TMPlugin.SaveDataLabel.Parameters['labelAId'] || 10);
-TMPlugin.SaveDataLabel.LabelAMax = +(TMPlugin.SaveDataLabel.Parameters['labelAMax'] || 9999);
-TMPlugin.SaveDataLabel.LabelAFooter = TMPlugin.SaveDataLabel.Parameters['labelAFooter'];
-TMPlugin.SaveDataLabel.LabelBName = TMPlugin.SaveDataLabel.Parameters['labelBName'];
-TMPlugin.SaveDataLabel.LabelBId = +(TMPlugin.SaveDataLabel.Parameters['labelBId'] || 0);
-TMPlugin.SaveDataLabel.LabelBMax = +(TMPlugin.SaveDataLabel.Parameters['labelBMax'] || 9999);
-TMPlugin.SaveDataLabel.LabelBFooter = TMPlugin.SaveDataLabel.Parameters['labelBFooter'];
-TMPlugin.SaveDataLabel.NameWidth = +(TMPlugin.SaveDataLabel.Parameters['labelNameWidth'] || 160);
-TMPlugin.SaveDataLabel.ValueWidth = +(TMPlugin.SaveDataLabel.Parameters['labelValueWidth'] || 96);
-TMPlugin.SaveDataLabel.NameColorId = +(TMPlugin.SaveDataLabel.Parameters['labelNameColorId'] || 16);
-TMPlugin.SaveDataLabel.ValueColorId = +(TMPlugin.SaveDataLabel.Parameters['labelValueColorId'] || 0);
-TMPlugin.SaveDataLabel.MaxColorId = +(TMPlugin.SaveDataLabel.Parameters['labelMaxColorId'] || 2);
-TMPlugin.SaveDataLabel.FooterColorId = +(TMPlugin.SaveDataLabel.Parameters['labelFooterColorId'] || 0);
+TMPlugin.SaveDataLabel.Parameters = PluginManager.parameters("TMSaveDataLabel");
+TMPlugin.SaveDataLabel.LabelAName =
+  TMPlugin.SaveDataLabel.Parameters["labelAName"];
+TMPlugin.SaveDataLabel.LabelAId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelAId"] || 10
+);
+TMPlugin.SaveDataLabel.LabelAMax = +(
+  TMPlugin.SaveDataLabel.Parameters["labelAMax"] || 9999
+);
+TMPlugin.SaveDataLabel.LabelAFooter =
+  TMPlugin.SaveDataLabel.Parameters["labelAFooter"];
+TMPlugin.SaveDataLabel.LabelBName =
+  TMPlugin.SaveDataLabel.Parameters["labelBName"];
+TMPlugin.SaveDataLabel.LabelBId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelBId"] || 0
+);
+TMPlugin.SaveDataLabel.LabelBMax = +(
+  TMPlugin.SaveDataLabel.Parameters["labelBMax"] || 9999
+);
+TMPlugin.SaveDataLabel.LabelBFooter =
+  TMPlugin.SaveDataLabel.Parameters["labelBFooter"];
+TMPlugin.SaveDataLabel.NameWidth = +(
+  TMPlugin.SaveDataLabel.Parameters["labelNameWidth"] || 160
+);
+TMPlugin.SaveDataLabel.ValueWidth = +(
+  TMPlugin.SaveDataLabel.Parameters["labelValueWidth"] || 96
+);
+TMPlugin.SaveDataLabel.NameColorId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelNameColorId"] || 16
+);
+TMPlugin.SaveDataLabel.ValueColorId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelValueColorId"] || 0
+);
+TMPlugin.SaveDataLabel.MaxColorId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelMaxColorId"] || 2
+);
+TMPlugin.SaveDataLabel.FooterColorId = +(
+  TMPlugin.SaveDataLabel.Parameters["labelFooterColorId"] || 0
+);
 
 (function () {
-
   //-----------------------------------------------------------------------------
   // DataManager
   //
@@ -150,8 +173,12 @@ TMPlugin.SaveDataLabel.FooterColorId = +(TMPlugin.SaveDataLabel.Parameters['labe
   var _DataManager_makeSavefileInfo = DataManager.makeSavefileInfo;
   DataManager.makeSavefileInfo = function () {
     var info = _DataManager_makeSavefileInfo.call(this);
-    info.labelA = TMPlugin.SaveDataLabel.LabelAId ? $gameVariables.value(TMPlugin.SaveDataLabel.LabelAId) : 0;
-    info.labelB = TMPlugin.SaveDataLabel.LabelBId ? $gameVariables.value(TMPlugin.SaveDataLabel.LabelBId) : 0;
+    info.labelA = TMPlugin.SaveDataLabel.LabelAId
+      ? $gameVariables.value(TMPlugin.SaveDataLabel.LabelAId)
+      : 0;
+    info.labelB = TMPlugin.SaveDataLabel.LabelBId
+      ? $gameVariables.value(TMPlugin.SaveDataLabel.LabelBId)
+      : 0;
     return info;
   };
 
@@ -164,23 +191,25 @@ TMPlugin.SaveDataLabel.FooterColorId = +(TMPlugin.SaveDataLabel.Parameters['labe
     _Window_SavefileList_drawItem.call(this, index);
     var id = index + 1;
     var valid = DataManager.isThisGameFile(id);
-    var info = DataManager.loadSavefileInfo(id)
+    var info = DataManager.loadSavefileInfo(id);
     if (info && valid) {
       var rect = this.itemRectForText(index);
       var x = rect.width + this.textPadding();
       if (TMPlugin.SaveDataLabel.LabelAId && info.labelA != null) {
         var label = {
-          name: TMPlugin.SaveDataLabel.LabelAName, value: info.labelA,
+          name: TMPlugin.SaveDataLabel.LabelAName,
+          value: info.labelA,
           max: TMPlugin.SaveDataLabel.LabelAMax,
-          footer: TMPlugin.SaveDataLabel.LabelAFooter
+          footer: TMPlugin.SaveDataLabel.LabelAFooter,
         };
         this.drawSaveDataLabel(x, rect.y, label);
       }
       if (TMPlugin.SaveDataLabel.LabelBId && info.labelB != null) {
         var label = {
-          name: TMPlugin.SaveDataLabel.LabelBName, value: info.labelB,
+          name: TMPlugin.SaveDataLabel.LabelBName,
+          value: info.labelB,
           max: TMPlugin.SaveDataLabel.LabelBMax,
-          footer: TMPlugin.SaveDataLabel.LabelBFooter
+          footer: TMPlugin.SaveDataLabel.LabelBFooter,
         };
         this.drawSaveDataLabel(x, rect.y + this.lineHeight(), label);
       }
@@ -191,7 +220,9 @@ TMPlugin.SaveDataLabel.FooterColorId = +(TMPlugin.SaveDataLabel.Parameters['labe
     if (label.footer) {
       var footerWidth = this.textWidth(label.footer);
       x -= footerWidth;
-      this.changeTextColor(this.textColor(TMPlugin.SaveDataLabel.FooterColorId));
+      this.changeTextColor(
+        this.textColor(TMPlugin.SaveDataLabel.FooterColorId)
+      );
       this.drawText(label.footer, x, y, footerWidth);
     }
     x -= TMPlugin.SaveDataLabel.ValueWidth;
@@ -200,12 +231,17 @@ TMPlugin.SaveDataLabel.FooterColorId = +(TMPlugin.SaveDataLabel.Parameters['labe
       label.value = label.max;
       this.changeTextColor(this.textColor(TMPlugin.SaveDataLabel.MaxColorId));
     }
-    this.drawText(label.value, x, y, TMPlugin.SaveDataLabel.ValueWidth, 'right');
+    this.drawText(
+      label.value,
+      x,
+      y,
+      TMPlugin.SaveDataLabel.ValueWidth,
+      "right"
+    );
     if (label.name) {
       x -= TMPlugin.SaveDataLabel.NameWidth;
       this.changeTextColor(this.textColor(TMPlugin.SaveDataLabel.NameColorId));
       this.drawText(label.name, x, y, TMPlugin.SaveDataLabel.NameWidth);
     }
   };
-
 })();

@@ -40,7 +40,7 @@
  * @desc ＨＰゲージウィンドウの高さ
  * 初期値: 64
  * @default 64
- * 
+ *
  * @param gaugeA
  * @type struct<Gauge>
  * @desc ゲージＡのパラメータ
@@ -114,7 +114,7 @@
  * @desc 所持金表示のＹ座標
  * 初期値: 12
  * @default 12
- * 
+ *
  * @param vnMax
  * @type boolean
  * @desc ゲージタイプ VN の最大値を表示するかどうか
@@ -180,7 +180,7 @@
  *
  * @help
  * TMPlugin - マップＨＰゲージ ver1.4.1
- * 
+ *
  * 使い方:
  *
  *   プラグインパラメータをいじってお好みのＨＰゲージを表示してください。
@@ -190,7 +190,7 @@
  *   このプラグインはMITライセンスのもとに配布しています、商用利用、
  *   改造、再配布など、自由にお使いいただけます。
  *
- * 
+ *
  * プラグインコマンド:
  *
  *   showHpGauge
@@ -201,15 +201,15 @@
  *   showHpGauge A
  *     ゲージＡを表示します。プラグインパラメータでタイプが設定されている場合、
  *     ゲーム開始時に自動的に表示状態になります。
- * 
+ *
  *   hideHpGauge
  *     ＨＰゲージウィンドウを隠します。showHpGauge コマンドが実行されるまで
  *     表示されないままです。
- * 
+ *
  *   hideHpGauge B
  *     ゲージＢを隠します。showHpGauge B コマンドが実行されるまで
  *     表示されないままです。
- * 
+ *
  *   moveHpGaugeWindow 100 200
  *     ＨＰゲージウィンドウの位置を X座標 = 100 / Y座標 = 200 の位置へ
  *     移動します。
@@ -218,7 +218,7 @@
  * プラグインパラメータ補足:
  *
  *   gaugeA ～ gaugeD
- * 
+ *
  *     param
  *       ゲージのタイプが VN の場合に、ゲージの現在値として扱う
  *       ゲーム変数番号を設定してください。
@@ -230,7 +230,7 @@
  *       初めて最大値として機能します。
  *       この設定はゲージの長さにのみ影響します、変数の値が最大値を
  *       超えなくなるような機能はありません。
- * 
+ *
  *   windowOpacity / collideOpacity
  *     windowOpacity はウィンドウフレーム及び背景に影響し、collideOpacity
  *     はゲージや顔グラフィックにも影響します。
@@ -238,10 +238,10 @@
  *     重なった際の不透明度として windowOpacity の値が適用されます。
  *     ただし、ゲージと顔グラフィックに関しては通常どおり collideOpacity の
  *     値が適用されます。
- * 
+ *
  *   faceOffsetX
  *     この値を -1000 に設定すると顔グラフィックが非表示となります。
- * 
+ *
  *   vnMax
  *     値が true なら最大値も表示しますが、現在値と最大値を表示するための
  *     スペースが足りない（ゲージの長さが短い）場合は vnMax の設定に関わらず
@@ -252,7 +252,7 @@
  * @param type
  * @type select
  * @option なし
- * @value 
+ * @value
  * @option HP
  * @option MP
  * @option TP
@@ -323,15 +323,14 @@ var Imported = Imported || {};
 Imported.TMMapHpGauge = true;
 
 (function () {
-
-  var parameters = PluginManager.parameters('TMMapHpGauge');
-  var gaugeWindowX = +(parameters['gaugeWindowX'] || 0);
-  var gaugeWindowY = +(parameters['gaugeWindowY'] || 0);
-  var gaugeWindowWidth = +(parameters['gaugeWindowWidth'] || 288);
-  var gaugeWindowHeight = +(parameters['gaugeWindowHeight'] || 64);
+  var parameters = PluginManager.parameters("TMMapHpGauge");
+  var gaugeWindowX = +(parameters["gaugeWindowX"] || 0);
+  var gaugeWindowY = +(parameters["gaugeWindowY"] || 0);
+  var gaugeWindowWidth = +(parameters["gaugeWindowWidth"] || 288);
+  var gaugeWindowHeight = +(parameters["gaugeWindowHeight"] || 64);
   var gauges = [];
-  ['A', 'B', 'C', 'D'].forEach(function (code, i) {
-    gauges[i] = JSON.parse(parameters['gauge' + code]);
+  ["A", "B", "C", "D"].forEach(function (code, i) {
+    gauges[i] = JSON.parse(parameters["gauge" + code]);
     gauges[i].x = +gauges[i].x;
     gauges[i].y = +gauges[i].y;
     gauges[i].width = +gauges[i].width;
@@ -339,26 +338,26 @@ Imported.TMMapHpGauge = true;
     gauges[i].fontSize = +gauges[i].fontSize;
     gauges[i].param = +gauges[i].param;
     gauges[i].max = +gauges[i].max;
-    gauges[i].color = gauges[i].color.split(' ');
+    gauges[i].color = gauges[i].color.split(" ");
   });
-  var faceOffsetX = +(parameters['faceOffsetX'] || -4);
-  var faceOffsetY = +(parameters['faceOffsetY'] || -4);
-  var stateIconMax = +(parameters['stateIconMax'] || 4);
-  var stateIconX = +(parameters['stateIconX'] || 156);
-  var stateIconY = +(parameters['stateIconY'] || 24);
-  var goldWidth = +(parameters['goldWidth'] || 0);
-  var goldX = +(parameters['goldX'] || 0);
-  var goldY = +(parameters['goldY'] || 0);
-  var vnMax = JSON.parse(parameters['vnMax'] || 'false');
-  var shakeTime = +(parameters['shakeTime'] || 20);
-  var collideOpacity = +(parameters['collideOpacity'] || 128);
-  var startVisible = JSON.parse(parameters['startVisible'] || 'true');
-  var windowOpacity = +(parameters['windowOpacity'] || 255);
-  var messageBusyHide = JSON.parse(parameters['messageBusyHide'] || 'true');
-  var eventBusyHide = JSON.parse(parameters['eventBusyHide'] || 'true');
-  var useBattleScene = JSON.parse(parameters['useBattleScene'] || 'false');
-  var gaugeWindowBattleX = +(parameters['gaugeWindowBattleX'] || 0);
-  var gaugeWindowBattleY = +(parameters['gaugeWindowBattleY'] || 0);
+  var faceOffsetX = +(parameters["faceOffsetX"] || -4);
+  var faceOffsetY = +(parameters["faceOffsetY"] || -4);
+  var stateIconMax = +(parameters["stateIconMax"] || 4);
+  var stateIconX = +(parameters["stateIconX"] || 156);
+  var stateIconY = +(parameters["stateIconY"] || 24);
+  var goldWidth = +(parameters["goldWidth"] || 0);
+  var goldX = +(parameters["goldX"] || 0);
+  var goldY = +(parameters["goldY"] || 0);
+  var vnMax = JSON.parse(parameters["vnMax"] || "false");
+  var shakeTime = +(parameters["shakeTime"] || 20);
+  var collideOpacity = +(parameters["collideOpacity"] || 128);
+  var startVisible = JSON.parse(parameters["startVisible"] || "true");
+  var windowOpacity = +(parameters["windowOpacity"] || 255);
+  var messageBusyHide = JSON.parse(parameters["messageBusyHide"] || "true");
+  var eventBusyHide = JSON.parse(parameters["eventBusyHide"] || "true");
+  var useBattleScene = JSON.parse(parameters["useBattleScene"] || "false");
+  var gaugeWindowBattleX = +(parameters["gaugeWindowBattleX"] || 0);
+  var gaugeWindowBattleY = +(parameters["gaugeWindowBattleY"] || 0);
 
   //-----------------------------------------------------------------------------
   // Game_System
@@ -377,7 +376,7 @@ Imported.TMMapHpGauge = true;
     if (this._visibleMapHpGauges == null) {
       this._visibleMapHpGauges = [];
       for (var i = 0; i < gauges.length; i++) {
-        this._visibleMapHpGauges[i] = gauges[i].type !== '';
+        this._visibleMapHpGauges[i] = gauges[i].type !== "";
       }
     }
     return this._visibleMapHpGauges[gaugeId];
@@ -391,24 +390,25 @@ Imported.TMMapHpGauge = true;
   // Game_Interpreter
   //
 
-  var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+  var _Game_Interpreter_pluginCommand =
+    Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
-    if (command === 'showHpGauge') {
+    if (command === "showHpGauge") {
       if (args[0]) {
-        var gaugeId = ['A', 'B', 'C', 'D'].indexOf(args[0]);
+        var gaugeId = ["A", "B", "C", "D"].indexOf(args[0]);
         $gameSystem.setVisibleMapHpGauges(gaugeId, true);
       } else {
         $gameSystem.setVisibleMapHpGauge(true);
       }
-    } else if (command === 'hideHpGauge') {
+    } else if (command === "hideHpGauge") {
       if (args[0]) {
-        var gaugeId = ['A', 'B', 'C', 'D'].indexOf(args[0]);
+        var gaugeId = ["A", "B", "C", "D"].indexOf(args[0]);
         $gameSystem.setVisibleMapHpGauges(gaugeId, false);
       } else {
         $gameSystem.setVisibleMapHpGauge(false);
       }
-    } else if (command === 'moveHpGaugeWindow') {
+    } else if (command === "moveHpGaugeWindow") {
       $gameSystem._mapHpGaugeWindowX = +args[0];
       $gameSystem._mapHpGaugeWindowY = +args[1];
       if (SceneManager._scene._mapHpGaugeWindow) {
@@ -435,8 +435,14 @@ Imported.TMMapHpGauge = true;
       var x = gaugeWindowBattleX;
       var y = gaugeWindowBattleY;
     } else {
-      var x = $gameSystem._mapHpGaugeWindowX != null ? $gameSystem._mapHpGaugeWindowX : gaugeWindowX;
-      var y = $gameSystem._mapHpGaugeWindowY != null ? $gameSystem._mapHpGaugeWindowY : gaugeWindowY;
+      var x =
+        $gameSystem._mapHpGaugeWindowX != null
+          ? $gameSystem._mapHpGaugeWindowX
+          : gaugeWindowX;
+      var y =
+        $gameSystem._mapHpGaugeWindowY != null
+          ? $gameSystem._mapHpGaugeWindowY
+          : gaugeWindowY;
     }
     var wight = gaugeWindowWidth;
     var height = gaugeWindowHeight;
@@ -470,31 +476,31 @@ Imported.TMMapHpGauge = true;
     Window_Base.prototype.update.call(this);
     if (this.updateVisibility()) {
       this.open();
-      var needRefresh = this.isNeedRefresh()
+      var needRefresh = this.isNeedRefresh();
       if (this._needFaceRefresh) {
         this.refreshFace();
         if (!this._needFaceRefresh) needRefresh = true;
       }
       if (needRefresh) {
         var actor = $gameParty.leader();
-        if (needRefresh === 'SHAKE') this._shakeDuration = shakeTime;
+        if (needRefresh === "SHAKE") this._shakeDuration = shakeTime;
         for (var i = 0; i < gauges.length; i++) {
           this._gaugeVisible[i] = $gameSystem.isVisibleMapHpGauges(i);
           var gauge = gauges[i];
-          if (gauge.type === 'HP') {
+          if (gauge.type === "HP") {
             this._gaugeParams[i].param = actor.hp;
             this._gaugeParams[i].max = actor.mhp;
-          } else if (gauge.type === 'MP') {
+          } else if (gauge.type === "MP") {
             this._gaugeParams[i].param = actor.mp;
             this._gaugeParams[i].max = actor.mmp;
-          } else if (gauge.type === 'TP') {
+          } else if (gauge.type === "TP") {
             this._gaugeParams[i].param = actor.tp;
             this._gaugeParams[i].max = actor.maxTp();
-          } else if (gauge.type === 'LV') {
+          } else if (gauge.type === "LV") {
             this._gaugeParams[i].param = actor.currentExp();
             this._gaugeParams[i].max = actor.nextLevelExp();
             this._gaugeParams[i].subParam = actor.level;
-          } else if (gauge.type === 'VN') {
+          } else if (gauge.type === "VN") {
             this._gaugeParams[i].param = $gameVariables.value(gauge.param);
             this._gaugeParams[i].max = $gameVariables.value(gauge.max);
           }
@@ -514,8 +520,10 @@ Imported.TMMapHpGauge = true;
   Window_MapHpGauge.prototype.updateVisibility = function () {
     if (!$gameSystem.isVisibleMapHpGauge()) return false;
     if ($gameParty.inBattle()) return true;
-    if ((eventBusyHide && $gameMap.isEventRunning()) ||
-      (messageBusyHide && $gameMessage.isBusy())) {
+    if (
+      (eventBusyHide && $gameMap.isEventRunning()) ||
+      (messageBusyHide && $gameMessage.isBusy())
+    ) {
       this._hideCount++;
     } else {
       this._hideCount = 0;
@@ -528,23 +536,33 @@ Imported.TMMapHpGauge = true;
     if (actor) {
       if (this._actorId !== actor.actorId()) return true;
       for (var i = 0; i < gauges.length; i++) {
-        if (this._gaugeVisible[i] !== $gameSystem.isVisibleMapHpGauges(i)) return true;
+        if (this._gaugeVisible[i] !== $gameSystem.isVisibleMapHpGauges(i))
+          return true;
         var gauge = gauges[i];
         var gaugeParam = this._gaugeParams[i];
-        if (gauge.type === 'HP') {
+        if (gauge.type === "HP") {
           if (gaugeParam.param !== actor.hp || gaugeParam.max !== actor.mhp) {
-            return gaugeParam.param > actor.hp ? 'SHAKE' : true;
+            return gaugeParam.param > actor.hp ? "SHAKE" : true;
           }
-        } else if (gauge.type === 'MP') {
-          if (gaugeParam.param !== actor.mp || gaugeParam.max !== actor.mmp) return true;
-        } else if (gauge.type === 'TP') {
-          if (gaugeParam.param !== actor.tp || gaugeParam.max !== actor.maxTp()) return true;
-        } else if (gauge.type === 'LV') {
-          if (gaugeParam.param !== actor.currentExp() || gaugeParam.max !== actor.nextLevelExp() ||
-            gaugeParam.subParam !== actor.level) return true;
-        } else if (gauge.type === 'VN') {
-          if (gaugeParam.param !== $gameVariables.value(gauge.param) ||
-            gaugeParam.max !== $gameVariables.value(gauge.max)) return true;
+        } else if (gauge.type === "MP") {
+          if (gaugeParam.param !== actor.mp || gaugeParam.max !== actor.mmp)
+            return true;
+        } else if (gauge.type === "TP") {
+          if (gaugeParam.param !== actor.tp || gaugeParam.max !== actor.maxTp())
+            return true;
+        } else if (gauge.type === "LV") {
+          if (
+            gaugeParam.param !== actor.currentExp() ||
+            gaugeParam.max !== actor.nextLevelExp() ||
+            gaugeParam.subParam !== actor.level
+          )
+            return true;
+        } else if (gauge.type === "VN") {
+          if (
+            gaugeParam.param !== $gameVariables.value(gauge.param) ||
+            gaugeParam.max !== $gameVariables.value(gauge.max)
+          )
+            return true;
         }
       }
       if (stateIconMax > 0) {
@@ -561,16 +579,20 @@ Imported.TMMapHpGauge = true;
       this._shakeDuration--;
       this.x = this._baseX;
       if (this._shakeDuration > 0) {
-        this.x += Math.floor(Math.sin((this._shakeDuration % 10) * Math.PI / 5) * 8);
+        this.x += Math.floor(
+          Math.sin(((this._shakeDuration % 10) * Math.PI) / 5) * 8
+        );
       }
     }
   };
 
   Window_MapHpGauge.prototype.updateOpacity = function () {
-    if (this.x < $gamePlayer.screenX() + 24 &&
+    if (
+      this.x < $gamePlayer.screenX() + 24 &&
       this.x + gaugeWindowWidth > $gamePlayer.screenX() - 24 &&
       this.y < $gamePlayer.screenY() &&
-      this.y + gaugeWindowHeight > $gamePlayer.screenY() - 48) {
+      this.y + gaugeWindowHeight > $gamePlayer.screenY() - 48
+    ) {
       this.opacity = Math.min(collideOpacity, windowOpacity);
       this.contentsOpacity = collideOpacity;
     } else {
@@ -589,15 +611,15 @@ Imported.TMMapHpGauge = true;
         var gauge = gauges[i];
         this._lineHeight = gauge.height;
         this.contents.fontSize = gauge.fontSize;
-        if (gauge.type === 'HP') {
+        if (gauge.type === "HP") {
           this.drawActorHp(actor, gauge.x, gauge.y, gauge.width);
-        } else if (gauge.type === 'MP') {
+        } else if (gauge.type === "MP") {
           this.drawActorMp(actor, gauge.x, gauge.y, gauge.width);
-        } else if (gauge.type === 'TP') {
+        } else if (gauge.type === "TP") {
           this.drawActorTp(actor, gauge.x, gauge.y, gauge.width);
-        } else if (gauge.type === 'LV') {
+        } else if (gauge.type === "LV") {
           this.drawLvGauge(actor, gauge);
-        } else if (gauge.type === 'VN') {
+        } else if (gauge.type === "VN") {
           this.drawVnGauge(this._gaugeParams[i], gauge);
         }
       }
@@ -607,8 +629,13 @@ Imported.TMMapHpGauge = true;
         this.drawIcon(this._icons[i], x, stateIconY);
       }
       if (goldWidth > 0) {
-        this.drawCurrencyValue(this._gold, TextManager.currencyUnit, goldX,
-          goldY, goldWidth);
+        this.drawCurrencyValue(
+          this._gold,
+          TextManager.currencyUnit,
+          goldX,
+          goldY,
+          goldWidth
+        );
       }
       this._lineHeight = 36;
     }
@@ -616,8 +643,8 @@ Imported.TMMapHpGauge = true;
 
   Window_MapHpGauge.prototype.drawLvGauge = function (actor, gauge) {
     if (actor.isMaxLevel()) {
-      var value1 = '-------';
-      var value2 = '-------';
+      var value1 = "-------";
+      var value2 = "-------";
       var rate = 1;
     } else {
       var n = actor.currentLevelExp();
@@ -625,46 +652,86 @@ Imported.TMMapHpGauge = true;
       var value2 = actor.nextLevelExp() - n;
       var rate = value1 / value2;
     }
-    this.drawGauge(gauge.x, gauge.y, gauge.width, rate, gauge.color[0], gauge.color[1]);
+    this.drawGauge(
+      gauge.x,
+      gauge.y,
+      gauge.width,
+      rate,
+      gauge.color[0],
+      gauge.color[1]
+    );
     this.changeTextColor(this.systemColor());
     this.drawText(TextManager.levelA, gauge.x, gauge.y, 44);
     var color = this.normalColor();
     this.changeTextColor(color);
     var width = this.textWidth(TextManager.levelA) + 4;
-    this.drawText(actor.level, gauge.x + width, gauge.y, 44)
-    width = gauge.width - width - this.textWidth('' + actor.level);
-    this.drawCurrentAndMax(value1, value2, gauge.x + gauge.width - width, gauge.y, width,
-      color, color);
+    this.drawText(actor.level, gauge.x + width, gauge.y, 44);
+    width = gauge.width - width - this.textWidth("" + actor.level);
+    this.drawCurrentAndMax(
+      value1,
+      value2,
+      gauge.x + gauge.width - width,
+      gauge.y,
+      width,
+      color,
+      color
+    );
   };
 
   Window_MapHpGauge.prototype.drawVnGauge = function (params, gauge) {
     var rate = params.max === 0 ? 0 : params.param / params.max;
-    this.drawGauge(gauge.x, gauge.y, gauge.width, rate, gauge.color[0], gauge.color[1]);
+    this.drawGauge(
+      gauge.x,
+      gauge.y,
+      gauge.width,
+      rate,
+      gauge.color[0],
+      gauge.color[1]
+    );
     this.changeTextColor(this.systemColor());
     this.drawText(gauge.name, gauge.x, gauge.y, this.textWidth(gauge.name));
     this.changeTextColor(this.normalColor());
     if (vnMax) {
-      this.drawVnCurrentAndMax(gauge.name, params.param, params.max,
-        gauge.x, gauge.y, gauge.width);
+      this.drawVnCurrentAndMax(
+        gauge.name,
+        params.param,
+        params.max,
+        gauge.x,
+        gauge.y,
+        gauge.width
+      );
     } else {
-      this.drawText(params.param, gauge.x + gauge.width - 64, gauge.y, 64, 'right');
+      this.drawText(
+        params.param,
+        gauge.x + gauge.width - 64,
+        gauge.y,
+        64,
+        "right"
+      );
     }
   };
 
-  Window_MapHpGauge.prototype.drawVnCurrentAndMax = function (name, current, max, x, y, width) {
+  Window_MapHpGauge.prototype.drawVnCurrentAndMax = function (
+    name,
+    current,
+    max,
+    x,
+    y,
+    width
+  ) {
     var labelWidth = this.textWidth(name);
-    var valueWidth = this.textWidth('0' + max);
-    var slashWidth = this.textWidth('/');
+    var valueWidth = this.textWidth("0" + max);
+    var slashWidth = this.textWidth("/");
     var x1 = x + width - valueWidth;
     var x2 = x1 - slashWidth;
     var x3 = x2 - valueWidth;
     this.changeTextColor(this.normalColor());
     if (x3 >= x + labelWidth) {
-      this.drawText(current, x3, y, valueWidth, 'right');
-      this.drawText('/', x2, y, slashWidth, 'right');
-      this.drawText(max, x1, y, valueWidth, 'right');
+      this.drawText(current, x3, y, valueWidth, "right");
+      this.drawText("/", x2, y, slashWidth, "right");
+      this.drawText(max, x1, y, valueWidth, "right");
     } else {
-      this.drawText(current, x1, y, valueWidth, 'right');
+      this.drawText(current, x1, y, valueWidth, "right");
     }
   };
 
@@ -694,7 +761,8 @@ Imported.TMMapHpGauge = true;
   // Scene_Map
   //
 
-  var _Scene_Map_createDisplayObjects = Scene_Map.prototype.createDisplayObjects;
+  var _Scene_Map_createDisplayObjects =
+    Scene_Map.prototype.createDisplayObjects;
   Scene_Map.prototype.createDisplayObjects = function () {
     _Scene_Map_createDisplayObjects.call(this);
     this.createMapHpGaugeWindow();
@@ -717,7 +785,8 @@ Imported.TMMapHpGauge = true;
   // Scene_Battle
   //
 
-  var _Scene_Battle_createDisplayObjects = Scene_Battle.prototype.createDisplayObjects;
+  var _Scene_Battle_createDisplayObjects =
+    Scene_Battle.prototype.createDisplayObjects;
   Scene_Battle.prototype.createDisplayObjects = function () {
     _Scene_Battle_createDisplayObjects.call(this);
     if (useBattleScene) this.createMapHpGaugeWindow();
@@ -728,5 +797,4 @@ Imported.TMMapHpGauge = true;
     _Scene_Battle_terminate.call(this);
     if (this._mapHpGaugeWindow) this.removeChild(this._mapHpGaugeWindow);
   };
-
 })();
