@@ -47,7 +47,7 @@ Window_Base.prototype.standardFontFace = function () {
 };
 
 Window_Base.prototype.standardFontSize = function () {
-    return 30;
+    return 28;
 };
 
 Window_Base.prototype.standardPadding = function () {

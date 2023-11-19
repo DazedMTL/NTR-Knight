@@ -1555,8 +1555,8 @@ function Window_Chronus() {
         }.bind(this));
         format = format.replace(/AM/gi, function () {
             return Math.floor(this.getHour() / 12) === 0 ?
-                $gameSystem.isJapanese() ? '午前' : 'Morning  ' :
-                $gameSystem.isJapanese() ? '午後' : 'Afternoon';
+                $gameSystem.isJapanese() ? 'AM' : 'Morning  ' :
+                $gameSystem.isJapanese() ? 'PM' : 'Afternoon';
         }.bind(this));
         format = format.replace(/MI/gi, function () {
             return this.getValuePadding(this.getMinute(), 2);
