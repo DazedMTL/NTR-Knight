@@ -105,7 +105,7 @@
         "pitch": 100,
         "volume": 90
     },
-    "editMapId": 49,
+    "editMapId": 7,
     "elements": [
         "",
         "物理",
@@ -2747,8 +2747,8 @@
         "",
         "",
         "",
-        "",
-        "",
+        "加算回数（剣術）",
+        "加算回数（知識）",
         "",
         "アーテル場所乱数",
         "トイレガチャガチャ吸う",
@@ -2891,7 +2891,7 @@
         "",
         ""
     ],
-    "versionId": 44441053,
+    "versionId": 29871517,
     "victoryMe": {
         "name": "Victory1",
         "pan": 0,
@@ -2929,5 +2929,5 @@
     ],
     "hasEncryptedImages": true,
     "hasEncryptedAudio": true,
-    "encryptionKey": "7ed30606d662e8ac76b8f23b14956b9a"
+    "encryptionKey": "6e8212589491b92336542f93de2836ea"
 }
