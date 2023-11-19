@@ -336,7 +336,7 @@ Imported.TMLogWindow = true;
 		} else if (command === 'hideLogWindow') {
 			$gameSystem.setVisibleLogWindow(false);
 		} else if (command === 'addLog') {
-			$gameSystem.addLog(args[0]);
+			$gameSystem.addLog(args[0].replace(/_/g, ' '));
 		} else if (command === 'deleteLog') {
 			$gameSystem.deleteLog();
 		} else if (command === 'startMirrorLogWindow') {
