@@ -346,7 +346,7 @@ var KMS = KMS || {};
     // アクティブメッセージの登録
     var events = $gamePlayer.findAvailableMapActiveMessageEvents();
     events.forEach(function (event) {
-      $gameTemp.pushMapActiveMessage(event.getMapActiveMessage(), event);
+      $gameTemp.pushMapActiveMessage(event.getMapActiveMessage().replace(/_/g, ' '), event);
     });
   };
 
