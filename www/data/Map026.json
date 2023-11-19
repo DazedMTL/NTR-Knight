@@ -12453,14 +12453,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【宿泊客\n】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "So the beautiful woman next door and the old man have returned, huh?"
+                                "\\C[2]【Guest】\\C[0]\nSo the beautiful woman next door and the old man have returned,\nhuh?"
                             ]
                         },
                         {
@@ -12549,14 +12542,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\C[2]【宿泊客\n】\\C[0]"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "Thanks to that, I couldn't sleep, but I heard something good."
+                                "\\C[2]【Guest】\\C[0]\nThanks to that, I couldn't sleep, but I heard something good."
                             ]
                         },
                         {
