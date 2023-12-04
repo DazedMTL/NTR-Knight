@@ -102,7 +102,7 @@ Game_System.prototype.initialize = function () {
   this._CBR_eroSta_pageList = [];
 
   var param = PluginManager.parameters("CBR_eroStatus_main");
-  CBR_eroStatusState.name = "" + (param["eroStaName"] || "エロステータス");
+  CBR_eroStatusState.name = "" + (param["eroStaName"] || "Sexual Status");
   CBR_eroStatusState.event = Number(param["commonEvent"]) || null;
 
   for (var i = 0, len = CBR_eroStatusState.numOrigin.length; i < len; i++) {

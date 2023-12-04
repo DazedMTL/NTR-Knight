@@ -91,8 +91,8 @@
 
 (function () {
   var parameters = PluginManager.parameters("SupponShopStock");
-  var StockLabel = String(parameters["Label of stock Number"] || "在庫数");
-  var SoldOutLabel = String(parameters["Label of sold out"] || "売り切れ");
+  var StockLabel = String(parameters["Label of stock Number"] || "In Stock");
+  var SoldOutLabel = String(parameters["Label of sold out"] || "Sold Out");
 
   var _Game_Interpreter_pluginCommand =
     Game_Interpreter.prototype.pluginCommand;

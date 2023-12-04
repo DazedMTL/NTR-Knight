@@ -1,4 +1,4 @@
-﻿//=============================================================================
+//=============================================================================
 // Chronus.js
 // ----------------------------------------------------------------------------
 // (C) 2015 Triacontane
@@ -1699,10 +1699,10 @@ function Window_Chronus() {
       function () {
         return Math.floor(this.getHour() / 12) === 0
           ? $gameSystem.isJapanese()
-            ? "AM"
+            ? "AM "
             : "Morning  "
           : $gameSystem.isJapanese()
-          ? "PM"
+          ? "PM "
           : "Afternoon";
       }.bind(this)
     );
