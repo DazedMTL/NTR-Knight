@@ -8945,7 +8945,8 @@
                     ticker.add(this.render, this, _const.UPDATE_PRIORITY.LOW);
                   }
                 },
-                get: function get() { // eslint-disable-line require-jsdoc
+                get: function get() {
+                  // eslint-disable-line require-jsdoc
                   return this._ticker;
                 },
               },
@@ -39225,7 +39226,8 @@
              *
              */
 
-            ColorMatrixFilter.prototype.desaturate = function desaturate() { // eslint-disable-line no-unused-vars
+            ColorMatrixFilter.prototype.desaturate = function desaturate() {
+              // eslint-disable-line no-unused-vars
               this.saturate(-1);
             };
 
