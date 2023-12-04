@@ -6,7 +6,13 @@
     "characterIndex": 0,
     "characterName": "男主人公",
     "classId": 5,
-    "equips": [1, 1, 2, 3, 0],
+    "equips": [
+      1,
+      1,
+      2,
+      3,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],
@@ -23,7 +29,13 @@
     "characterIndex": 0,
     "characterName": "主人公",
     "classId": 1,
-    "equips": [0, 0, 0, 0, 0],
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],
@@ -40,7 +52,13 @@
     "characterIndex": 0,
     "characterName": "",
     "classId": 1,
-    "equips": [0, 0, 0, 0, 0],
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],
@@ -57,7 +75,13 @@
     "characterIndex": 0,
     "characterName": "",
     "classId": 1,
-    "equips": [0, 0, 0, 0, 0],
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],
@@ -74,7 +98,13 @@
     "characterIndex": 0,
     "characterName": "",
     "classId": 1,
-    "equips": [0, 0, 0, 0, 0],
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],
@@ -91,7 +121,13 @@
     "characterIndex": 0,
     "characterName": "",
     "classId": 1,
-    "equips": [0, 0, 0, 0, 0],
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "faceIndex": 0,
     "faceName": "",
     "traits": [],

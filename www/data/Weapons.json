@@ -20,7 +20,16 @@
     "iconIndex": 97,
     "name": "剣",
     "note": "",
-    "params": [0, 0, 10, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 500,
     "wtypeId": 2
   },
@@ -44,7 +53,16 @@
     "iconIndex": 99,
     "name": "斧",
     "note": "",
-    "params": [0, 0, 10, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 500,
     "wtypeId": 4
   },
@@ -68,7 +86,16 @@
     "iconIndex": 101,
     "name": "杖",
     "note": "",
-    "params": [0, 0, 10, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 500,
     "wtypeId": 6
   },
@@ -92,7 +119,16 @@
     "iconIndex": 102,
     "name": "弓",
     "note": "",
-    "params": [0, 0, 10, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 500,
     "wtypeId": 7
   },
@@ -116,7 +152,16 @@
     "iconIndex": 242,
     "name": "ステータス",
     "note": "<Set Sts Data>\nスキル: 34,39,46,44,45\n</Set Sts Data>",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 13
   },
@@ -140,7 +185,16 @@
     "iconIndex": 7,
     "name": "エロステータス",
     "note": "<Set Sts Data>\nスキル: 16,19,22\n</Set Sts Data>",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 12
   },
@@ -164,7 +218,16 @@
     "iconIndex": 84,
     "name": "エロスキル",
     "note": "<Set Sts Data>\nスキル: 27\n</Set Sts Data>",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 13
   },
@@ -188,7 +251,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -212,7 +284,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -236,7 +317,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -260,7 +350,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -284,7 +383,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -308,7 +416,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -332,7 +449,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -356,7 +482,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -380,7 +515,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -404,7 +548,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -428,7 +581,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -452,7 +614,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   },
@@ -476,7 +647,16 @@
     "iconIndex": 0,
     "name": "",
     "note": "",
-    "params": [0, 0, 0, 0, 0, 0, 0, 0],
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "price": 0,
     "wtypeId": 0
   }
