@@ -3,18 +3,8 @@
   "autoplayBgs": true,
   "battleback1Name": "Castle1",
   "battleback2Name": "Castle2",
-  "bgm": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "River",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 20
-  },
+  "bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "River", "pan": 0, "pitch": 100, "volume": 20 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -225,16 +215,8 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 9, 18, 5, 8, 0]
-            },
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 201, "indent": 0, "parameters": [0, 9, 18, 5, 8, 0] },
             {
               "code": 231,
               "indent": 0,
@@ -244,31 +226,17 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -285,16 +253,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -305,11 +265,7 @@
               "indent": 0,
               "parameters": ["「っ～～～～～\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -320,11 +276,7 @@
               "indent": 0,
               "parameters": ["「授業前にこんなとこで・・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -337,11 +289,7 @@
                 "「生徒たちの前で手マンで無様にイったのだから、これぐらい大したことじゃないだろ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -368,19 +316,10 @@
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -397,16 +336,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -417,11 +348,7 @@
               "indent": 0,
               "parameters": ["「おおっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -434,11 +361,7 @@
                 "「前回は生徒の前でなかなかいいイキっつぷりだったぞ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -449,11 +372,7 @@
               "indent": 0,
               "parameters": ["「ここでも、そのイキっぷりを見せてくれ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -464,33 +383,16 @@
               "indent": 0,
               "parameters": ["「だっ・・ダメっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
+            { "code": 246, "indent": 0, "parameters": [1] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -507,11 +409,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 0,
@@ -522,11 +420,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -537,11 +431,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -554,43 +444,18 @@
                 "（生徒たちが通る、入口の横でイかされたっ・・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [5]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [1149, 1149, 0]
-            },
-            {
-              "code": 242,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 117, "indent": 0, "parameters": [5] },
+            { "code": 121, "indent": 0, "parameters": [1149, 1149, 0] },
+            { "code": 242, "indent": 0, "parameters": [1] },
+            { "code": 246, "indent": 0, "parameters": [1] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [1, 1, true]
-            },
+            { "code": 213, "indent": 0, "parameters": [1, 1, true] },
             {
               "code": 205,
               "indent": 0,
@@ -598,17 +463,9 @@
                 6,
                 {
                   "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 3, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -619,22 +476,12 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 205,
@@ -643,17 +490,9 @@
                 7,
                 {
                   "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 3, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -664,33 +503,15 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [6, 4, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [6, 4, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -701,11 +522,7 @@
               "indent": 0,
               "parameters": ["「ロック先生の授業はダルいけど・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -718,16 +535,8 @@
                 "「アーテル先生があの恰好でいてくれるなら苦じゃないぜ」"
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [7, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [7, 8, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -738,20 +547,11 @@
               "indent": 0,
               "parameters": ["「確かにな・・・、ロック先生は自慢話が多すぎる」"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 5,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -798,41 +598,17 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 242,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
+            { "code": 242, "indent": 0, "parameters": [1] },
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [60] },
             {
               "code": 231,
               "indent": 0,
               "parameters": [10, "ロック　立ち絵", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -955,11 +731,7 @@
                 0
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -970,11 +742,7 @@
               "indent": 0,
               "parameters": ["「・・・\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -985,36 +753,16 @@
               "indent": 0,
               "parameters": ["「よろしくお願いします\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [5]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [68, 4, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 0, "parameters": [5] },
+            { "code": 213, "indent": 0, "parameters": [68, 4, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["\\C[2]【アカギ】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「先生可愛い！」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 401, "indent": 0, "parameters": ["「先生可愛い！」"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1137,11 +885,7 @@
                 0
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1152,26 +896,14 @@
               "indent": 0,
               "parameters": ["「はい\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["\\C[4]【アーテル】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「今日は・・」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 401, "indent": 0, "parameters": ["「今日は・・」"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1184,36 +916,12 @@
                 "「私の体で女性の体について学んでもらおうと思います\\C[18]♥\\C[0]」"
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [67, 1, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [68, 1, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [69, 1, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [70, 1, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 1, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [67, 1, false] },
+            { "code": 213, "indent": 0, "parameters": [68, 1, false] },
+            { "code": 213, "indent": 0, "parameters": [69, 1, false] },
+            { "code": 213, "indent": 0, "parameters": [70, 1, false] },
+            { "code": 213, "indent": 0, "parameters": [-1, 1, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1224,11 +932,7 @@
               "indent": 0,
               "parameters": ["「え？今何て・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1239,11 +943,7 @@
               "indent": 0,
               "parameters": ["「よーく見とけよお前ら」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1254,55 +954,29 @@
               "indent": 0,
               "parameters": ["「お前らじゃあ一生拝めない体だからなぁ」"]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [5]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [5] },
             {
               "code": 231,
               "indent": 0,
               "parameters": [1, "帯", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [1147, 1147, 0]
-            },
+            { "code": 121, "indent": 0, "parameters": [1147, 1147, 0] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(小)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(小)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン１",
-                  "volume": 20,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン１", "volume": 20, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1319,16 +993,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1345,26 +1011,10 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [120]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START 11 1"] },
+            { "code": 230, "indent": 0, "parameters": [120] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1375,11 +1025,7 @@
               "indent": 0,
               "parameters": ["「あああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1390,11 +1036,7 @@
               "indent": 0,
               "parameters": ["「これが普段、お前らが見てるアーテル先生の体だ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1405,11 +1047,7 @@
               "indent": 0,
               "parameters": ["「す・・すげー、おっぱいでけー」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1420,11 +1058,7 @@
               "indent": 0,
               "parameters": ["「めっちゃエロい声出てる」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1435,11 +1069,7 @@
               "indent": 0,
               "parameters": ["「あのロック先生に手マンされて喘いでる・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1452,11 +1082,7 @@
                 "「このように女はマンコ弄ってやると気持ちよくなってしまう」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1471,31 +1097,17 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン１",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン１", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1512,16 +1124,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1538,16 +1142,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1558,11 +1154,7 @@
               "indent": 0,
               "parameters": ["「あああああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1573,11 +1165,7 @@
               "indent": 0,
               "parameters": ["「腰動いてる、エロっ・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1588,11 +1176,7 @@
               "indent": 0,
               "parameters": ["「この女騎士は淫乱だからな」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1603,33 +1187,16 @@
               "indent": 0,
               "parameters": ["「もう少しでイクぞ・・」"]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
+            { "code": 246, "indent": 0, "parameters": [1] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1646,11 +1213,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 0,
@@ -1661,11 +1224,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1682,16 +1241,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1702,11 +1253,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1717,11 +1264,7 @@
               "indent": 0,
               "parameters": ["「うわっ・・、アーテル先生イった」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1732,11 +1275,7 @@
               "indent": 0,
               "parameters": ["「めっちゃ潮吹いてる」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1751,31 +1290,17 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(小)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(小)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン１",
-                  "volume": 20,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン１", "volume": 20, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1792,16 +1317,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1818,16 +1335,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1838,11 +1347,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1853,50 +1358,28 @@
               "indent": 0,
               "parameters": ["「さてさて、今回は早めに催眠を解くかな」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["\\C[6]【ロック】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「催眠解除！」"]
-            },
+            { "code": 401, "indent": 0, "parameters": ["「催眠解除！」"] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -1913,16 +1396,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1933,11 +1408,7 @@
               "indent": 0,
               "parameters": ["「・・・！？\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1948,11 +1419,7 @@
               "indent": 0,
               "parameters": ["「なっ・・何して！？\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1963,11 +1430,7 @@
               "indent": 0,
               "parameters": ["「何って？性教育だよ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -1978,11 +1441,7 @@
               "indent": 0,
               "parameters": ["「ふっ・・ふざけるなっ・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2009,19 +1468,10 @@
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -2038,16 +1488,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2058,11 +1500,7 @@
               "indent": 0,
               "parameters": ["「おおっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2075,11 +1513,7 @@
                 "「おっと、女騎士のおマンコの方が教育が足りてなかったか」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2090,11 +1524,7 @@
               "indent": 0,
               "parameters": ["「っ～～～～～\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2105,11 +1535,7 @@
               "indent": 0,
               "parameters": ["（せっ・・生徒に見られてる\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2122,33 +1548,16 @@
                 "（おマンコ弄られて感じてるとこっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
+            { "code": 246, "indent": 0, "parameters": [1] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -2165,11 +1574,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 0,
@@ -2180,11 +1585,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2195,11 +1596,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2212,11 +1609,7 @@
                 "（生徒にイ・・イかされてるとこ見られたっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2227,11 +1620,7 @@
               "indent": 0,
               "parameters": ["「このように、この女騎士は淫乱なので」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2244,11 +1633,7 @@
                 "「生徒の前で雑にマンコ弄られてもイってしまうんだ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2263,31 +1648,17 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -2304,16 +1675,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2324,11 +1687,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2341,11 +1700,7 @@
                 "「こっ・・こんな事すれば学校全体に広まるっ・・\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2358,11 +1713,7 @@
                 "「大丈夫、大丈夫、こいつらの今日の記憶は消してやる」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2389,19 +1740,10 @@
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -2418,16 +1760,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2438,11 +1772,7 @@
               "indent": 0,
               "parameters": ["「おおっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2455,11 +1785,7 @@
                 "（だからといって、生徒に見られるのは恥ずかしいのには変わりないっ\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2470,11 +1796,7 @@
               "indent": 0,
               "parameters": ["「ほらよく見てやれ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2485,33 +1807,16 @@
               "indent": 0,
               "parameters": ["「アーテル先生がまたイクぞっ・・・」"]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
+            { "code": 246, "indent": 0, "parameters": [1] },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -2528,11 +1833,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 0,
@@ -2543,11 +1844,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2558,11 +1855,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2573,11 +1866,7 @@
               "indent": 0,
               "parameters": ["「はぁ、はぁ、エロ過ぎる」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2588,11 +1877,7 @@
               "indent": 0,
               "parameters": ["「今日はこれでオナニーしよう・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2603,16 +1888,8 @@
               "indent": 0,
               "parameters": ["「おっと、残念だが・・」"]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -2623,117 +1900,39 @@
               "indent": 0,
               "parameters": ["「お前たちの記憶は消させてもらうぞ」"]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 246,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 242,
-              "indent": 0,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 246, "indent": 0, "parameters": [1] },
+            { "code": 242, "indent": 0, "parameters": [1] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Darkness1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Darkness1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
             {
               "code": 356,
               "indent": 0,
               "parameters": ["ShowInfo _SE[Item1]\\C[27]知識\\C[0]＋5"]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [21, 21, 1, 0, 5]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 39, 9, 7, 8, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [16, 16, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [181, 181, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [5]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [33]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [117]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 122, "indent": 0, "parameters": [21, 21, 1, 0, 5] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 201, "indent": 0, "parameters": [0, 39, 9, 7, 8, 0] },
+            { "code": 121, "indent": 0, "parameters": [16, 16, 1] },
+            { "code": 121, "indent": 0, "parameters": [181, 181, 1] },
+            { "code": 117, "indent": 0, "parameters": [5] },
+            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [116] },
+            { "code": 117, "indent": 0, "parameters": [159] },
+            { "code": 117, "indent": 0, "parameters": [117] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2784,38 +1983,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "pan": 0,
-                  "pitch": 100,
-                  "volume": 90
-                }
+                { "name": "Move1", "pan": 0, "pitch": 100, "volume": 90 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 1, 33, 17, 4, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [82]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 1, 33, 17, 4, 0] },
+            { "code": 117, "indent": 0, "parameters": [82] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2858,51 +2035,19 @@
               "indent": 0,
               "parameters": [["回想部屋に戻る", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "回想部屋に戻る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1148, 1148, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "回想部屋に戻る"] },
+            { "code": 117, "indent": 1, "parameters": [91] },
+            { "code": 121, "indent": 1, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 1, "parameters": [1148, 1148, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -2912,37 +2057,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2993,38 +2116,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "pan": 0,
-                  "pitch": 100,
-                  "volume": 90
-                }
+                { "name": "Move1", "pan": 0, "pitch": 100, "volume": 90 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 42, 13, 8, 2, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [82]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 42, 13, 8, 2, 0] },
+            { "code": 117, "indent": 0, "parameters": [82] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3067,51 +2168,19 @@
               "indent": 0,
               "parameters": [["回想部屋に戻る", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "回想部屋に戻る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1148, 1148, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "回想部屋に戻る"] },
+            { "code": 117, "indent": 1, "parameters": [91] },
+            { "code": 121, "indent": 1, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 1, "parameters": [1148, 1148, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -3121,37 +2190,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3202,38 +2249,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "pan": 0,
-                  "pitch": 100,
-                  "volume": 90
-                }
+                { "name": "Move1", "pan": 0, "pitch": 100, "volume": 90 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 42, 13, 8, 2, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [82]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 42, 13, 8, 2, 0] },
+            { "code": 117, "indent": 0, "parameters": [82] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3276,51 +2301,19 @@
               "indent": 0,
               "parameters": [["回想部屋に戻る", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "回想部屋に戻る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1148, 1148, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "回想部屋に戻る"] },
+            { "code": 117, "indent": 1, "parameters": [91] },
+            { "code": 121, "indent": 1, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 1, "parameters": [1148, 1148, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -3330,37 +2323,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3406,21 +2377,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3466,21 +2426,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3543,19 +2492,10 @@
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 0,
@@ -3572,25 +2512,12 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3642,26 +2569,10 @@
               "indent": 0,
               "parameters": [["覗く", "いいえ"], 1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "覗く"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 9, 15, 5, 8, 0]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "覗く"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 201, "indent": 1, "parameters": [0, 9, 15, 5, 8, 0] },
             {
               "code": 231,
               "indent": 1,
@@ -3671,31 +2582,17 @@
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3712,16 +2609,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3738,26 +2627,10 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [120]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 230, "indent": 1, "parameters": [120] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3768,11 +2641,7 @@
               "indent": 1,
               "parameters": ["「っ～～～～～\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3783,11 +2652,7 @@
               "indent": 1,
               "parameters": ["「授業前にこんなとこで・・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3800,11 +2665,7 @@
                 "「生徒たちの前で手マンで無様にイったのだから、これぐらい大したことじゃないだろ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3831,19 +2692,10 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3860,16 +2712,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3886,16 +2730,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3906,11 +2742,7 @@
               "indent": 1,
               "parameters": ["「おおっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3923,11 +2755,7 @@
                 "「前回は生徒の前でなかなかいいイキっつぷりだったぞ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3938,11 +2766,7 @@
               "indent": 1,
               "parameters": ["「ここでも、そのイキっぷりを見せてくれ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3953,11 +2777,7 @@
               "indent": 1,
               "parameters": ["「だっ・・ダメっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3970,11 +2790,7 @@
                 "（おかしい・・、こんなとこで感じちゃダメなのに\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3985,33 +2801,16 @@
               "indent": 1,
               "parameters": ["（興奮してる自分がいるっ・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4028,16 +2827,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4054,11 +2845,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4069,11 +2856,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4084,11 +2867,7 @@
               "indent": 1,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4101,43 +2880,18 @@
                 "（生徒たちが通る、入口の横でイかされたっ・・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1149, 1149, 0]
-            },
+            { "code": 121, "indent": 1, "parameters": [1149, 1149, 0] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [1, 1, true]
-            },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 213, "indent": 1, "parameters": [1, 1, true] },
             {
               "code": 205,
               "indent": 1,
@@ -4145,17 +2899,9 @@
                 6,
                 {
                   "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 3, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -4166,22 +2912,12 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 205,
@@ -4190,17 +2926,9 @@
                 7,
                 {
                   "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 3, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -4211,33 +2939,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [6, 4, true]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 1, "parameters": [6, 4, true] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4248,11 +2958,7 @@
               "indent": 1,
               "parameters": ["「ロック先生の授業はダルいけど・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4265,16 +2971,8 @@
                 "「アーテル先生があの恰好でいてくれるなら苦じゃないぜ」"
               ]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [7, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 1, "parameters": [7, 8, true] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4294,31 +2992,17 @@
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "喘ぎ声_我慢3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声_我慢3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 21 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 21 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4335,16 +3019,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4355,11 +3031,7 @@
               "indent": 1,
               "parameters": ["「っ～～～～\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4370,11 +3042,7 @@
               "indent": 1,
               "parameters": ["（生徒が近くにっ・・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4385,11 +3053,7 @@
               "indent": 1,
               "parameters": ["「あいつらっ・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4416,19 +3080,10 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4445,16 +3100,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4465,11 +3112,7 @@
               "indent": 1,
               "parameters": ["「おおっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4480,11 +3123,7 @@
               "indent": 1,
               "parameters": ["「俺のいないとこで好きに言いやがってっ！」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4495,21 +3134,9 @@
               "indent": 1,
               "parameters": ["（はっ・・激しいっ\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [6, 2, true]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 213, "indent": 1, "parameters": [6, 2, true] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4520,21 +3147,13 @@
               "indent": 1,
               "parameters": ["「なんか声聞こえね？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[2]【メカネ】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「ん？そうか？」"]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「ん？そうか？」"] },
             {
               "code": 231,
               "indent": 1,
@@ -4556,19 +3175,10 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4585,31 +3195,15 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【アカガ】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「・・・っ」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「・・・っ」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4620,11 +3214,7 @@
               "indent": 1,
               "parameters": ["「そういえばなんか、忘れてるような・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4635,58 +3225,29 @@
               "indent": 1,
               "parameters": ["「前回の授業中の記憶があまりないんだよな・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[2]【メカネ】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「お前もか？」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「お前もか？」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【アカガ】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「えっ？お前も？」"]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「えっ？お前も？」"] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4703,11 +3264,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4718,11 +3275,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4735,11 +3288,7 @@
                 "「アーテル先生が教えてくれてたのは覚えてるけど・・・、それ以外は・・・」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4766,19 +3315,10 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4795,16 +3335,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4817,11 +3349,7 @@
                 "「うーん、気づいたら授業もほぼ終わりかけてたしな・・・」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4834,11 +3362,7 @@
                 "「てか一緒に授業するってことは、アーテル先生ってロック先生と仲いいのか？」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4851,28 +3375,15 @@
                 "「どうだろうな、アーテル先生はロック先生から剣術の先生の立場を奪ったわけだし」"
               ]
             },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4889,11 +3400,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4904,11 +3411,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4919,11 +3422,7 @@
               "indent": 1,
               "parameters": ["「もしかして、できてるとか」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4950,19 +3449,10 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 19 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 19 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4979,16 +3469,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4999,11 +3481,7 @@
               "indent": 1,
               "parameters": ["「ロック先生のSEXとか激しそう～」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5014,11 +3492,7 @@
               "indent": 1,
               "parameters": ["「チンコとかデカそーだし」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5029,11 +3503,7 @@
               "indent": 1,
               "parameters": ["「どうでもいい話だ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5051,25 +3521,11 @@
                 6,
                 {
                   "list": [
-                    {
-                      "code": 37,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 37, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -5080,42 +3536,22 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 37,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 37, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 205,
@@ -5124,29 +3560,12 @@
                 7,
                 {
                   "list": [
-                    {
-                      "code": 37,
-                      "indent": null
-                    },
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 37, "indent": null },
+                    { "code": 3, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": false,
@@ -5157,97 +3576,46 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 37,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 37, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1149, 1149, 1]
-            },
+            { "code": 121, "indent": 1, "parameters": [1149, 1149, 1] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -5264,11 +3632,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -5279,11 +3643,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5294,11 +3654,7 @@
               "indent": 1,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5309,11 +3665,7 @@
               "indent": 1,
               "parameters": ["「俺たちできてるかもだってよ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -5324,141 +3676,37 @@
               "indent": 1,
               "parameters": ["「ああやって、噂は膨らんでいくんだな」"]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 1641, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1148, 1148, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1691, 1691, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [138]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 42, 13, 8, 2, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [33]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [117]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [23]
-            },
-            {
-              "code": 230,
-              "indent": 2,
-              "parameters": [60]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 111, "indent": 1, "parameters": [0, 1641, 0] },
+            { "code": 117, "indent": 2, "parameters": [91] },
+            { "code": 121, "indent": 2, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 2, "parameters": [1148, 1148, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 121, "indent": 2, "parameters": [1691, 1691, 0] },
+            { "code": 117, "indent": 2, "parameters": [138] },
+            { "code": 201, "indent": 2, "parameters": [0, 42, 13, 8, 2, 0] },
+            { "code": 117, "indent": 2, "parameters": [33] },
+            { "code": 117, "indent": 2, "parameters": [116] },
+            { "code": 117, "indent": 2, "parameters": [159] },
+            { "code": 117, "indent": 2, "parameters": [117] },
+            { "code": 117, "indent": 2, "parameters": [23] },
+            { "code": 230, "indent": 2, "parameters": [60] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -5468,37 +3716,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5549,46 +3775,20 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(中)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(中)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "手マン２",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "手マン２", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgm 1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgs 1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_VALID 1 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgm 1"] },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgs 1"] },
+            { "code": 356, "indent": 0, "parameters": ["MWP_VALID 1 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -5599,11 +3799,7 @@
               "indent": 0,
               "parameters": ["「あっ・・ああっ\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -5614,11 +3810,7 @@
               "indent": 0,
               "parameters": ["「こ・・こんなところでっ\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -5629,30 +3821,13 @@
               "indent": 0,
               "parameters": ["「そんなこと言って、濡れてるぜ？」"]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_INVALID"]
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["MWP_INVALID"] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5689,21 +3864,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5749,21 +3913,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

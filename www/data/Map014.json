@@ -3,18 +3,8 @@
   "autoplayBgs": false,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -129,46 +119,22 @@
             "characterIndex": 1
           },
           "list": [
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 2]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["王都騎士団隊長の部屋"]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 8, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["\\C[4]【隊長】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「コリウス」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 401, "indent": 0, "parameters": ["「コリウス」"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -179,11 +145,7 @@
               "indent": 0,
               "parameters": ["「予想より早く任務が終わったし」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -199,16 +161,8 @@
               "indent": 0,
               "parameters": [["まだ働けます", "やったー！"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "まだ働けます"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "まだ働けます"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -219,26 +173,10 @@
               "indent": 1,
               "parameters": ["「お前はいつもよくやってくれているよ」"]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "やったー！"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 6, true]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "やったー！"] },
+            { "code": 213, "indent": 1, "parameters": [0, 6, true] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -249,21 +187,9 @@
               "indent": 1,
               "parameters": ["「そんな露骨に喜ばれるとな・・」"]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -274,26 +200,10 @@
               "indent": 0,
               "parameters": ["「今日はゆっくり嫁さんと過ごしな」"]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 1]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 1989, 0]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 1] },
+            { "code": 111, "indent": 1, "parameters": [0, 1989, 0] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
@@ -304,36 +214,16 @@
               "indent": 2,
               "parameters": [["はい", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "はい"]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "はい"] },
             {
               "code": 102,
               "indent": 3,
               "parameters": [["ギアif(s[1981])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "ギアif(s[1981])"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [994, 994, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "ギアif(s[1981])"] },
+            { "code": 121, "indent": 4, "parameters": [994, 994, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
             {
               "code": 102,
               "indent": 3,
@@ -344,71 +234,27 @@
               "indent": 3,
               "parameters": [0, "ロックif(s[1982])"]
             },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [995, 995, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
+            { "code": 121, "indent": 4, "parameters": [995, 995, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
             {
               "code": 102,
               "indent": 3,
               "parameters": [["ドンif(s[1983])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "ドンif(s[1983])"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [997, 997, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "ドンif(s[1983])"] },
+            { "code": 121, "indent": 4, "parameters": [997, 997, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
             {
               "code": 102,
               "indent": 3,
               "parameters": [["テアif(s[1984])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "テアif(s[1984])"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [996, 996, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "テアif(s[1984])"] },
+            { "code": 121, "indent": 4, "parameters": [996, 996, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
             {
               "code": 102,
               "indent": 3,
@@ -419,106 +265,30 @@
               "indent": 3,
               "parameters": [0, "ヘンジif(s[1985])"]
             },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [998, 998, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 3,
-              "parameters": [479]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [479]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 121, "indent": 4, "parameters": [998, 998, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 3, "parameters": [479] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 2, "parameters": [479] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 1,
               "parameters": [["ギアif(s[1776])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "ギアif(s[1776])"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [994, 994, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "ギアif(s[1776])"] },
+            { "code": 121, "indent": 2, "parameters": [994, 994, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
             {
               "code": 102,
               "indent": 1,
@@ -529,71 +299,27 @@
               "indent": 1,
               "parameters": [0, "ロックif(s[1777])"]
             },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [995, 995, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 121, "indent": 2, "parameters": [995, 995, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
             {
               "code": 102,
               "indent": 1,
               "parameters": [["ドンif(s[1757])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "ドンif(s[1757])"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [997, 997, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "ドンif(s[1757])"] },
+            { "code": 121, "indent": 2, "parameters": [997, 997, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
             {
               "code": 102,
               "indent": 1,
               "parameters": [["テアif(s[1779])"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "テアif(s[1779])"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [996, 996, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "テアif(s[1779])"] },
+            { "code": 121, "indent": 2, "parameters": [996, 996, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
             {
               "code": 102,
               "indent": 1,
@@ -604,200 +330,47 @@
               "indent": 1,
               "parameters": [0, "ヘンジif(s[1778])"]
             },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [998, 998, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 994, 0]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 47, 10, 17, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 995, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 48, 2, 20, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 998, 0]
-            },
-            {
-              "code": 201,
-              "indent": 3,
-              "parameters": [0, 48, 2, 20, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [0, 996, 0]
-            },
-            {
-              "code": 201,
-              "indent": 4,
-              "parameters": [0, 47, 10, 17, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 4,
-              "parameters": [0, 997, 0]
-            },
-            {
-              "code": 201,
-              "indent": 5,
-              "parameters": [0, 48, 2, 20, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 5,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [991, 991, 0]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 121, "indent": 2, "parameters": [998, 998, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 994, 0] },
+            { "code": 201, "indent": 1, "parameters": [0, 47, 10, 17, 8, 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [0, 995, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 48, 2, 20, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 2, "parameters": [0, 998, 0] },
+            { "code": 201, "indent": 3, "parameters": [0, 48, 2, 20, 6, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 111, "indent": 3, "parameters": [0, 996, 0] },
+            { "code": 201, "indent": 4, "parameters": [0, 47, 10, 17, 8, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 111, "indent": 4, "parameters": [0, 997, 0] },
+            { "code": 201, "indent": 5, "parameters": [0, 48, 2, 20, 6, 0] },
+            { "code": 0, "indent": 5, "parameters": [] },
+            { "code": 412, "indent": 4, "parameters": [] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [991, 991, 0] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -835,46 +408,22 @@
             "characterIndex": 1
           },
           "list": [
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 2]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["王都騎士団隊長の部屋"]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 8, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["\\C[4]【隊長】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「コリウス」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 401, "indent": 0, "parameters": ["「コリウス」"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -885,11 +434,7 @@
               "indent": 0,
               "parameters": ["「この度の任務は見事だった」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -900,65 +445,28 @@
               "indent": 0,
               "parameters": ["「貴様には期待しているぞ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["コリウスは卒業後"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2] },
+            { "code": 401, "indent": 0, "parameters": ["コリウスは卒業後"] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["念願だった騎士団に入隊した"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": ["そこでは毎日が忙しいが充実した日々を送れている"]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 48, 19, 20, 4, 0]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 201, "indent": 0, "parameters": [0, 48, 19, 20, 4, 0] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

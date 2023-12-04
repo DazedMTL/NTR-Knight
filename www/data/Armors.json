@@ -5,13 +5,7 @@
     "atypeId": 5,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 128,
     "name": "盾",
     "note": "",
@@ -23,13 +17,7 @@
     "atypeId": 1,
     "description": "",
     "etypeId": 3,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 130,
     "name": "帽子",
     "note": "",
@@ -41,13 +29,7 @@
     "atypeId": 1,
     "description": "",
     "etypeId": 4,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 135,
     "name": "服",
     "note": "",
@@ -59,13 +41,7 @@
     "atypeId": 1,
     "description": "",
     "etypeId": 5,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 145,
     "name": "指輪",
     "note": "",
@@ -77,13 +53,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -95,13 +65,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -113,13 +77,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -131,13 +89,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -149,13 +101,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -167,13 +113,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -185,13 +125,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -203,13 +137,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -221,13 +149,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -239,13 +161,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -257,13 +173,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -275,13 +185,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -293,13 +197,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -311,13 +209,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -329,13 +221,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",
@@ -347,13 +233,7 @@
     "atypeId": 0,
     "description": "",
     "etypeId": 2,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 1, "value": 0 }],
     "iconIndex": 0,
     "name": "",
     "note": "",

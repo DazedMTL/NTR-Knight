@@ -3,18 +3,8 @@
   "autoplayBgs": true,
   "battleback1Name": "Castle1",
   "battleback2Name": "Castle2",
-  "bgm": {
-    "name": "Scene1",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "Scene1", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -185,43 +175,17 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Move1",
-                  "pan": 0,
-                  "pitch": 100,
-                  "volume": 90
-                }
+                { "name": "Move1", "pan": 0, "pitch": 100, "volume": 90 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 2, 21, 10, 0, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [381]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [82]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 2, 21, 10, 0, 0] },
+            { "code": 117, "indent": 0, "parameters": [381] },
+            { "code": 117, "indent": 0, "parameters": [82] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -265,15 +229,7 @@
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -283,27 +239,13 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -346,71 +288,23 @@
               "indent": 0,
               "parameters": [["回想部屋に戻る", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "回想部屋に戻る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [53, 53, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [231, 231, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [881, 881, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [496, 496, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [901, 901, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "回想部屋に戻る"] },
+            { "code": 117, "indent": 1, "parameters": [91] },
+            { "code": 121, "indent": 1, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 1, "parameters": [53, 53, 1] },
+            { "code": 121, "indent": 1, "parameters": [231, 231, 1] },
+            { "code": 121, "indent": 1, "parameters": [881, 881, 1] },
+            { "code": 121, "indent": 1, "parameters": [496, 496, 1] },
+            { "code": 121, "indent": 1, "parameters": [901, 901, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -420,37 +314,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -498,13 +370,7 @@
           },
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "indent": null,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "indent": null, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -516,13 +382,7 @@
           "through": false,
           "trigger": 0,
           "walkAnime": false,
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ]
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }]
         }
       ],
       "x": 22,
@@ -559,13 +419,7 @@
           },
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "indent": null,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "indent": null, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -577,13 +431,7 @@
           "through": false,
           "trigger": 0,
           "walkAnime": false,
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ]
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }]
         }
       ],
       "x": 4,
@@ -620,13 +468,7 @@
           },
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "indent": null,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "indent": null, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -638,13 +480,7 @@
           "through": false,
           "trigger": 0,
           "walkAnime": false,
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ]
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }]
         }
       ],
       "x": 14,
@@ -684,49 +520,16 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "フェラ音1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "フェラ音1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgs 21"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_VALID 21 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 1] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgs 21"] },
+            { "code": 356, "indent": 0, "parameters": ["MWP_VALID 21 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -734,11 +537,7 @@
                 "じゅぼ\\C[18]♥\\C[0]じゅぼ\\C[18]♥\\C[0]じゅぼ\\C[18]♥\\C[0]"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -749,11 +548,7 @@
               "indent": 0,
               "parameters": ["「ああっ、気持ちいいっ・・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -764,11 +559,7 @@
               "indent": 0,
               "parameters": ["「女騎士様に自分の舐めさせるの最高の気分だぜ」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -781,50 +572,17 @@
                 "「っ・・・\\C[18]♥\\C[0]こんな汚いものっ・・\\C[18]♥\\C[0]」"
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_INVALID"]
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [23]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["MWP_INVALID"] },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 1] },
+            { "code": 117, "indent": 1, "parameters": [23] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -866,66 +624,24 @@
               "code": 245,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "ぬーいてー4v",
-                  "volume": 50,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "ぬーいてー4v", "volume": 50, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "喘ぎ声(小)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(小)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgs 9"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgm 9"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_VALID 9 1"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 1] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgs 9"] },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgm 9"] },
+            { "code": 356, "indent": 0, "parameters": ["MWP_VALID 9 1"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -936,11 +652,7 @@
               "indent": 0,
               "parameters": ["「ああっ\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -951,50 +663,17 @@
               "indent": 0,
               "parameters": ["「み・・見るなっ\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_INVALID"]
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [23]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["MWP_INVALID"] },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 1] },
+            { "code": 117, "indent": 1, "parameters": [23] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1036,38 +715,16 @@
               "code": 241,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "イラマチオ3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イラマチオ3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgm 21"]
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgm 21"] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1129,35 +786,14 @@
                 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgm 9"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["audiosource bgs 9"]
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgm 9"] },
+            { "code": 356, "indent": 0, "parameters": ["audiosource bgs 9"] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1194,21 +830,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1266,26 +891,10 @@
                 0
               ]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "覗く"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "覗く"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1302,26 +911,10 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_WAIT 11"]
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 40, 16, 5, 6, 0]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_WAIT 11"] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 201, "indent": 1, "parameters": [0, 40, 16, 5, 6, 0] },
             {
               "code": 231,
               "indent": 1,
@@ -1331,19 +924,10 @@
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "フェラ音1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "フェラ音1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1360,16 +944,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1386,26 +962,10 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 12 1"]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 12 1"] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1416,26 +976,14 @@
               "indent": 1,
               "parameters": ["「っ・・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「いい面してるぜ」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「いい面してるぜ」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1446,11 +994,7 @@
               "indent": 1,
               "parameters": ["「チンコ美味しくてたまらないんだろ？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1461,11 +1005,7 @@
               "indent": 1,
               "parameters": ["「だ・・黙れっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1476,11 +1016,7 @@
               "indent": 1,
               "parameters": ["「誰がこんな汚いものっ・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1491,16 +1027,8 @@
               "indent": 1,
               "parameters": ["「傷つくなー、俺の綺麗な方なのに」"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1513,26 +1041,10 @@
                 "「あー、てめーみたいな女に自分のチンコ舐めさせるのまじ興奮するわ」"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 29, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 643, 1]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [0, 644, 1]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [0, 29, 1] },
+            { "code": 111, "indent": 2, "parameters": [0, 643, 1] },
+            { "code": 111, "indent": 3, "parameters": [0, 644, 1] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 4,
@@ -1543,11 +1055,7 @@
               "indent": 4,
               "parameters": ["（こ・・これが男の性器・・・）"]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 4,
@@ -1558,58 +1066,21 @@
               "indent": 4,
               "parameters": ["（こ・・こんな大きいのが私のアソコに入るの？）"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 230, "indent": 1, "parameters": [180] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "イマラチオ1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イマラチオ1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1626,16 +1097,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1652,16 +1115,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 13 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 13 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1672,11 +1127,7 @@
               "indent": 1,
               "parameters": ["「んんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1687,11 +1138,7 @@
               "indent": 1,
               "parameters": ["「そうそう、根本までしっかりとな」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1702,11 +1149,7 @@
               "indent": 1,
               "parameters": ["「今までは俺がお前を気持ちよくしてやったんだ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1717,28 +1160,15 @@
               "indent": 1,
               "parameters": ["「しっかり口でご奉仕しろよ」"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "イマラチオ3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イマラチオ3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1755,16 +1185,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1781,16 +1203,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 14 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 14 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1801,11 +1215,7 @@
               "indent": 1,
               "parameters": ["「んんんんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1816,11 +1226,7 @@
               "indent": 1,
               "parameters": ["「ほらしっかりご奉仕しろ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1831,11 +1237,7 @@
               "indent": 1,
               "parameters": ["「他の生徒に見つかっちまうぞ？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1846,11 +1248,7 @@
               "indent": 1,
               "parameters": ["「んんっ\\C[18]♥♥♥\\C[0]んんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1861,11 +1259,7 @@
               "indent": 1,
               "parameters": ["（奥まで突っ込まれて・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1876,11 +1270,7 @@
               "indent": 1,
               "parameters": ["（いっ・・息がっ・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1891,43 +1281,22 @@
               "indent": 1,
               "parameters": ["「チンコ奥突っ込まれて興奮してんのか？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「淫乱騎士め」"]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「淫乱騎士め」"] },
+            { "code": 230, "indent": 1, "parameters": [180] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "イマラチオ4",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イマラチオ4", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -1944,16 +1313,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1964,11 +1325,7 @@
               "indent": 1,
               "parameters": ["「んんっ\\C[18]♥♥♥\\C[0]んんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1979,11 +1336,7 @@
               "indent": 1,
               "parameters": ["「さーて、どこに出して欲しい？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -1994,11 +1347,7 @@
               "indent": 1,
               "parameters": ["「その綺麗な顔かな？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2011,11 +1360,7 @@
                 "「んんっ\\C[18]♥♥♥\\C[0]んんんんっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2026,11 +1371,7 @@
               "indent": 1,
               "parameters": ["「ははっ、顔は嫌か」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2041,11 +1382,7 @@
               "indent": 1,
               "parameters": ["「なら、しっかり俺の精子を口で受け止めるんだぞ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2058,28 +1395,15 @@
                 "（うっ・・嘘\\C[18]♥♥♥\\C[0]私の口の中に出す気なの！？\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "イマラチオ1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イマラチオ1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2096,16 +1420,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2116,11 +1432,7 @@
               "indent": 1,
               "parameters": ["「んんんんんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2131,11 +1443,7 @@
               "indent": 1,
               "parameters": ["「あぁ・・奥まで入って気持ちいぃ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2146,11 +1454,7 @@
               "indent": 1,
               "parameters": ["「もうそろそろ出そうだぜ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2161,11 +1465,7 @@
               "indent": 1,
               "parameters": ["（いっ・・嫌っ\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2178,28 +1478,15 @@
                 "（こいつの汚い精子が私の口の中に出されるなんてっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "イマラチオ4",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イマラチオ4", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2216,16 +1503,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 58 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 58 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2242,16 +1521,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 15 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 15 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2268,16 +1539,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 16 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 16 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2288,41 +1551,21 @@
               "indent": 1,
               "parameters": ["「んんっ\\C[18]♥♥♥\\C[0]んんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「あぁっ・・」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「あぁっ・・」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「イクぜ・・」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「イクぜ・・」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2333,11 +1576,7 @@
               "indent": 1,
               "parameters": ["「女騎士の口を俺の精子で汚してやるぜぇ・・」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2348,11 +1587,7 @@
               "indent": 1,
               "parameters": ["「んんっ\\C[18]♥♥♥\\C[0]んんっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2365,38 +1600,17 @@
                 "（ダメっ・・口の中で大きくっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_SOUND 10"]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 356, "indent": 1, "parameters": ["PA_SOUND 10"] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "射精音1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "射精音1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 58 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 58 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2413,11 +1627,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -2428,28 +1638,15 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_WAIT 10"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_WAIT 10"] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -2466,16 +1663,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2486,11 +1675,7 @@
               "indent": 1,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2501,11 +1686,7 @@
               "indent": 1,
               "parameters": ["「いいね、しっかり俺の精子を口で受け止めたな」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2516,21 +1697,9 @@
               "indent": 1,
               "parameters": ["「っ・・・\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 29, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 643, 1]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [0, 29, 1] },
+            { "code": 111, "indent": 2, "parameters": [0, 643, 1] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 3,
@@ -2541,11 +1710,7 @@
               "indent": 3,
               "parameters": ["（に・・苦い・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 3,
@@ -2556,31 +1721,11 @@
               "indent": 3,
               "parameters": ["（精子ってこんな味なの・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2593,11 +1738,7 @@
                 "（こんな男に口の中を汚されたっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2608,11 +1749,7 @@
               "indent": 1,
               "parameters": ["「あー、スッキリしたぁ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -2623,216 +1760,60 @@
               "indent": 1,
               "parameters": ["「今度から呼んだら、すぐに性処理しに来いよ」"]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 1641, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [53, 53, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1665, 1665, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [23]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [29]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 2, 21, 10, 4, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [117]
-            },
-            {
-              "code": 230,
-              "indent": 2,
-              "parameters": [60]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 111, "indent": 1, "parameters": [0, 1641, 0] },
+            { "code": 117, "indent": 2, "parameters": [91] },
+            { "code": 121, "indent": 2, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 2, "parameters": [53, 53, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 121, "indent": 2, "parameters": [1665, 1665, 0] },
+            { "code": 117, "indent": 2, "parameters": [23] },
+            { "code": 117, "indent": 2, "parameters": [29] },
+            { "code": 201, "indent": 2, "parameters": [0, 2, 21, 10, 4, 0] },
+            { "code": 117, "indent": 2, "parameters": [116] },
+            { "code": 117, "indent": 2, "parameters": [159] },
+            { "code": 117, "indent": 2, "parameters": [117] },
+            { "code": 230, "indent": 2, "parameters": [60] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [1, "邪魔するif(!s[1641])"]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [53, 53, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [669, 669, 1]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 2, 21, 10, 4, 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 121, "indent": 1, "parameters": [53, 53, 1] },
+            { "code": 121, "indent": 1, "parameters": [669, 669, 1] },
+            { "code": 201, "indent": 1, "parameters": [0, 2, 21, 10, 4, 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["コリウスは物音を立て、行為の邪魔をした"]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [58]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [249]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [117]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [2, "いいえ"]
-            },
+            { "code": 117, "indent": 1, "parameters": [58] },
+            { "code": 117, "indent": 1, "parameters": [249] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 117, "indent": 1, "parameters": [116] },
+            { "code": 117, "indent": 1, "parameters": [159] },
+            { "code": 117, "indent": 1, "parameters": [117] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [2, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -2842,37 +1823,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2915,80 +1874,30 @@
               "indent": 0,
               "parameters": [["覗く", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "覗く"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 40, 16, 5, 6, 0]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "覗く"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 201, "indent": 1, "parameters": [0, 40, 16, 5, 6, 0] },
             {
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "ぬーいてー4v",
-                  "volume": 50,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "ぬーいてー4v", "volume": 50, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "喘ぎ声(小)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(小)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [7, 4, false]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [8, 4, true]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [7, 4, false] },
+            { "code": 213, "indent": 1, "parameters": [8, 4, true] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3001,11 +1910,7 @@
                 "「最近先生の様子がおかしいと思ったらそういうことかよ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3016,31 +1921,19 @@
               "indent": 1,
               "parameters": ["「うわ、えっろ・・・♪」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「♪」"]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「♪」"] },
             {
               "code": 231,
               "indent": 1,
               "parameters": [1, "帯", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3057,16 +1950,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3083,16 +1968,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3103,11 +1980,7 @@
               "indent": 1,
               "parameters": ["「や・・止めろっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3118,26 +1991,14 @@
               "indent": 1,
               "parameters": ["「み・・見るなっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「ほら、先生～」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「ほら、先生～」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3148,11 +2009,7 @@
               "indent": 1,
               "parameters": ["「女騎士の無様な姿を生徒が見てるぞ～」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3163,11 +2020,7 @@
               "indent": 1,
               "parameters": ["「お？先生イキそう？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3178,11 +2031,7 @@
               "indent": 1,
               "parameters": ["（がっ・・我慢できないっ\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3195,33 +2044,16 @@
                 "（見られてると思うと余計に興奮してっ・・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3238,16 +2070,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3264,11 +2088,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -3279,11 +2099,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3294,11 +2110,7 @@
               "indent": 1,
               "parameters": ["「ああああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3311,11 +2123,7 @@
                 "（生徒に見られてるのにイってしまった・・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3326,11 +2134,7 @@
               "indent": 1,
               "parameters": ["「うぉ、イキ潮吹いてんじゃん」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3345,31 +2149,17 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "ぬーいてー4v",
-                  "volume": 50,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "ぬーいてー4v", "volume": 50, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "喘ぎ声(小)1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(小)1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3386,16 +2176,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3412,16 +2194,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3432,11 +2206,7 @@
               "indent": 1,
               "parameters": ["「っ～～～～～～\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3447,11 +2217,7 @@
               "indent": 1,
               "parameters": ["「いいなぁ、俺もヤリてー」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3462,11 +2228,7 @@
               "indent": 1,
               "parameters": ["「んー、どうしようかなー」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3477,11 +2239,7 @@
               "indent": 1,
               "parameters": ["「俺専用の玩具でもあるしなー\\C[18]♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3496,12 +2254,7 @@
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "指ぐちょ4h",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "指ぐちょ4h", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -3516,11 +2269,7 @@
                 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3537,16 +2286,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3563,16 +2304,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3585,26 +2318,14 @@
                 "「おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「違うのか？」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「違うのか？」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3617,11 +2338,7 @@
                 "「おおっ\\C[18]♥♥♥\\C[0]だっ・・誰がっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3632,33 +2349,16 @@
               "indent": 1,
               "parameters": ["「おいおい、まったく反論できてねーぞ」"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 49 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 49 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3675,11 +2375,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -3690,11 +2386,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3707,11 +2399,7 @@
                 "「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3722,11 +2410,7 @@
               "indent": 1,
               "parameters": ["「反論する前にイちゃったよ・・♪」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3737,11 +2421,7 @@
               "indent": 1,
               "parameters": ["「ふぅー、マンコできあがってきたし」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3752,11 +2432,7 @@
               "indent": 1,
               "parameters": ["「そろそろ挿れてやるか」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3767,11 +2443,7 @@
               "indent": 1,
               "parameters": ["「まじかよ、俺たち生殺しかよ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3782,11 +2454,7 @@
               "indent": 1,
               "parameters": ["「へへっ、まぁ見てろよ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3797,26 +2465,10 @@
               "indent": 1,
               "parameters": ["「この女騎士様はもう俺のチンコに夢中だから」"]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [233, 233, 0]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 121, "indent": 1, "parameters": [233, 233, 0] },
             {
               "code": 245,
               "indent": 1,
@@ -3846,11 +2498,7 @@
               "indent": 1,
               "parameters": [1, "帯", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 31 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 31 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3867,16 +2515,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -3893,26 +2533,10 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3925,11 +2549,7 @@
                 "「おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3940,11 +2560,7 @@
               "indent": 1,
               "parameters": ["「うぉ、まじ容赦ねー」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3955,11 +2571,7 @@
               "indent": 1,
               "parameters": ["「もうさっきからイキっぱなしじゃん」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -3972,33 +2584,16 @@
                 "「イクっ\\C[18]♥♥♥\\C[0]イクっ\\C[18]♥♥♥\\C[0]イっくっ・・\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4015,16 +2610,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4041,11 +2628,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4056,11 +2639,7 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4071,26 +2650,14 @@
               "indent": 1,
               "parameters": ["「ああっ\\C[18]♥♥♥\\C[0]ああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[2]【ギアの仲間】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「感じ過ぎだろ」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「感じ過ぎだろ」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4103,11 +2670,7 @@
                 "「あんな強い先生が、ギアのチンポでイキまくってる」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4118,11 +2681,7 @@
               "indent": 1,
               "parameters": ["「こんな淫乱だったなんてな」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4159,11 +2718,7 @@
                 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4180,16 +2735,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4206,16 +2753,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4226,11 +2765,7 @@
               "indent": 1,
               "parameters": ["「おっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4241,11 +2776,7 @@
               "indent": 1,
               "parameters": ["「も・・もう止めろっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4260,12 +2791,7 @@
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "喘ぎ声(大)2",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "喘ぎ声(大)2", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -4280,11 +2806,7 @@
                 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 25 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 25 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4301,16 +2823,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4321,11 +2835,7 @@
               "indent": 1,
               "parameters": ["「ああああっ\\C[18]♥♥♥\\C[0]」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4338,11 +2848,7 @@
                 "「やべー、俺もアーテルの先生のマンコにぶち込みてー」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4353,11 +2859,7 @@
               "indent": 1,
               "parameters": ["「お前のマンコに挿れたいだってさ？どうする？」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4370,21 +2872,13 @@
                 "「そんなのっ\\C[18]♥♥♥\\C[0]無理に決まってる・・・\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「無理だってさ」"]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「無理だってさ」"] },
             {
               "code": 245,
               "indent": 1,
@@ -4414,11 +2908,7 @@
               "indent": 1,
               "parameters": [1, "帯", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 31 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 31 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4435,16 +2925,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4457,11 +2939,7 @@
                 "「おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4472,33 +2950,16 @@
               "indent": 1,
               "parameters": ["「俺のじゃないと満足できないんだって」"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4515,16 +2976,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4541,16 +2994,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 11 1"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 11 1"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4567,11 +3012,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 12 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 12 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4611,11 +3052,7 @@
               "indent": 1,
               "parameters": [1, "帯", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 31 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 31 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4632,16 +3069,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4654,26 +3083,14 @@
                 "「おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]おおっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「あぁ、出すぞ」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「あぁ、出すぞ」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4686,11 +3103,7 @@
                 "「ほら抵抗しねぇと生徒に中出しされる姿を見られるぞ」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4703,11 +3116,7 @@
                 "「ああっ\\C[18]♥♥♥\\C[0]だ・・ダメっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4718,11 +3127,7 @@
               "indent": 1,
               "parameters": ["（だ・・出されるっ\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4733,50 +3138,24 @@
               "indent": 1,
               "parameters": ["（他の生徒の前でっ・・\\C[18]♥♥♥\\C[0]）"]
             },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [180]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_SOUND 10"]
-            },
+            { "code": 230, "indent": 1, "parameters": [180] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 356, "indent": 1, "parameters": ["PA_SOUND 10"] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "射精音1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "射精音1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
               "code": 241,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "吐息3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "吐息3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4793,11 +3172,7 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START 10 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START 10 1"] },
             {
               "code": 224,
               "indent": 1,
@@ -4808,16 +3183,8 @@
               "indent": 1,
               "parameters": [[255, 255, 255, 68], 60, true]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_WAIT 10"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_INIT 50 1 連番 1"]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_WAIT 10"] },
+            { "code": 356, "indent": 1, "parameters": ["PA_INIT 50 1 連番 1"] },
             {
               "code": 231,
               "indent": 1,
@@ -4834,16 +3201,8 @@
                 0
               ]
             },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["PA_START_LOOP 10 1"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 356, "indent": 1, "parameters": ["PA_START_LOOP 10 1"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4856,11 +3215,7 @@
                 "「ああっ\\C[18]♥♥♥\\C[0]あああっ\\C[18]♥♥♥\\C[0]」"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4873,11 +3228,7 @@
                 "（生徒に見られてる前で中出しされたっ・・\\C[18]♥♥♥\\C[0]）"
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4888,11 +3239,7 @@
               "indent": 1,
               "parameters": ["「うぉー、まじで先生の中に出しやがった」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4903,31 +3250,15 @@
               "indent": 1,
               "parameters": ["「当たり前だろ、俺の肉便器なんだから」"]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["\\C[5]【ギア】\\C[0]"]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「さて・・・」"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 401, "indent": 1, "parameters": ["「さて・・・」"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4938,11 +3269,7 @@
               "indent": 1,
               "parameters": ["「この後も二回戦やるから解散解散」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4953,11 +3280,7 @@
               "indent": 1,
               "parameters": ["「まだ、やる気かよ」"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 2, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 2, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -4968,136 +3291,36 @@
               "indent": 1,
               "parameters": ["「まじ、羨ましいわー」"]
             },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 1641, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [231, 231, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [233, 233, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1672, 1672, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [23]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [29]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 2, 21, 10, 4, 0]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [117]
-            },
-            {
-              "code": 230,
-              "indent": 2,
-              "parameters": [60]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 242, "indent": 1, "parameters": [1] },
+            { "code": 246, "indent": 1, "parameters": [1] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 111, "indent": 1, "parameters": [0, 1641, 0] },
+            { "code": 117, "indent": 2, "parameters": [91] },
+            { "code": 121, "indent": 2, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 2, "parameters": [231, 231, 1] },
+            { "code": 121, "indent": 2, "parameters": [233, 233, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 121, "indent": 2, "parameters": [1672, 1672, 0] },
+            { "code": 117, "indent": 2, "parameters": [23] },
+            { "code": 117, "indent": 2, "parameters": [29] },
+            { "code": 201, "indent": 2, "parameters": [0, 2, 21, 10, 4, 0] },
+            { "code": 117, "indent": 2, "parameters": [116] },
+            { "code": 117, "indent": 2, "parameters": [159] },
+            { "code": 117, "indent": 2, "parameters": [117] },
+            { "code": 230, "indent": 2, "parameters": [60] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -5107,37 +3330,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5180,46 +3381,18 @@
               "indent": 0,
               "parameters": [["見る", "いいえ"], 1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "見る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [449]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [497, 497, 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "見る"] },
+            { "code": 117, "indent": 1, "parameters": [449] },
+            { "code": 121, "indent": 1, "parameters": [497, 497, 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -5229,37 +3402,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5302,46 +3453,18 @@
               "indent": 0,
               "parameters": [["見る", "いいえ"], 1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "見る"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [449]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [493, 493, 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "見る"] },
+            { "code": 117, "indent": 1, "parameters": [449] },
+            { "code": 121, "indent": 1, "parameters": [493, 493, 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": false,
                   "wait": true
@@ -5351,37 +3474,15 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5427,21 +3528,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5487,21 +3577,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5547,21 +3626,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 5,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5598,21 +3666,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 5,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5649,21 +3706,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 5,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5709,21 +3755,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5769,21 +3804,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5820,21 +3844,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5871,21 +3884,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5922,21 +3924,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5982,21 +3973,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6047,33 +4027,15 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Item1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Item1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [882, 882, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 121, "indent": 0, "parameters": [882, 882, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6110,21 +4072,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6170,21 +4121,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6221,21 +4161,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6272,21 +4201,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6323,21 +4241,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6374,21 +4281,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6425,21 +4321,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6476,21 +4361,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6527,21 +4401,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6578,21 +4441,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6638,21 +4490,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6689,21 +4530,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6740,21 +4570,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6791,21 +4610,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6842,21 +4650,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6893,21 +4690,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6953,21 +4739,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7004,21 +4779,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7055,21 +4819,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7106,21 +4859,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7157,21 +4899,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7208,21 +4939,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7273,33 +4993,15 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Item1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Item1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [883, 883, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 121, "indent": 0, "parameters": [883, 883, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7336,21 +5038,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7401,33 +5092,15 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Item1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Item1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [884, 884, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 121, "indent": 0, "parameters": [884, 884, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7464,21 +5137,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7524,21 +5186,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7575,21 +5226,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7626,21 +5266,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7677,21 +5306,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7738,70 +5356,21 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 882, 0]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 883, 0]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 884, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [885, 885, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 882, 0] },
+            { "code": 111, "indent": 1, "parameters": [0, 883, 0] },
+            { "code": 111, "indent": 2, "parameters": [0, 884, 0] },
+            { "code": 121, "indent": 3, "parameters": [885, 885, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -7839,155 +5408,38 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1641, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [91]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [1641, 1641, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [881, 881, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [496, 496, 1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [901, 901, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 135,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [23]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [29]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 2, 19, 10, 4, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [164]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [518]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [116]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [159]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [117]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [881, 881, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [885, 885, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [882, 882, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [883, 883, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [884, 884, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 1641, 0] },
+            { "code": 117, "indent": 1, "parameters": [91] },
+            { "code": 121, "indent": 1, "parameters": [1641, 1641, 1] },
+            { "code": 121, "indent": 1, "parameters": [881, 881, 1] },
+            { "code": 121, "indent": 1, "parameters": [496, 496, 1] },
+            { "code": 121, "indent": 1, "parameters": [901, 901, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 135, "indent": 1, "parameters": [1] },
+            { "code": 117, "indent": 1, "parameters": [23] },
+            { "code": 117, "indent": 1, "parameters": [29] },
+            { "code": 201, "indent": 1, "parameters": [0, 2, 19, 10, 4, 0] },
+            { "code": 117, "indent": 1, "parameters": [164] },
+            { "code": 117, "indent": 1, "parameters": [518] },
+            { "code": 117, "indent": 1, "parameters": [116] },
+            { "code": 117, "indent": 1, "parameters": [159] },
+            { "code": 117, "indent": 1, "parameters": [117] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [881, 881, 1] },
+            { "code": 121, "indent": 0, "parameters": [885, 885, 1] },
+            { "code": 121, "indent": 0, "parameters": [882, 882, 1] },
+            { "code": 121, "indent": 0, "parameters": [883, 883, 1] },
+            { "code": 121, "indent": 0, "parameters": [884, 884, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8033,21 +5485,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8084,21 +5525,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8144,21 +5574,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8205,16 +5624,8 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<balloonLoop:1>"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 0, "parameters": ["<balloonLoop:1>"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -8225,11 +5636,7 @@
               "indent": 0,
               "parameters": ["「あー、コリウス暇か？」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -8245,112 +5652,38 @@
               "indent": 0,
               "parameters": [["受ける", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "受ける"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["setBalloonLoop 0 0"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [881, 881, 0]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 40, 4, 9, 6, 0]
-            },
-            {
-              "code": 135,
-              "indent": 1,
-              "parameters": [0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "受ける"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["setBalloonLoop 0 0"] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 121, "indent": 1, "parameters": [881, 881, 0] },
+            { "code": 201, "indent": 1, "parameters": [0, 40, 4, 9, 6, 0] },
+            { "code": 135, "indent": 1, "parameters": [0] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["落ちている紙を全て拾いましょう"]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8387,21 +5720,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8439,16 +5761,8 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<balloonLoop:4>"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 0, "parameters": ["<balloonLoop:4>"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -8459,11 +5773,7 @@
               "indent": 0,
               "parameters": ["「あー、コリウス暇か？」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -8479,83 +5789,26 @@
               "indent": 0,
               "parameters": [["受ける", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "受ける"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["setBalloonLoop 0 0"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [881, 881, 0]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 40, 4, 9, 6, 0]
-            },
-            {
-              "code": 135,
-              "indent": 1,
-              "parameters": [0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [22]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 496, 0]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "受ける"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["setBalloonLoop 0 0"] },
+            { "code": 117, "indent": 1, "parameters": [5] },
+            { "code": 121, "indent": 1, "parameters": [881, 881, 0] },
+            { "code": 201, "indent": 1, "parameters": [0, 40, 4, 9, 6, 0] },
+            { "code": 135, "indent": 1, "parameters": [0] },
+            { "code": 117, "indent": 1, "parameters": [22] },
+            { "code": 111, "indent": 1, "parameters": [0, 496, 0] },
             {
               "code": 241,
               "indent": 2,
               "parameters": [
-                {
-                  "name": "イラマチオ3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "イラマチオ3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["audiosource bgm 21"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 901, 0]
-            },
+            { "code": 356, "indent": 2, "parameters": ["audiosource bgm 21"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [0, 901, 0] },
             {
               "code": 245,
               "indent": 2,
@@ -8580,92 +5833,34 @@
                 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["audiosource bgm 9"]
-            },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["audiosource bgs 9"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 356, "indent": 2, "parameters": ["audiosource bgm 9"] },
+            { "code": 356, "indent": 2, "parameters": ["audiosource bgs 9"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 230, "indent": 1, "parameters": [60] },
+            { "code": 222, "indent": 1, "parameters": [] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": ["落ちている紙を全て拾いましょう"]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8702,21 +5897,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8763,25 +5947,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [421]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [421] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8818,21 +5989,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8879,11 +6039,7 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -8894,20 +6050,11 @@
               "indent": 0,
               "parameters": ["「夜はゆっくりできていいわ」"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -8945,11 +6092,7 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
+            { "code": 117, "indent": 0, "parameters": [22] },
             {
               "code": 231,
               "indent": 0,
@@ -9035,11 +6178,7 @@
                 0
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -9050,11 +6189,7 @@
               "indent": 0,
               "parameters": ["「あ、コリウス・・」"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -9065,30 +6200,13 @@
               "indent": 0,
               "parameters": ["「少し面談しているの・・」"]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [23]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [5]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [23] },
+            { "code": 117, "indent": 0, "parameters": [5] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -9125,21 +6243,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -9176,21 +6283,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -9237,25 +6333,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [421]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [421] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -9302,25 +6385,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [421]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [421] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

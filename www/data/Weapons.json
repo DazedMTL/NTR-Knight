@@ -6,16 +6,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 97,
     "name": "剣",
@@ -30,16 +22,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 99,
     "name": "斧",
@@ -54,16 +38,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 101,
     "name": "杖",
@@ -78,16 +54,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 102,
     "name": "弓",
@@ -102,16 +70,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 242,
     "name": "ステータス",
@@ -126,16 +86,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 7,
     "name": "エロステータス",
@@ -150,16 +102,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 84,
     "name": "エロスキル",
@@ -174,16 +118,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -198,16 +134,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -222,16 +150,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -246,16 +166,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -270,16 +182,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -294,16 +198,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -318,16 +214,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -342,16 +230,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -366,16 +246,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -390,16 +262,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -414,16 +278,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -438,16 +294,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",
@@ -462,16 +310,8 @@
     "description": "",
     "etypeId": 1,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      }
+      { "code": 31, "dataId": 1, "value": 0 },
+      { "code": 22, "dataId": 0, "value": 0 }
     ],
     "iconIndex": 0,
     "name": "",

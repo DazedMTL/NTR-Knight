@@ -11,14 +11,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 21,
-        "dataId": 0,
-        "value1": 1,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 21, "dataId": 0, "value1": 1, "value2": 0 }],
     "hitType": 1,
     "iconIndex": 76,
     "message1": "の攻撃！",
@@ -48,14 +41,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value1": 1,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 21, "dataId": 2, "value1": 1, "value2": 0 }],
     "hitType": 0,
     "iconIndex": 81,
     "message1": "は身を守っている。",
@@ -85,14 +71,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 21,
-        "dataId": 0,
-        "value1": 1,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 21, "dataId": 0, "value1": 1, "value2": 0 }],
     "hitType": 1,
     "iconIndex": 76,
     "message1": "の攻撃！",
@@ -122,14 +101,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 21,
-        "dataId": 0,
-        "value1": 1,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 21, "dataId": 0, "value1": 1, "value2": 0 }],
     "hitType": 1,
     "iconIndex": 76,
     "message1": "の攻撃！",
@@ -159,14 +131,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 21,
-        "dataId": 0,
-        "value1": 1,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 21, "dataId": 0, "value1": 1, "value2": 0 }],
     "hitType": 1,
     "iconIndex": 76,
     "message1": "の攻撃！",
@@ -196,14 +161,7 @@
       "variance": 20
     },
     "description": "",
-    "effects": [
-      {
-        "code": 41,
-        "dataId": 0,
-        "value1": 0,
-        "value2": 0
-      }
-    ],
+    "effects": [{ "code": 41, "dataId": 0, "value1": 0, "value2": 0 }],
     "hitType": 0,
     "iconIndex": 82,
     "message1": "は逃げてしまった。",

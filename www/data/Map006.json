@@ -3,18 +3,8 @@
   "autoplayBgs": false,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -118,226 +108,54 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MWP_INVALID"]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 356, "indent": 0, "parameters": ["MWP_INVALID"] },
             {
               "code": 356,
               "indent": 0,
               "parameters": ["C_SET_DAY 2019 03 04"]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_INIT_TOTAL_TIME"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["hideHpGauge"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_STOP"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_HIDE"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_DISABLE_TINT"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_DISABLE_WEATHER"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["C_SET_TIME 08 00"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["hideLogWindow"]
-            },
-            {
-              "code": 135,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [241, 241, 0]
-            },
-            {
-              "code": 318,
-              "indent": 0,
-              "parameters": [0, 1, 0, 14]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [1441, 1441, 0]
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1987, 1]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [29, 29, 0, 0, 100]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [30, 30, 0, 0, 100]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [107, 107, 0, 0, 100]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [137, 137, 0, 0, 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [135, 135, 0, 0, 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [42, 42, 0, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [56, 56, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [35, 35, 0, 0, 8]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [9, 9, 0, 0, 10]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 10]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [108, 108, 0, 0, 100]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [55, 55, 0, 0, 100]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [123, 123, 0, 0, 99]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [122, 122, 0, 0, 99]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [125, 125, 0, 0, 99]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [124, 124, 0, 0, 99]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [139, 139, 0, 0, 99]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [181, 181, 0, 0, 40]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [182, 182, 0, 0, 40]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [57, 57, 0, 0, 600]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [658, 658, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [138, 138, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [487]
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 1987, 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 356, "indent": 0, "parameters": ["C_INIT_TOTAL_TIME"] },
+            { "code": 356, "indent": 0, "parameters": ["hideHpGauge"] },
+            { "code": 356, "indent": 0, "parameters": ["C_STOP"] },
+            { "code": 356, "indent": 0, "parameters": ["C_HIDE"] },
+            { "code": 356, "indent": 0, "parameters": ["C_DISABLE_TINT"] },
+            { "code": 356, "indent": 0, "parameters": ["C_DISABLE_WEATHER"] },
+            { "code": 356, "indent": 0, "parameters": ["C_SET_TIME 08 00"] },
+            { "code": 356, "indent": 0, "parameters": ["hideLogWindow"] },
+            { "code": 135, "indent": 0, "parameters": [0] },
+            { "code": 121, "indent": 0, "parameters": [241, 241, 0] },
+            { "code": 318, "indent": 0, "parameters": [0, 1, 0, 14] },
+            { "code": 121, "indent": 0, "parameters": [1441, 1441, 0] },
+            { "code": 111, "indent": 0, "parameters": [0, 1987, 1] },
+            { "code": 122, "indent": 1, "parameters": [29, 29, 0, 0, 100] },
+            { "code": 122, "indent": 1, "parameters": [30, 30, 0, 0, 100] },
+            { "code": 122, "indent": 1, "parameters": [107, 107, 0, 0, 100] },
+            { "code": 122, "indent": 1, "parameters": [137, 137, 0, 0, 0] },
+            { "code": 122, "indent": 1, "parameters": [135, 135, 0, 0, 0] },
+            { "code": 122, "indent": 1, "parameters": [42, 42, 0, 0, 1] },
+            { "code": 122, "indent": 1, "parameters": [56, 56, 0, 0, 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 122, "indent": 0, "parameters": [35, 35, 0, 0, 8] },
+            { "code": 122, "indent": 0, "parameters": [9, 9, 0, 0, 10] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 10] },
+            { "code": 122, "indent": 0, "parameters": [108, 108, 0, 0, 100] },
+            { "code": 122, "indent": 0, "parameters": [55, 55, 0, 0, 100] },
+            { "code": 122, "indent": 0, "parameters": [123, 123, 0, 0, 99] },
+            { "code": 122, "indent": 0, "parameters": [122, 122, 0, 0, 99] },
+            { "code": 122, "indent": 0, "parameters": [125, 125, 0, 0, 99] },
+            { "code": 122, "indent": 0, "parameters": [124, 124, 0, 0, 99] },
+            { "code": 122, "indent": 0, "parameters": [139, 139, 0, 0, 99] },
+            { "code": 122, "indent": 0, "parameters": [181, 181, 0, 0, 40] },
+            { "code": 122, "indent": 0, "parameters": [182, 182, 0, 0, 40] },
+            { "code": 122, "indent": 0, "parameters": [57, 57, 0, 0, 600] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 121, "indent": 0, "parameters": [658, 658, 0] },
+            { "code": 121, "indent": 0, "parameters": [138, 138, 0] },
+            { "code": 117, "indent": 0, "parameters": [487] },
+            { "code": 111, "indent": 0, "parameters": [0, 1987, 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
@@ -348,56 +166,16 @@
               "indent": 1,
               "parameters": [["はい", "いいえ"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1608, 1608, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [1608, 1608, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 121, "indent": 2, "parameters": [1608, 1608, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 121, "indent": 2, "parameters": [1608, 1608, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
@@ -422,80 +200,23 @@
               "indent": 0,
               "parameters": [0, "スキップしない（初めての場合はこちらを推奨）"]
             },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 4, 14, 32, 8, 0]
-            },
-            {
-              "code": 211,
-              "indent": 1,
-              "parameters": [1]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [132, 132, 0]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [241, 241, 1]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MWP_VALID 0 1"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "スキップする"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [134]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [241, 241, 1]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MWP_VALID 0 1"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 1, "parameters": [0, 4, 14, 32, 8, 0] },
+            { "code": 211, "indent": 1, "parameters": [1] },
+            { "code": 121, "indent": 1, "parameters": [132, 132, 0] },
+            { "code": 121, "indent": 1, "parameters": [241, 241, 1] },
+            { "code": 356, "indent": 1, "parameters": ["MWP_VALID 0 1"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "スキップする"] },
+            { "code": 117, "indent": 1, "parameters": [134] },
+            { "code": 121, "indent": 1, "parameters": [241, 241, 1] },
+            { "code": 356, "indent": 1, "parameters": ["MWP_VALID 0 1"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -532,21 +253,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

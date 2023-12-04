@@ -4,63 +4,19 @@
     "id": 1,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 2,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 3,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 5,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 2, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 3, "value": 0 },
+      { "code": 52, "dataId": 5, "value": 0 }
     ],
     "learnings": [
-      {
-        "level": 1,
-        "note": "",
-        "skillId": 8
-      },
-      {
-        "level": 1,
-        "note": "",
-        "skillId": 10
-      }
+      { "level": 1, "note": "", "skillId": 8 },
+      { "level": 1, "note": "", "skillId": 10 }
     ],
     "name": "勇者",
     "note": "",
@@ -146,61 +102,17 @@
     "id": 2,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 4,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 3,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 4,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 5,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 6,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 4, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 3, "value": 0 },
+      { "code": 52, "dataId": 4, "value": 0 },
+      { "code": 52, "dataId": 5, "value": 0 },
+      { "code": 52, "dataId": 6, "value": 0 }
     ],
     "learnings": [],
     "name": "戦士",
@@ -287,54 +199,16 @@
     "id": 3,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 6,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 2,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 6, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 2, "value": 0 }
     ],
-    "learnings": [
-      {
-        "level": 1,
-        "note": "",
-        "skillId": 9
-      }
-    ],
+    "learnings": [{ "level": 1, "note": "", "skillId": 9 }],
     "name": "魔術師",
     "note": "",
     "params": [
@@ -419,54 +293,16 @@
     "id": 4,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 7,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 2,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 7, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 2, "value": 0 }
     ],
-    "learnings": [
-      {
-        "level": 1,
-        "note": "",
-        "skillId": 8
-      }
-    ],
+    "learnings": [{ "level": 1, "note": "", "skillId": 8 }],
     "name": "僧侶",
     "note": "",
     "params": [
@@ -551,41 +387,13 @@
     "id": 5,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "訓練生",
@@ -672,41 +480,13 @@
     "id": 6,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -793,41 +573,13 @@
     "id": 7,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -914,41 +666,13 @@
     "id": 8,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1035,41 +759,13 @@
     "id": 9,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1156,41 +852,13 @@
     "id": 10,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1277,41 +945,13 @@
     "id": 11,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1398,41 +1038,13 @@
     "id": 12,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1519,41 +1131,13 @@
     "id": 13,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1640,41 +1224,13 @@
     "id": 14,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1761,41 +1317,13 @@
     "id": 15,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -1882,41 +1410,13 @@
     "id": 16,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -2003,41 +1503,13 @@
     "id": 17,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -2124,41 +1596,13 @@
     "id": 18,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -2245,41 +1689,13 @@
     "id": 19,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",
@@ -2366,41 +1782,13 @@
     "id": 20,
     "expParams": [30, 20, 30, 30],
     "traits": [
-      {
-        "code": 23,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.04
-      },
-      {
-        "code": 41,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 52,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 23, "dataId": 0, "value": 1 },
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.04 },
+      { "code": 41, "dataId": 1, "value": 0 },
+      { "code": 51, "dataId": 1, "value": 0 },
+      { "code": 52, "dataId": 1, "value": 0 }
     ],
     "learnings": [],
     "name": "",

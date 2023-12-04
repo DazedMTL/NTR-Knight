@@ -14,39 +14,15 @@
     "battlerHue": 0,
     "battlerName": "Bat",
     "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 }
     ],
     "exp": 0,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 31, "dataId": 1, "value": 0 }
     ],
     "gold": 0,
     "name": "こうもり",
@@ -67,39 +43,15 @@
     "battlerHue": 0,
     "battlerName": "Slime",
     "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 }
     ],
     "exp": 0,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 31, "dataId": 1, "value": 0 }
     ],
     "gold": 0,
     "name": "スライム",
@@ -120,39 +72,15 @@
     "battlerHue": 0,
     "battlerName": "Orc",
     "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 }
     ],
     "exp": 0,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 31, "dataId": 1, "value": 0 }
     ],
     "gold": 0,
     "name": "オーク",
@@ -173,39 +101,15 @@
     "battlerHue": 0,
     "battlerName": "Minotaur",
     "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 },
+      { "dataId": 1, "denominator": 1, "kind": 0 }
     ],
     "exp": 0,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
+      { "code": 22, "dataId": 0, "value": 0.95 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 31, "dataId": 1, "value": 0 }
     ],
     "gold": 0,
     "name": "ミノタウロス",

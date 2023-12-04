@@ -23,13 +23,7 @@
     "removeByWalking": false,
     "restriction": 4,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 23,
-        "dataId": 9,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 23, "dataId": 9, "value": 0 }]
   },
   {
     "id": 2,
@@ -54,13 +48,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 62,
-        "dataId": 1,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 62, "dataId": 1, "value": 0 }]
   },
   {
     "id": 3,
@@ -85,13 +73,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 14,
-        "dataId": 1,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 14, "dataId": 1, "value": 0 }]
   },
   {
     "id": 4,
@@ -116,13 +98,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 7,
-        "value": -0.1
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 7, "value": -0.1 }]
   },
   {
     "id": 5,
@@ -147,13 +123,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 0, "value": -0.5 }]
   },
   {
     "id": 6,
@@ -178,13 +148,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 42, "dataId": 1, "value": 0 }]
   },
   {
     "id": 7,
@@ -284,12 +248,6 @@
     "removeByWalking": false,
     "restriction": 4,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": -1
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 1, "value": -1 }]
   }
 ]

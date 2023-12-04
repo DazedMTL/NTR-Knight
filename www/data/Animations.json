@@ -26,12 +26,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -77,36 +72,21 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Damage4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Damage4", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 180, "volume": 90 }
       }
     ]
   },
@@ -160,24 +140,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Fire1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Fire1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 119, 102, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 136, 51, 153],
@@ -251,24 +221,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 75,
-          "volume": 100
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 75, "volume": 100 }
       },
       {
         "flashColor": [119, 187, 255, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 221, 221, 153],
@@ -317,24 +277,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 100
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 80, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 102, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 119, 153],
@@ -366,12 +316,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 140,
-          "volume": 20
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 140, "volume": 20 }
       }
     ]
   },
@@ -411,36 +356,21 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 187],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 180, "volume": 90 }
       }
     ]
   },
@@ -484,24 +414,14 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 136, 51, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Fire1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 100
-        }
+        "se": { "name": "Fire1", "pan": 0, "pitch": 120, "volume": 100 }
       }
     ]
   },
@@ -544,24 +464,14 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 221, 221, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -605,24 +515,14 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 119, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -655,24 +555,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 120, "volume": 90 }
       }
     ]
   },
@@ -737,36 +627,21 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Thunder4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Thunder4", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 180, "volume": 90 }
       }
     ]
   },
@@ -815,36 +690,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 102, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 136, 51, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Fire1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Fire1", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -919,36 +779,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [136, 221, 221, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [0, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 75,
-          "volume": 100
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 75, "volume": 100 }
       }
     ]
   },
@@ -997,36 +842,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 102, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 85, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 100
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 80, "volume": 100 }
       }
     ]
   },
@@ -1052,24 +882,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 200,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 200, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -1127,36 +947,21 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 180, "volume": 90 }
       }
     ]
   },
@@ -1209,36 +1014,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 200,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 200, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 136, 51, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Fire1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Fire1", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -1287,36 +1077,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 200,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 200, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [0, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 75,
-          "volume": 100
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 75, "volume": 100 }
       }
     ]
   },
@@ -1369,36 +1144,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 200,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 200, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 85, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 100
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 80, "volume": 100 }
       }
     ]
   },
@@ -1542,12 +1302,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 221, 136],
@@ -1561,12 +1316,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 221, 136],
@@ -1580,12 +1330,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 221, 136],
@@ -1599,24 +1344,14 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 221, 136],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 15,
-        "se": {
-          "name": "Thunder5",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Thunder5", "pan": 0, "pitch": 120, "volume": 90 }
       }
     ]
   },
@@ -1731,12 +1466,7 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "conditions": 0,
@@ -1751,120 +1481,70 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 119],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 5,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 7,
-        "se": {
-          "name": "Blow2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow2", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 9,
-        "se": {
-          "name": "Blow1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 221, 119],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 12,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 187],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 14,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 170],
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 17,
-        "se": {
-          "name": "Blow2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Blow2", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 18,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 170],
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 19,
-        "se": {
-          "name": "Damage2",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 100
-        }
+        "se": { "name": "Damage2", "pan": 0, "pitch": 120, "volume": 100 }
       }
     ]
   },
@@ -1948,108 +1628,63 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Sword3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword3", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Sword3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword3", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 11,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 14,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 170],
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 15,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 120, "volume": 90 }
       }
     ]
   },
@@ -2106,12 +1741,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 102, 0, 221],
@@ -2125,60 +1755,35 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 3,
-        "se": {
-          "name": "Wind7",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Wind7", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 170, 204],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 170, 170],
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 7,
-        "se": {
-          "name": "Wind7",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Wind7", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 170],
@@ -2192,12 +1797,7 @@
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 16,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 90, "volume": 90 }
       }
     ]
   },
@@ -2333,12 +1933,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 187, 255, 187],
@@ -2352,12 +1947,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 100
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 120, "volume": 100 }
       },
       {
         "flashColor": [187, 187, 255, 187],
@@ -2371,12 +1961,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 187, 255, 187],
@@ -2390,36 +1975,21 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 22,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 187, 255, 187],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 22,
-        "se": {
-          "name": "Wind6",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 70
-        }
+        "se": { "name": "Wind6", "pan": 0, "pitch": 150, "volume": 70 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 21,
-        "se": {
-          "name": "Sword3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Sword3", "pan": 0, "pitch": 120, "volume": 90 }
       }
     ]
   },
@@ -2478,132 +2048,77 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind6",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Wind6", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 119],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 4,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 119],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 5,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 119],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 7,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 119],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 12,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 119],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 12,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
@@ -2721,132 +2236,77 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 80
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 80, "volume": 80 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 4,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [187, 221, 255, 187],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 6,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [187, 221, 255, 170],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 10,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 16,
-        "se": {
-          "name": "Sword5",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Sword5", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 187, 119, 221],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 17,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [187, 221, 255, 170],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 19,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 80 }
       }
     ]
   },
@@ -2917,132 +2377,77 @@
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 3,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 4,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 6,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 9,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 10,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 16,
-        "se": {
-          "name": "Attack2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Attack2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 15,
         "flashScope": 1,
         "frame": 17,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 153, 187],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 18,
-        "se": {
-          "name": "Monster2",
-          "pan": 0,
-          "pitch": 115,
-          "volume": 90
-        }
+        "se": { "name": "Monster2", "pan": 0, "pitch": 115, "volume": 90 }
       }
     ]
   },
@@ -3205,72 +2610,42 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Crossbow",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Crossbow", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 255],
         "flashDuration": 7,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 180, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 13,
-        "se": {
-          "name": "Wind6",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 90
-        }
+        "se": { "name": "Wind6", "pan": 0, "pitch": 180, "volume": 90 }
       }
     ]
   },
@@ -3388,60 +2763,35 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Slash4",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 100
-        }
+        "se": { "name": "Slash4", "pan": 0, "pitch": 90, "volume": 100 }
       },
       {
         "flashColor": [255, 170, 119, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Slash5",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 100
-        }
+        "se": { "name": "Slash5", "pan": 0, "pitch": 90, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 187],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 12,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 187, 221],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 120, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 204, 153],
@@ -3455,12 +2805,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 17,
-        "se": {
-          "name": "Damage2",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Damage2", "pan": 0, "pitch": 110, "volume": 100 }
       }
     ]
   },
@@ -3566,24 +2911,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder3",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Thunder3", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [187, 238, 255, 170],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "flashColor": [170, 238, 255, 221],
@@ -3604,24 +2939,14 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 5,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 10,
-        "se": {
-          "name": "Thunder3",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Thunder3", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [170, 238, 255, 221],
@@ -3635,12 +2960,7 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 11,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 180,
-          "volume": 100
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 180, "volume": 100 }
       },
       {
         "flashColor": [170, 238, 255, 221],
@@ -3654,12 +2974,7 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 15,
-        "se": {
-          "name": "Slash3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Slash3", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -3702,24 +3017,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 102, 0, 204],
@@ -3860,24 +3165,14 @@
         "flashDuration": 25,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Darkness4",
-          "pan": 0,
-          "pitch": 60,
-          "volume": 90
-        }
+        "se": { "name": "Darkness4", "pan": 0, "pitch": 60, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Darkness3",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Darkness3", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 85, 238, 204],
@@ -4012,12 +3307,7 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Sound3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Sound3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 170, 170],
@@ -4125,24 +3415,14 @@
         "flashDuration": 15,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Blind",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Blind", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 170],
         "flashDuration": 15,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Sand",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 90
-        }
+        "se": { "name": "Sand", "pan": 0, "pitch": 110, "volume": 90 }
       }
     ]
   },
@@ -4266,12 +3546,7 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 170],
@@ -4365,12 +3640,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Monster1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Monster1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [170, 255, 255, 136],
@@ -4437,12 +3707,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind7",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Wind7", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 136, 102, 255],
@@ -4456,12 +3721,7 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 2,
-        "se": {
-          "name": "Blow2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 100
-        }
+        "se": { "name": "Blow2", "pan": 0, "pitch": 70, "volume": 100 }
       }
     ]
   },
@@ -4517,36 +3777,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder2",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Thunder2", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 119, 102, 221],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Blow3",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 100
-        }
+        "se": { "name": "Blow3", "pan": 0, "pitch": 50, "volume": 100 }
       },
       {
         "flashColor": [255, 238, 170, 136],
@@ -4695,24 +3940,14 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Flash2",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Flash2", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Sword1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Sword1", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 170],
@@ -5038,24 +4273,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Heal3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Heal3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [187, 255, 255, 204],
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Saint2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Saint2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [187, 255, 255, 204],
@@ -5180,24 +4405,14 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Starlight",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Starlight", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [187, 238, 255, 204],
         "flashDuration": 8,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Saint2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Saint2", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [187, 238, 255, 153],
@@ -5556,48 +4771,28 @@
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Saint4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Saint4", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 3,
-        "se": {
-          "name": "Heal1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Heal1", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 4,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [187, 255, 255, 136],
@@ -5724,36 +4919,21 @@
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 8,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 136],
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Flash2",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 50
-        }
+        "se": { "name": "Flash2", "pan": 0, "pitch": 90, "volume": 50 }
       },
       {
         "conditions": 0,
@@ -5761,12 +4941,7 @@
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 100, "volume": 80 }
       }
     ]
   },
@@ -6058,24 +5233,14 @@
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 102],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Recovery",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Recovery", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 204],
@@ -6096,12 +5261,7 @@
         "flashDuration": 4,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 119],
@@ -6206,24 +5366,14 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [204, 255, 85, 170],
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -6554,48 +5704,28 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Starlight",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Starlight", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [170, 255, 255, 221],
         "flashDuration": 20,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Heal3",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Heal3", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 255, 153],
@@ -6694,24 +5824,14 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [85, 187, 221, 170],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Saint4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Saint4", "pan": 0, "pitch": 100, "volume": 80 }
       }
     ]
   },
@@ -7164,36 +6284,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 17],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Starlight",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Starlight", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 51],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 4,
-        "se": {
-          "name": "Skill1",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Skill1", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 68],
@@ -7336,36 +6441,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Magic2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 9,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 221, 238],
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Up3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 80
-        }
+        "se": { "name": "Up3", "pan": 0, "pitch": 130, "volume": 80 }
       }
     ]
   },
@@ -7585,24 +6675,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Up4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Up4", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [238, 187, 204, 187],
@@ -7939,24 +7019,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 136, 119],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 4,
-        "se": {
-          "name": "Magic4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 80
-        }
+        "se": { "name": "Magic4", "pan": 0, "pitch": 120, "volume": 80 }
       },
       {
         "flashColor": [255, 221, 136, 221],
@@ -8064,12 +7134,7 @@
         "flashDuration": 20,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Up1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 80
-        }
+        "se": { "name": "Up1", "pan": 0, "pitch": 80, "volume": 80 }
       },
       {
         "flashColor": [238, 255, 255, 136],
@@ -8083,12 +7148,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 9,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 80
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 90, "volume": 80 }
       }
     ]
   },
@@ -8308,24 +7368,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Down2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Down2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Magic2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Magic2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [153, 204, 255, 187],
@@ -8381,24 +7431,14 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Stare",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 70
-        }
+        "se": { "name": "Stare", "pan": 0, "pitch": 110, "volume": 70 }
       },
       {
         "flashColor": [0, 0, 0, 204],
         "flashDuration": 18,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Earth2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 80
-        }
+        "se": { "name": "Earth2", "pan": 0, "pitch": 70, "volume": 80 }
       }
     ]
   },
@@ -8496,24 +7536,14 @@
         "flashDuration": 15,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Blind",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 80
-        }
+        "se": { "name": "Blind", "pan": 0, "pitch": 120, "volume": 80 }
       },
       {
         "flashColor": [255, 68, 221, 187],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 14,
-        "se": {
-          "name": "Crash",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 80
-        }
+        "se": { "name": "Crash", "pan": 0, "pitch": 120, "volume": 80 }
       },
       {
         "flashColor": [255, 51, 221, 204],
@@ -8659,24 +7689,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Darkness4",
-          "pan": 0,
-          "pitch": 60,
-          "volume": 100
-        }
+        "se": { "name": "Darkness4", "pan": 0, "pitch": 60, "volume": 100 }
       },
       {
         "flashColor": [255, 204, 136, 187],
@@ -8690,12 +7710,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 5,
-        "se": {
-          "name": "Darkness1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Darkness1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 238, 136, 136],
@@ -8783,24 +7798,14 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Darkness1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Darkness1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Twine",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 70
-        }
+        "se": { "name": "Twine", "pan": 0, "pitch": 150, "volume": 70 }
       },
       {
         "flashColor": [255, 0, 0, 204],
@@ -9063,12 +8068,7 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Poison",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Poison", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [102, 255, 153, 221],
@@ -9391,12 +8391,7 @@
         "flashDuration": 20,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Blind",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Blind", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [0, 0, 0, 34],
@@ -9410,12 +8405,7 @@
         "flashDuration": 20,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Darkness2",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 50
-        }
+        "se": { "name": "Darkness2", "pan": 0, "pitch": 80, "volume": 50 }
       },
       {
         "flashColor": [0, 0, 0, 68],
@@ -9677,36 +8667,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Silence",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Silence", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 153, 255],
         "flashDuration": 6,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Sound2",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 70
-        }
+        "se": { "name": "Sound2", "pan": 0, "pitch": 80, "volume": 70 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Flash1",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 70
-        }
+        "se": { "name": "Flash1", "pan": 0, "pitch": 70, "volume": 70 }
       }
     ]
   },
@@ -9965,24 +8940,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Up1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 70
-        }
+        "se": { "name": "Up1", "pan": 0, "pitch": 50, "volume": 70 }
       },
       {
         "flashColor": [170, 221, 255, 255],
         "flashDuration": 6,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Sleep",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Sleep", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
@@ -10308,24 +9273,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Absorb2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 80
-        }
+        "se": { "name": "Absorb2", "pan": 0, "pitch": 50, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 4,
-        "se": {
-          "name": "Raise2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 80
-        }
+        "se": { "name": "Raise2", "pan": 0, "pitch": 70, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 187, 187],
@@ -10479,24 +9434,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Darkness1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Darkness1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 3,
-        "se": {
-          "name": "Paralyze3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Paralyze3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 136, 102],
@@ -10795,24 +9740,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Stare",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Stare", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [0, 0, 0, 68],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 8,
-        "se": {
-          "name": "Darkness5",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 80
-        }
+        "se": { "name": "Darkness5", "pan": 0, "pitch": 90, "volume": 80 }
       },
       {
         "flashColor": [0, 0, 0, 119],
@@ -10952,12 +9887,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 204, 119, 255],
@@ -11013,12 +9943,7 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Fire2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Fire2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 102, 34, 204],
@@ -11233,12 +10158,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 0, 221],
@@ -11252,12 +10172,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 4,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 0, 221],
@@ -11271,12 +10186,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Fire2",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Fire2", "pan": 0, "pitch": 80, "volume": 90 }
       }
     ]
   },
@@ -11358,12 +10268,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 100
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 90, "volume": 100 }
       },
       {
         "flashColor": [255, 102, 0, 187],
@@ -11705,48 +10610,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 85, 0, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Fire2",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 80
-        }
+        "se": { "name": "Fire2", "pan": 0, "pitch": 110, "volume": 80 }
       },
       {
         "flashColor": [255, 187, 51, 204],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 22,
-        "se": {
-          "name": "Explosion2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Explosion2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 51, 255],
@@ -11864,36 +10749,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Starlight",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Starlight", "pan": 0, "pitch": 150, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Wind1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 70
-        }
+        "se": { "name": "Wind1", "pan": 0, "pitch": 80, "volume": 70 }
       },
       {
         "flashColor": [136, 255, 255, 238],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Crash",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Crash", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [136, 255, 255, 68],
@@ -11914,24 +10784,14 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 13,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -12006,24 +10866,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [187, 238, 255, 187],
@@ -12333,60 +11183,35 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder4",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Thunder4", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 5,
-        "se": {
-          "name": "Flash2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Flash2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [153, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 16,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 70
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 130, "volume": 70 }
       },
       {
         "flashColor": [153, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 17,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [153, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 20,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [153, 255, 255, 153],
@@ -12493,24 +11318,14 @@
         "flashDuration": 15,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Wind6",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Wind6", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [221, 255, 255, 102],
         "flashDuration": 8,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Thunder6",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 80
-        }
+        "se": { "name": "Thunder6", "pan": 0, "pitch": 90, "volume": 80 }
       },
       {
         "conditions": 0,
@@ -12748,84 +11563,49 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [136, 221, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 70
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 100, "volume": 70 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 19,
-        "se": {
-          "name": "Crash",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 70
-        }
+        "se": { "name": "Crash", "pan": 0, "pitch": 150, "volume": 70 }
       },
       {
         "flashColor": [153, 221, 255, 255],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 23,
-        "se": {
-          "name": "Sand",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Sand", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 187, 51, 204],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 23,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [136, 221, 255, 204],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 26,
-        "se": {
-          "name": "Ice1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 75
-        }
+        "se": { "name": "Ice1", "pan": 0, "pitch": 100, "volume": 75 }
       },
       {
         "flashColor": [153, 221, 255, 255],
@@ -12888,12 +11668,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder6",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Thunder6", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 187, 221],
@@ -12958,24 +11733,14 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Thunder3",
-          "pan": 0,
-          "pitch": 85,
-          "volume": 100
-        }
+        "se": { "name": "Thunder3", "pan": 0, "pitch": 85, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 51, 170],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 3,
-        "se": {
-          "name": "Thunder8",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Thunder8", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 51, 187],
@@ -13256,36 +12021,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Paralyze1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Paralyze1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 153, 255],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Thunder6",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Thunder6", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 153, 255],
@@ -13306,12 +12056,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 14,
-        "se": {
-          "name": "Thunder5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Thunder5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 153, 255],
@@ -13401,24 +12146,14 @@
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Thunder10",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 100
-        }
+        "se": { "name": "Thunder10", "pan": 0, "pitch": 120, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 204, 170],
         "flashDuration": 1,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Thunder9",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Thunder9", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 170, 170],
@@ -13683,24 +12418,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [221, 102, 255, 153],
@@ -13714,24 +12439,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 10,
-        "se": {
-          "name": "Monster2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 75
-        }
+        "se": { "name": "Monster2", "pan": 0, "pitch": 100, "volume": 75 }
       },
       {
         "flashColor": [255, 221, 255, 221],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 21,
-        "se": {
-          "name": "Thunder9",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Thunder9", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 255, 221],
@@ -13982,36 +12697,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Water5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Water5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Liquid",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Liquid", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [136, 255, 255, 153],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Water2",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Water2", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [136, 255, 255, 153],
@@ -14084,24 +12784,14 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Dive",
-          "pan": 0,
-          "pitch": 135,
-          "volume": 90
-        }
+        "se": { "name": "Dive", "pan": 0, "pitch": 135, "volume": 90 }
       },
       {
         "flashColor": [119, 204, 255, 170],
         "flashDuration": 7,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Water1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Water1", "pan": 0, "pitch": 100, "volume": 100 }
       }
     ]
   },
@@ -14501,48 +13191,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Water5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Water5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Liquid",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Liquid", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [153, 204, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 11,
-        "se": {
-          "name": "Water4",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Water4", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [153, 204, 255, 238],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Water1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Water1", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -14637,12 +13307,7 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Water1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 100
-        }
+        "se": { "name": "Water1", "pan": 0, "pitch": 50, "volume": 100 }
       },
       {
         "flashColor": [187, 255, 255, 255],
@@ -14810,60 +13475,35 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [68, 170, 255, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Wind1",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 75
-        }
+        "se": { "name": "Wind1", "pan": 0, "pitch": 120, "volume": 75 }
       },
       {
         "flashColor": [170, 204, 255, 204],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 23,
-        "se": {
-          "name": "Water1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Water1", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [170, 204, 255, 204],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 24,
-        "se": {
-          "name": "Water2",
-          "pan": 0,
-          "pitch": 65,
-          "volume": 90
-        }
+        "se": { "name": "Water2", "pan": 0, "pitch": 65, "volume": 90 }
       },
       {
         "flashColor": [170, 204, 255, 204],
@@ -15119,24 +13759,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [204, 136, 68, 153],
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Break",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Break", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [204, 136, 68, 153],
@@ -15150,12 +13780,7 @@
         "flashDuration": 4,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [204, 136, 68, 153],
@@ -15204,24 +13829,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Thunder2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 153, 0, 255],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Earth5",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 100
-        }
+        "se": { "name": "Earth5", "pan": 0, "pitch": 50, "volume": 100 }
       },
       {
         "flashColor": [204, 153, 34, 187],
@@ -15605,60 +14220,35 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 170, 170],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 5,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 100
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 50, "volume": 100 }
       },
       {
         "flashColor": [255, 221, 170, 170],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 170, 170],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 9,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 10,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 80, "volume": 90 }
       }
     ]
   },
@@ -15854,36 +14444,21 @@
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Earth4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Earth4", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 204, 68, 119],
         "flashDuration": 1,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [204, 136, 34, 221],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 3,
-        "se": {
-          "name": "Earth5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Earth5", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "conditions": 1,
@@ -16092,72 +14667,42 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [238, 136, 0, 153],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Earth4",
-          "pan": 0,
-          "pitch": 125,
-          "volume": 75
-        }
+        "se": { "name": "Earth4", "pan": 0, "pitch": 125, "volume": 75 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 26,
-        "se": {
-          "name": "Damage4",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 100
-        }
+        "se": { "name": "Damage4", "pan": 0, "pitch": 50, "volume": 100 }
       },
       {
         "flashColor": [238, 187, 0, 187],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 27,
-        "se": {
-          "name": "Break",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Break", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [238, 187, 0, 187],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 27,
-        "se": {
-          "name": "Earth1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Earth1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [238, 187, 0, 204],
@@ -16264,12 +14809,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Wind3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 187, 187],
@@ -16339,12 +14879,7 @@
         "flashDuration": 3,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [204, 221, 119, 204],
@@ -16629,12 +15164,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 221, 204],
@@ -16648,12 +15178,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 2,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 221, 204],
@@ -16667,12 +15192,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 5,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [170, 255, 221, 204],
@@ -16686,12 +15206,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 8,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -16809,24 +15324,14 @@
         "flashDuration": 15,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 100
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 80, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 187, 153],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Sand",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 100
-        }
+        "se": { "name": "Sand", "pan": 0, "pitch": 70, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 187, 153],
@@ -17080,36 +15585,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [136, 221, 0, 170],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 125,
-          "volume": 75
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 125, "volume": 75 }
       },
       {
         "flashColor": [187, 221, 170, 187],
@@ -17123,24 +15613,14 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 23,
-        "se": {
-          "name": "Skill2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Skill2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [187, 221, 170, 204],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 29,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [187, 221, 170, 187],
@@ -17280,84 +15760,49 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Up3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Up3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Reflection",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Reflection", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 136],
         "flashDuration": 7,
         "flashScope": 2,
         "frame": 7,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 170],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Reflection",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Reflection", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 9,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 10,
-        "se": {
-          "name": "Reflection",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Reflection", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 11,
-        "se": {
-          "name": "Sword4",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword4", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -17412,12 +15857,7 @@
         "flashDuration": 3,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 170, 187],
@@ -17431,12 +15871,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 6,
-        "se": {
-          "name": "Saint4",
-          "pan": 0,
-          "pitch": 115,
-          "volume": 100
-        }
+        "se": { "name": "Saint4", "pan": 0, "pitch": 115, "volume": 100 }
       }
     ]
   },
@@ -17747,48 +16182,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Starlight",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Starlight", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 1,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Up1",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Up1", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Skill3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Skill3", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 119],
@@ -17802,48 +16217,28 @@
         "flashDuration": 6,
         "flashScope": 2,
         "frame": 14,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 17,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 221, 204],
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 19,
-        "se": {
-          "name": "Sword2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Sword2", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -18013,36 +16408,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Skill1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Skill1", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 8,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 100
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 150, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 8,
-        "se": {
-          "name": "Saint4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Saint4", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "conditions": 0,
@@ -18274,48 +16654,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 187, 153],
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Skill3",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 75
-        }
+        "se": { "name": "Skill3", "pan": 0, "pitch": 110, "volume": 75 }
       },
       {
         "flashColor": [187, 221, 170, 187],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 19,
-        "se": {
-          "name": "Ice5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Ice5", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 187],
@@ -18329,12 +16689,7 @@
         "flashDuration": 3,
         "flashScope": 0,
         "frame": 27,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 90
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 80, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 187],
@@ -18473,12 +16828,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Darkness1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Darkness1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [136, 136, 187, 221],
@@ -18574,12 +16924,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Darkness3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Darkness3", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 102, 221, 153],
@@ -19032,24 +17377,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Darkness4",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Darkness4", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [187, 170, 221, 255],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Thunder3",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Thunder3", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [51, 34, 85, 255],
@@ -19063,12 +17398,7 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 13,
-        "se": {
-          "name": "Thunder3",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Thunder3", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [51, 34, 85, 255],
@@ -19339,12 +17669,7 @@
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Teleport",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Teleport", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "conditions": 0,
@@ -19359,12 +17684,7 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 14,
-        "se": {
-          "name": "Blind",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Blind", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "conditions": 0,
@@ -19574,72 +17894,42 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 65
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 70, "volume": 65 }
       },
       {
         "flashColor": [255, 34, 0, 136],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Magic1", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [153, 51, 102, 153],
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 9,
-        "se": {
-          "name": "Darkness4",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 75
-        }
+        "se": { "name": "Darkness4", "pan": 0, "pitch": 90, "volume": 75 }
       },
       {
         "flashColor": [187, 221, 170, 187],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 25,
-        "se": {
-          "name": "Magic2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Magic2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [170, 51, 136, 187],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 34,
-        "se": {
-          "name": "Wind1",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Wind1", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [51, 0, 34, 187],
         "flashDuration": 15,
         "flashScope": 2,
         "frame": 34,
-        "se": {
-          "name": "Thunder4",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 90
-        }
+        "se": { "name": "Thunder4", "pan": 0, "pitch": 70, "volume": 90 }
       },
       {
         "flashColor": [170, 51, 136, 187],
@@ -19814,48 +18104,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Darkness1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Darkness1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [221, 238, 255, 204],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 4,
-        "se": {
-          "name": "Flash2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Flash2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [221, 238, 255, 187],
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 6,
-        "se": {
-          "name": "Thunder6",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Thunder6", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [221, 238, 255, 187],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 15,
-        "se": {
-          "name": "Ice2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Ice2", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -19887,12 +18157,7 @@
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Explosion2",
-          "pan": 0,
-          "pitch": 105,
-          "volume": 100
-        }
+        "se": { "name": "Explosion2", "pan": 0, "pitch": 105, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 102, 170],
@@ -20252,48 +18517,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 4,
-        "se": {
-          "name": "Wind2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [221, 238, 255, 255],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 18,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [221, 238, 255, 170],
@@ -20314,12 +18559,7 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 21,
-        "se": {
-          "name": "Explosion2",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 90
-        }
+        "se": { "name": "Explosion2", "pan": 0, "pitch": 120, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 170, 187],
@@ -20428,24 +18668,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Sand",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 100
-        }
+        "se": { "name": "Sand", "pan": 0, "pitch": 100, "volume": 100 }
       },
       {
         "flashColor": [255, 255, 187, 187],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 1,
-        "se": {
-          "name": "Flash2",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 80
-        }
+        "se": { "name": "Flash2", "pan": 0, "pitch": 120, "volume": 80 }
       },
       {
         "conditions": 0,
@@ -20460,12 +18690,7 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 10,
-        "se": {
-          "name": "Explosion2",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 100
-        }
+        "se": { "name": "Explosion2", "pan": 0, "pitch": 110, "volume": 100 }
       },
       {
         "conditions": 1,
@@ -20866,24 +19091,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Thunder7",
-          "pan": 0,
-          "pitch": 80,
-          "volume": 80
-        }
+        "se": { "name": "Thunder7", "pan": 0, "pitch": 80, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 23,
-        "se": {
-          "name": "Battle3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Battle3", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 221, 187],
@@ -20897,12 +19112,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 34,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 90, "volume": 90 }
       },
       {
         "flashColor": [255, 221, 102, 204],
@@ -20916,24 +19126,14 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 37,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       },
       {
         "flashColor": [255, 102, 68, 221],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 40,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       },
       {
         "flashColor": [255, 221, 102, 204],
@@ -20947,24 +19147,14 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 46,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       },
       {
         "flashColor": [255, 153, 51, 238],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 50,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       },
       {
         "flashColor": [255, 204, 102, 170],
@@ -20978,12 +19168,7 @@
         "flashDuration": 3,
         "flashScope": 1,
         "frame": 52,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       },
       {
         "flashColor": [255, 170, 85, 153],
@@ -20997,12 +19182,7 @@
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 55,
-        "se": {
-          "name": "Fire3",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 95
-        }
+        "se": { "name": "Fire3", "pan": 0, "pitch": 130, "volume": 95 }
       }
     ]
   },
@@ -21059,12 +19239,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Gun1",
-          "pan": 0,
-          "pitch": 110,
-          "volume": 90
-        }
+        "se": { "name": "Gun1", "pan": 0, "pitch": 110, "volume": 90 }
       },
       {
         "flashColor": [255, 238, 204, 119],
@@ -21261,12 +19436,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Gun2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Gun2", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 221, 136],
@@ -21443,24 +19613,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Gun1",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Gun1", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 2,
-        "se": {
-          "name": "Gun1",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Gun1", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
@@ -21474,12 +19634,7 @@
         "flashDuration": 2,
         "flashScope": 2,
         "frame": 4,
-        "se": {
-          "name": "Gun1",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Gun1", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 153],
@@ -21713,48 +19868,28 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Phone",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 55
-        }
+        "se": { "name": "Phone", "pan": 0, "pitch": 150, "volume": 55 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 10,
-        "se": {
-          "name": "Skill1",
-          "pan": 0,
-          "pitch": 95,
-          "volume": 80
-        }
+        "se": { "name": "Skill1", "pan": 0, "pitch": 95, "volume": 80 }
       },
       {
         "flashColor": [255, 238, 153, 102],
         "flashDuration": 8,
         "flashScope": 2,
         "frame": 15,
-        "se": {
-          "name": "Skill2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Skill2", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 22,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 120,
-          "volume": 80
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 120, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 221, 187],
@@ -21768,12 +19903,7 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 26,
-        "se": {
-          "name": "Battle3",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 85
-        }
+        "se": { "name": "Battle3", "pan": 0, "pitch": 100, "volume": 85 }
       },
       {
         "flashColor": [255, 255, 187, 238],
@@ -21787,12 +19917,7 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 32,
-        "se": {
-          "name": "Explosion2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Explosion2", "pan": 0, "pitch": 100, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 187, 238],
@@ -21897,36 +20022,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Laser1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Laser1", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 170],
         "flashDuration": 5,
         "flashScope": 2,
         "frame": 1,
-        "se": {
-          "name": "Paralyze2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Paralyze2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 2,
-        "se": {
-          "name": "Evasion2",
-          "pan": 0,
-          "pitch": 130,
-          "volume": 90
-        }
+        "se": { "name": "Evasion2", "pan": 0, "pitch": 130, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 204, 204],
@@ -22302,36 +20412,21 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Powerup",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Powerup", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 2,
-        "se": {
-          "name": "Paralyze2",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Paralyze2", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 170, 187],
         "flashDuration": 5,
         "flashScope": 1,
         "frame": 5,
-        "se": {
-          "name": "Explosion1",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Explosion1", "pan": 0, "pitch": 150, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 170, 187],
@@ -22345,12 +20440,7 @@
         "flashDuration": 10,
         "flashScope": 1,
         "frame": 7,
-        "se": {
-          "name": "Thunder1",
-          "pan": 0,
-          "pitch": 50,
-          "volume": 90
-        }
+        "se": { "name": "Thunder1", "pan": 0, "pitch": 50, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 170, 187],
@@ -22516,24 +20606,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 70
-        }
+        "se": { "name": "Magic2", "pan": 0, "pitch": 150, "volume": 70 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 7,
-        "se": {
-          "name": "Up3",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 90
-        }
+        "se": { "name": "Up3", "pan": 0, "pitch": 150, "volume": 90 }
       }
     ]
   },
@@ -22692,24 +20772,14 @@
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Magic2",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 70
-        }
+        "se": { "name": "Magic2", "pan": 0, "pitch": 150, "volume": 70 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 7,
-        "se": {
-          "name": "Up3",
-          "pan": 0,
-          "pitch": 150,
-          "volume": 80
-        }
+        "se": { "name": "Up3", "pan": 0, "pitch": 150, "volume": 80 }
       }
     ]
   },
@@ -22788,12 +20858,7 @@
         "flashDuration": 15,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Teleport",
-          "pan": 0,
-          "pitch": 90,
-          "volume": 80
-        }
+        "se": { "name": "Teleport", "pan": 0, "pitch": 90, "volume": 80 }
       }
     ]
   },
@@ -22844,12 +20909,7 @@
         "flashDuration": 10,
         "flashScope": 2,
         "frame": 0,
-        "se": {
-          "name": "Ice4",
-          "pan": 0,
-          "pitch": 70,
-          "volume": 80
-        }
+        "se": { "name": "Ice4", "pan": 0, "pitch": 70, "volume": 80 }
       }
     ]
   },
@@ -22883,12 +20943,7 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 140,
-          "volume": 80
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 140, "volume": 80 }
       }
     ]
   },
@@ -22911,12 +20966,7 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 140,
-          "volume": 80
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 140, "volume": 80 }
       }
     ]
   },
@@ -22939,12 +20989,7 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 140,
-          "volume": 80
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 140, "volume": 80 }
       }
     ]
   },
@@ -22967,12 +21012,7 @@
         "flashDuration": 2,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Slash1",
-          "pan": 0,
-          "pitch": 140,
-          "volume": 80
-        }
+        "se": { "name": "Slash1", "pan": 0, "pitch": 140, "volume": 80 }
       }
     ]
   },
@@ -23022,12 +21062,7 @@
         "flashDuration": 30,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Damage2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Damage2", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -23077,24 +21112,14 @@
         "flashDuration": 30,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Attack3",
-          "pan": 0,
-          "pitch": 60,
-          "volume": 90
-        }
+        "se": { "name": "Attack3", "pan": 0, "pitch": 60, "volume": 90 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Skill1",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Skill1", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
@@ -23158,24 +21183,14 @@
         "flashDuration": 2,
         "flashScope": 1,
         "frame": 0,
-        "se": {
-          "name": "Slash2",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 80
-        }
+        "se": { "name": "Slash2", "pan": 0, "pitch": 100, "volume": 80 }
       },
       {
         "flashColor": [255, 255, 255, 255],
         "flashDuration": 5,
         "flashScope": 0,
         "frame": 0,
-        "se": {
-          "name": "Wind5",
-          "pan": 0,
-          "pitch": 100,
-          "volume": 90
-        }
+        "se": { "name": "Wind5", "pan": 0, "pitch": 100, "volume": 90 }
       }
     ]
   },
